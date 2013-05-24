@@ -1,0 +1,12 @@
+libbitcoin bindings using swig
+
+Dependencies:
+ - libbitcoin (latest git for now)
+ - swig 2.0 (2.0.4 used)
+
+python only for now, but will later add other languages.
+
+build system still a bit rough so you may need to change things.
+
+--
+devel@unsystem.net
