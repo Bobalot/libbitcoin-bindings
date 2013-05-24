@@ -32,7 +32,7 @@ using std::placeholders::_2;
 
 %include "modules/block.i"
 %include "modules/threadpool.i"
-%include "bitcoin/blockchain/blockchain.hpp"
+%include "modules/blockchain.i"
 %include "modules/leveldb.i"
 %include "modules/deterministic.i"
 
