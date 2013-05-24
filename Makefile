@@ -17,13 +17,12 @@ swig:
 	$(SWIG) -c++ -python -modern -threads `pkg-config --cflags-only-I libbitcoin` -I`$(SWIG) -swiglib`/python libbitcoin.i
 
 test:
-	export PYTHONPATH=$(PWD)
 	echo "WALLET TEST"
-	python tests/wallet.py
+	PYTHONPATH=$(PWD) python tests/wallet.py
 	echo "CURVES TEST"
-	python tests/elliptic.py
+	PYTHONPATH=$(PWD) python tests/elliptic.py
 	echo "GENERAL TEST"
-	python tests/test.py
+	PYTHONPATH=$(PWD) python tests/test.py
 
 compile:
 	$(CC) -c -v libbitcoin_wrap.cxx  `pkg-config --cflags --libs libbitcoin` `pkg-config --cflags python`
