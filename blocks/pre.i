@@ -7,6 +7,9 @@ void python_ ## type ## _cb_handler(PyObject *pyfunc, const std::error_code &ec,
 
         PyObject *arglist = Py_BuildValue("(O)", resultobj);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
         Py_DECREF(arglist);
         PyGILState_Release(gstate);
 };
@@ -25,6 +28,9 @@ void python_cb_handler(PyObject *pyfunc, const std::error_code &ec) {
         gstate = PyGILState_Ensure();
         PyObject *arglist = Py_BuildValue("(I)", ec);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
         Py_DECREF(arglist);
         PyGILState_Release(gstate);
 };
@@ -34,6 +40,9 @@ void python_channel_cb_handler(PyObject *pyfunc, channel_ptr channel) {
         gstate = PyGILState_Ensure();
         PyObject *arglist = Py_BuildValue("(O)", &channel);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
         Py_DECREF(arglist);
         PyGILState_Release(gstate);
 };
