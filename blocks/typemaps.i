@@ -22,6 +22,18 @@
     $1 = std::bind(python_channel_cb_handler, $input, _1);
 }
 
+/* channel.subscribe_address */
+%typemap(in) std::function<void (const std::error_code&, const address_type&)> {
+    Py_INCREF($input);
+    $1 = std::bind(python_address_type_cb_handler, $input, _1, _2);
+}
+
+/* channel.subscribe_get_address */
+%typemap(in) std::function<void (const std::error_code&, const get_address_type&)> {
+    Py_INCREF($input);
+    $1 = std::bind(python_get_address_type_cb_handler, $input, _1, _2);
+}
+
 
 %typemap(in) libbitcoin::blockchain::fetch_handler_block_header {
     Py_INCREF($input);

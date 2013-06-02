@@ -52,6 +52,8 @@ void python_ ## type ## _cb_handler(PyObject *pyfunc, const std::error_code&, co
 
 CB_HANDLER(block_type)
 CB_HANDLER(transaction_type)
+CB_HANDLER_NONS(address_type, SWIGTYPE_p_address_type)
+CB_HANDLER_NONS(get_address_type, SWIGTYPE_p_get_address_type)
 
 /* For some reason the following doesn't catch the namespace */
 CB_HANDLER_NONS(index_list, SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t)

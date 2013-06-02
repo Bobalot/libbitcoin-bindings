@@ -322,9 +322,11 @@ public:
     void subscribe_verack(
         channel_proxy::receive_verack_handler handle_receive);
     void subscribe_address(
-        channel_proxy::receive_address_handler handle_receive);
+        std::function<void (const std::error_code&,
+        const address_type&)> handle_receive);
     void subscribe_get_address(
-        channel_proxy::receive_get_address_handler handle_receive);
+        std::function<void (const std::error_code&,
+        const get_address_type&)> handle_receive);
     void subscribe_inventory(
         channel_proxy::receive_inventory_handler handle_receive);
     void subscribe_get_data(
