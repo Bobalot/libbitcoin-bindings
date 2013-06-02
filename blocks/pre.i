@@ -29,13 +29,10 @@ void python_cb_handler(PyObject *pyfunc, const std::error_code &ec) {
         PyGILState_Release(gstate);
 };
 
-void python_block_cb_handler(PyObject *pyfunc, const std::error_code &ec, const block_type& blk) {
+void python_channel_cb_handler(PyObject *pyfunc, channel_ptr channel) {
         PyGILState_STATE gstate;
         gstate = PyGILState_Ensure();
-        PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::block_type(static_cast< const libbitcoin::block_type& >(blk))), SWIGTYPE_p_libbitcoin__block_type, 0 );
-        Py_INCREF(resultobj);
-
-        PyObject *arglist = Py_BuildValue("(O)", resultobj);
+        PyObject *arglist = Py_BuildValue("(O)", &channel);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
         Py_DECREF(arglist);
         PyGILState_Release(gstate);
@@ -54,7 +51,7 @@ CB_HANDLER(output_point_list)
 
 /* Declare python callback */
 void python_cb_handler(PyObject *pyfunc, const std::error_code&);
-void python_block_cb_handler(PyObject *pyfunc, const std::error_code&, const block_type& blk);
+void python_channel_cb_handler(PyObject *pyfunc, channel_ptr& channel);
 
 /*
 void python_size_cb_handler(PyObject *pyfunc, const std::error_code&, const size_t);
@@ -68,7 +65,7 @@ void python_output_point_list_cb_handler(PyObject *pyfunc, const std::error_code
 */
 
 %nothread python_cb_handler;
-%nothread python_block_cb_handler;
+%nothread python_channel_cb_handler;
 
 /* EXTRA CRUFT */
 
@@ -79,5 +76,4 @@ void python_output_point_list_cb_handler(PyObject *pyfunc, const std::error_code
 namespace boost {
     class noncopyable {};
 }
-
 

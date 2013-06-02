@@ -1,12 +1,18 @@
 
 %typemap(in) std::function<void (const std::error_code, const libbitcoin::block_type)> {
     Py_INCREF($input);
-    $1 = std::bind(python_block_cb_handler, $input, _1, _2);
+    $1 = std::bind(python_block_type_cb_handler, $input, _1, _2);
 }
+
+%typemap(in) std::function<void (std::shared_ptr< libbitcoin::channel >)> {
+    Py_INCREF($input);
+    $1 = std::bind(python_channel_cb_handler, $input, _1);
+}
+
 
 %typemap(in) libbitcoin::blockchain::fetch_handler_block_header {
     Py_INCREF($input);
-    $1 = std::bind(python_block_cb_handler, $input, _1, _2);
+    $1 = std::bind(python_block_type_cb_handler, $input, _1, _2);
 }
 
 %typemap(in) std::function<void (const std::error_code)> {
