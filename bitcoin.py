@@ -333,6 +333,30 @@ def python_transaction_type_cb_handler(*args):
   return _bitcoin.python_transaction_type_cb_handler(*args)
 python_transaction_type_cb_handler = _bitcoin.python_transaction_type_cb_handler
 
+def python_block_locator_type_cb_handler(*args):
+  return _bitcoin.python_block_locator_type_cb_handler(*args)
+python_block_locator_type_cb_handler = _bitcoin.python_block_locator_type_cb_handler
+
+def python_inventory_list_cb_handler(*args):
+  return _bitcoin.python_inventory_list_cb_handler(*args)
+python_inventory_list_cb_handler = _bitcoin.python_inventory_list_cb_handler
+
+def python_output_point_list_cb_handler(*args):
+  return _bitcoin.python_output_point_list_cb_handler(*args)
+python_output_point_list_cb_handler = _bitcoin.python_output_point_list_cb_handler
+
+def python_address_type_cb_handler(*args):
+  return _bitcoin.python_address_type_cb_handler(*args)
+python_address_type_cb_handler = _bitcoin.python_address_type_cb_handler
+
+def python_get_address_type_cb_handler(*args):
+  return _bitcoin.python_get_address_type_cb_handler(*args)
+python_get_address_type_cb_handler = _bitcoin.python_get_address_type_cb_handler
+
+def python_input_point_cb_handler(*args):
+  return _bitcoin.python_input_point_cb_handler(*args)
+python_input_point_cb_handler = _bitcoin.python_input_point_cb_handler
+
 def python_index_list_cb_handler(*args):
   return _bitcoin.python_index_list_cb_handler(*args)
 python_index_list_cb_handler = _bitcoin.python_index_list_cb_handler
@@ -340,6 +364,10 @@ python_index_list_cb_handler = _bitcoin.python_index_list_cb_handler
 def python_cb_handler(*args):
   return _bitcoin.python_cb_handler(*args)
 python_cb_handler = _bitcoin.python_cb_handler
+
+def python_size_t_cb_handler(*args):
+  return _bitcoin.python_size_t_cb_handler(*args)
+python_size_t_cb_handler = _bitcoin.python_size_t_cb_handler
 
 def python_channel_cb_handler(*args):
   return _bitcoin.python_channel_cb_handler(*args)
@@ -369,6 +397,15 @@ class error_code(object):
         return _bitcoin.error_code___nonzero__(self)
     __bool__ = __nonzero__
 
+
+    def __str__(self):
+        return "error_code(%d, '%s')" % (self.value(), self.message())
+    def __int__(self):
+        return self.value()
+    def __nonzero__(self):
+        return self.value() != 0
+    def __bool__(self):
+        return self.__nonzero__
 
     def __init__(self): 
         this = _bitcoin.new_error_code()
