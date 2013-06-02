@@ -6,8 +6,8 @@ import os
 def blockchain_start(error):
     print "Blockchain starts", error
 
-def fetch_finished(*args):
-    print "FETCH", args
+def fetch_finished(block_header, error=None):
+    print "FETCH", block_header
     print "Header fetched", block_header, error
     print " version", block_header.version
     print ' block_hash', block_header.previous_block_hash.encode("hex")
