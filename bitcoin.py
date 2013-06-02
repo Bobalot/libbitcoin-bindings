@@ -104,6 +104,94 @@ SwigPyIterator_swigregister = _bitcoin.SwigPyIterator_swigregister
 SwigPyIterator_swigregister(SwigPyIterator)
 
 SHARED_PTR_DISOWN = _bitcoin.SHARED_PTR_DISOWN
+class py_block_locator_type(object):
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+    def iterator(self): return _bitcoin.py_block_locator_type_iterator(self)
+    def __iter__(self): return self.iterator()
+    def __nonzero__(self): return _bitcoin.py_block_locator_type___nonzero__(self)
+    def __bool__(self): return _bitcoin.py_block_locator_type___bool__(self)
+    def __len__(self): return _bitcoin.py_block_locator_type___len__(self)
+    def pop(self): return _bitcoin.py_block_locator_type_pop(self)
+    def __getslice__(self, *args): return _bitcoin.py_block_locator_type___getslice__(self, *args)
+    def __setslice__(self, *args): return _bitcoin.py_block_locator_type___setslice__(self, *args)
+    def __delslice__(self, *args): return _bitcoin.py_block_locator_type___delslice__(self, *args)
+    def __delitem__(self, *args): return _bitcoin.py_block_locator_type___delitem__(self, *args)
+    def __getitem__(self, *args): return _bitcoin.py_block_locator_type___getitem__(self, *args)
+    def __setitem__(self, *args): return _bitcoin.py_block_locator_type___setitem__(self, *args)
+    def append(self, *args): return _bitcoin.py_block_locator_type_append(self, *args)
+    def empty(self): return _bitcoin.py_block_locator_type_empty(self)
+    def size(self): return _bitcoin.py_block_locator_type_size(self)
+    def clear(self): return _bitcoin.py_block_locator_type_clear(self)
+    def swap(self, *args): return _bitcoin.py_block_locator_type_swap(self, *args)
+    def get_allocator(self): return _bitcoin.py_block_locator_type_get_allocator(self)
+    def begin(self): return _bitcoin.py_block_locator_type_begin(self)
+    def end(self): return _bitcoin.py_block_locator_type_end(self)
+    def rbegin(self): return _bitcoin.py_block_locator_type_rbegin(self)
+    def rend(self): return _bitcoin.py_block_locator_type_rend(self)
+    def pop_back(self): return _bitcoin.py_block_locator_type_pop_back(self)
+    def erase(self, *args): return _bitcoin.py_block_locator_type_erase(self, *args)
+    def __init__(self, *args): 
+        this = _bitcoin.new_py_block_locator_type(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def push_back(self, *args): return _bitcoin.py_block_locator_type_push_back(self, *args)
+    def front(self): return _bitcoin.py_block_locator_type_front(self)
+    def back(self): return _bitcoin.py_block_locator_type_back(self)
+    def assign(self, *args): return _bitcoin.py_block_locator_type_assign(self, *args)
+    def resize(self, *args): return _bitcoin.py_block_locator_type_resize(self, *args)
+    def insert(self, *args): return _bitcoin.py_block_locator_type_insert(self, *args)
+    def reserve(self, *args): return _bitcoin.py_block_locator_type_reserve(self, *args)
+    def capacity(self): return _bitcoin.py_block_locator_type_capacity(self)
+    __swig_destroy__ = _bitcoin.delete_py_block_locator_type
+    __del__ = lambda self : None;
+py_block_locator_type_swigregister = _bitcoin.py_block_locator_type_swigregister
+py_block_locator_type_swigregister(py_block_locator_type)
+
+class py_inventory_list(object):
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+    def iterator(self): return _bitcoin.py_inventory_list_iterator(self)
+    def __iter__(self): return self.iterator()
+    def __nonzero__(self): return _bitcoin.py_inventory_list___nonzero__(self)
+    def __bool__(self): return _bitcoin.py_inventory_list___bool__(self)
+    def __len__(self): return _bitcoin.py_inventory_list___len__(self)
+    def pop(self): return _bitcoin.py_inventory_list_pop(self)
+    def __getslice__(self, *args): return _bitcoin.py_inventory_list___getslice__(self, *args)
+    def __setslice__(self, *args): return _bitcoin.py_inventory_list___setslice__(self, *args)
+    def __delslice__(self, *args): return _bitcoin.py_inventory_list___delslice__(self, *args)
+    def __delitem__(self, *args): return _bitcoin.py_inventory_list___delitem__(self, *args)
+    def __getitem__(self, *args): return _bitcoin.py_inventory_list___getitem__(self, *args)
+    def __setitem__(self, *args): return _bitcoin.py_inventory_list___setitem__(self, *args)
+    def append(self, *args): return _bitcoin.py_inventory_list_append(self, *args)
+    def empty(self): return _bitcoin.py_inventory_list_empty(self)
+    def size(self): return _bitcoin.py_inventory_list_size(self)
+    def clear(self): return _bitcoin.py_inventory_list_clear(self)
+    def swap(self, *args): return _bitcoin.py_inventory_list_swap(self, *args)
+    def get_allocator(self): return _bitcoin.py_inventory_list_get_allocator(self)
+    def begin(self): return _bitcoin.py_inventory_list_begin(self)
+    def end(self): return _bitcoin.py_inventory_list_end(self)
+    def rbegin(self): return _bitcoin.py_inventory_list_rbegin(self)
+    def rend(self): return _bitcoin.py_inventory_list_rend(self)
+    def pop_back(self): return _bitcoin.py_inventory_list_pop_back(self)
+    def erase(self, *args): return _bitcoin.py_inventory_list_erase(self, *args)
+    def __init__(self, *args): 
+        this = _bitcoin.new_py_inventory_list(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def push_back(self, *args): return _bitcoin.py_inventory_list_push_back(self, *args)
+    def front(self): return _bitcoin.py_inventory_list_front(self)
+    def back(self): return _bitcoin.py_inventory_list_back(self)
+    def assign(self, *args): return _bitcoin.py_inventory_list_assign(self, *args)
+    def resize(self, *args): return _bitcoin.py_inventory_list_resize(self, *args)
+    def insert(self, *args): return _bitcoin.py_inventory_list_insert(self, *args)
+    def reserve(self, *args): return _bitcoin.py_inventory_list_reserve(self, *args)
+    def capacity(self): return _bitcoin.py_inventory_list_capacity(self)
+    __swig_destroy__ = _bitcoin.delete_py_inventory_list
+    __del__ = lambda self : None;
+py_inventory_list_swigregister = _bitcoin.py_inventory_list_swigregister
+py_inventory_list_swigregister(py_inventory_list)
+
 class py_input_point_list(object):
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
@@ -280,6 +368,50 @@ class py_transaction_list(object):
 py_transaction_list_swigregister = _bitcoin.py_transaction_list_swigregister
 py_transaction_list_swigregister(py_transaction_list)
 
+class py_network_address_list(object):
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+    def iterator(self): return _bitcoin.py_network_address_list_iterator(self)
+    def __iter__(self): return self.iterator()
+    def __nonzero__(self): return _bitcoin.py_network_address_list___nonzero__(self)
+    def __bool__(self): return _bitcoin.py_network_address_list___bool__(self)
+    def __len__(self): return _bitcoin.py_network_address_list___len__(self)
+    def pop(self): return _bitcoin.py_network_address_list_pop(self)
+    def __getslice__(self, *args): return _bitcoin.py_network_address_list___getslice__(self, *args)
+    def __setslice__(self, *args): return _bitcoin.py_network_address_list___setslice__(self, *args)
+    def __delslice__(self, *args): return _bitcoin.py_network_address_list___delslice__(self, *args)
+    def __delitem__(self, *args): return _bitcoin.py_network_address_list___delitem__(self, *args)
+    def __getitem__(self, *args): return _bitcoin.py_network_address_list___getitem__(self, *args)
+    def __setitem__(self, *args): return _bitcoin.py_network_address_list___setitem__(self, *args)
+    def append(self, *args): return _bitcoin.py_network_address_list_append(self, *args)
+    def empty(self): return _bitcoin.py_network_address_list_empty(self)
+    def size(self): return _bitcoin.py_network_address_list_size(self)
+    def clear(self): return _bitcoin.py_network_address_list_clear(self)
+    def swap(self, *args): return _bitcoin.py_network_address_list_swap(self, *args)
+    def get_allocator(self): return _bitcoin.py_network_address_list_get_allocator(self)
+    def begin(self): return _bitcoin.py_network_address_list_begin(self)
+    def end(self): return _bitcoin.py_network_address_list_end(self)
+    def rbegin(self): return _bitcoin.py_network_address_list_rbegin(self)
+    def rend(self): return _bitcoin.py_network_address_list_rend(self)
+    def pop_back(self): return _bitcoin.py_network_address_list_pop_back(self)
+    def erase(self, *args): return _bitcoin.py_network_address_list_erase(self, *args)
+    def __init__(self, *args): 
+        this = _bitcoin.new_py_network_address_list(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def push_back(self, *args): return _bitcoin.py_network_address_list_push_back(self, *args)
+    def front(self): return _bitcoin.py_network_address_list_front(self)
+    def back(self): return _bitcoin.py_network_address_list_back(self)
+    def assign(self, *args): return _bitcoin.py_network_address_list_assign(self, *args)
+    def resize(self, *args): return _bitcoin.py_network_address_list_resize(self, *args)
+    def insert(self, *args): return _bitcoin.py_network_address_list_insert(self, *args)
+    def reserve(self, *args): return _bitcoin.py_network_address_list_reserve(self, *args)
+    def capacity(self): return _bitcoin.py_network_address_list_capacity(self)
+    __swig_destroy__ = _bitcoin.delete_py_network_address_list
+    __del__ = lambda self : None;
+py_network_address_list_swigregister = _bitcoin.py_network_address_list_swigregister
+py_network_address_list_swigregister(py_network_address_list)
+
 class py_size_list(object):
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
@@ -360,6 +492,26 @@ python_input_point_cb_handler = _bitcoin.python_input_point_cb_handler
 def python_index_list_cb_handler(*args):
   return _bitcoin.python_index_list_cb_handler(*args)
 python_index_list_cb_handler = _bitcoin.python_index_list_cb_handler
+
+def python_version_type_cb_handler(*args):
+  return _bitcoin.python_version_type_cb_handler(*args)
+python_version_type_cb_handler = _bitcoin.python_version_type_cb_handler
+
+def python_verack_type_cb_handler(*args):
+  return _bitcoin.python_verack_type_cb_handler(*args)
+python_verack_type_cb_handler = _bitcoin.python_verack_type_cb_handler
+
+def python_inventory_type_cb_handler(*args):
+  return _bitcoin.python_inventory_type_cb_handler(*args)
+python_inventory_type_cb_handler = _bitcoin.python_inventory_type_cb_handler
+
+def python_get_data_type_cb_handler(*args):
+  return _bitcoin.python_get_data_type_cb_handler(*args)
+python_get_data_type_cb_handler = _bitcoin.python_get_data_type_cb_handler
+
+def python_get_blocks_type_cb_handler(*args):
+  return _bitcoin.python_get_blocks_type_cb_handler(*args)
+python_get_blocks_type_cb_handler = _bitcoin.python_get_blocks_type_cb_handler
 
 def python_cb_handler(*args):
   return _bitcoin.python_cb_handler(*args)

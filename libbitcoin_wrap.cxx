@@ -2975,150 +2975,160 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_fetch_handler_transaction_index swig_types[29]
 #define SWIGTYPE_p_fetch_network_address_handler swig_types[30]
 #define SWIGTYPE_p_get_address_type swig_types[31]
-#define SWIGTYPE_p_handshake_handler swig_types[32]
-#define SWIGTYPE_p_import_block_handler swig_types[33]
-#define SWIGTYPE_p_index_list swig_types[34]
-#define SWIGTYPE_p_input_point swig_types[35]
-#define SWIGTYPE_p_int swig_types[36]
-#define SWIGTYPE_p_inventory_list swig_types[37]
-#define SWIGTYPE_p_inventory_type_id swig_types[38]
-#define SWIGTYPE_p_io_service swig_types[39]
-#define SWIGTYPE_p_libbitcoin__acceptor swig_types[40]
-#define SWIGTYPE_p_libbitcoin__async_strand swig_types[41]
-#define SWIGTYPE_p_libbitcoin__block_info swig_types[42]
-#define SWIGTYPE_p_libbitcoin__block_type swig_types[43]
-#define SWIGTYPE_p_libbitcoin__blockchain swig_types[44]
-#define SWIGTYPE_p_libbitcoin__channel swig_types[45]
-#define SWIGTYPE_p_libbitcoin__channel_loader_module_base swig_types[46]
-#define SWIGTYPE_p_libbitcoin__channel_proxy swig_types[47]
-#define SWIGTYPE_p_libbitcoin__channel_stream_loader swig_types[48]
-#define SWIGTYPE_p_libbitcoin__deterministic_wallet swig_types[49]
-#define SWIGTYPE_p_libbitcoin__elliptic_curve_key swig_types[50]
-#define SWIGTYPE_p_libbitcoin__get_address_type swig_types[51]
-#define SWIGTYPE_p_libbitcoin__get_blocks_type swig_types[52]
-#define SWIGTYPE_p_libbitcoin__handshake swig_types[53]
-#define SWIGTYPE_p_libbitcoin__header_type swig_types[54]
-#define SWIGTYPE_p_libbitcoin__hosts swig_types[55]
-#define SWIGTYPE_p_libbitcoin__inventory_vector_type swig_types[56]
-#define SWIGTYPE_p_libbitcoin__leveldb_blockchain swig_types[57]
-#define SWIGTYPE_p_libbitcoin__network swig_types[58]
-#define SWIGTYPE_p_libbitcoin__network_address_type swig_types[59]
-#define SWIGTYPE_p_libbitcoin__node_address swig_types[60]
-#define SWIGTYPE_p_libbitcoin__operation swig_types[61]
-#define SWIGTYPE_p_libbitcoin__output_point swig_types[62]
-#define SWIGTYPE_p_libbitcoin__poller swig_types[63]
-#define SWIGTYPE_p_libbitcoin__protocol swig_types[64]
-#define SWIGTYPE_p_libbitcoin__script swig_types[65]
-#define SWIGTYPE_p_libbitcoin__session swig_types[66]
-#define SWIGTYPE_p_libbitcoin__session_params swig_types[67]
-#define SWIGTYPE_p_libbitcoin__threadpool swig_types[68]
-#define SWIGTYPE_p_libbitcoin__transaction_entry_info swig_types[69]
-#define SWIGTYPE_p_libbitcoin__transaction_input_type swig_types[70]
-#define SWIGTYPE_p_libbitcoin__transaction_output_type swig_types[71]
-#define SWIGTYPE_p_libbitcoin__transaction_pool swig_types[72]
-#define SWIGTYPE_p_libbitcoin__transaction_type swig_types[73]
-#define SWIGTYPE_p_libbitcoin__verack_type swig_types[74]
-#define SWIGTYPE_p_libbitcoin__version_type swig_types[75]
-#define SWIGTYPE_p_listen_handler swig_types[76]
-#define SWIGTYPE_p_load_handler swig_types[77]
-#define SWIGTYPE_p_long_long swig_types[78]
-#define SWIGTYPE_p_network swig_types[79]
-#define SWIGTYPE_p_network__connect_handler swig_types[80]
-#define SWIGTYPE_p_opcode swig_types[81]
-#define SWIGTYPE_p_output_point_list swig_types[82]
-#define SWIGTYPE_p_p_PyObject swig_types[83]
-#define SWIGTYPE_p_payment_address swig_types[84]
-#define SWIGTYPE_p_payment_type swig_types[85]
-#define SWIGTYPE_p_receive_address_handler swig_types[86]
-#define SWIGTYPE_p_receive_block_handler swig_types[87]
-#define SWIGTYPE_p_receive_get_address_handler swig_types[88]
-#define SWIGTYPE_p_receive_get_blocks_handler swig_types[89]
-#define SWIGTYPE_p_receive_get_data_handler swig_types[90]
-#define SWIGTYPE_p_receive_inventory_handler swig_types[91]
-#define SWIGTYPE_p_receive_raw_handler swig_types[92]
-#define SWIGTYPE_p_receive_transaction_handler swig_types[93]
-#define SWIGTYPE_p_receive_verack_handler swig_types[94]
-#define SWIGTYPE_p_receive_version_handler swig_types[95]
-#define SWIGTYPE_p_remove_handler swig_types[96]
-#define SWIGTYPE_p_reorganize_handler swig_types[97]
-#define SWIGTYPE_p_reorganize_subscriber_type swig_types[98]
-#define SWIGTYPE_p_save_handler swig_types[99]
-#define SWIGTYPE_p_send_handler swig_types[100]
-#define SWIGTYPE_p_setter_handler swig_types[101]
-#define SWIGTYPE_p_short swig_types[102]
-#define SWIGTYPE_p_signed_char swig_types[103]
-#define SWIGTYPE_p_size_type swig_types[104]
-#define SWIGTYPE_p_start_handler swig_types[105]
-#define SWIGTYPE_p_std__allocatorT_libbitcoin__output_point_t swig_types[106]
-#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_input_type_t swig_types[107]
-#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_output_type_t swig_types[108]
-#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_type_t swig_types[109]
-#define SWIGTYPE_p_std__allocatorT_size_t_t swig_types[110]
-#define SWIGTYPE_p_std__arrayT_unsigned_char_16_t swig_types[111]
-#define SWIGTYPE_p_std__arrayT_unsigned_char_20_t swig_types[112]
-#define SWIGTYPE_p_std__arrayT_unsigned_char_32_t swig_types[113]
-#define SWIGTYPE_p_std__atomicT_size_t_t swig_types[114]
-#define SWIGTYPE_p_std__error_code swig_types[115]
-#define SWIGTYPE_p_std__error_condition swig_types[116]
-#define SWIGTYPE_p_std__functionT_void_fboolF_t swig_types[117]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_constF_t swig_types[118]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_RF_t swig_types[119]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_address_type_const_RF_t swig_types[120]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_get_data_type_const_RF_t swig_types[121]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_inventory_type_const_RF_t swig_types[122]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__block_infoF_t swig_types[123]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__block_type_const_RF_t swig_types[124]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__get_address_type_const_RF_t swig_types[125]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__get_blocks_type_const_RF_t swig_types[126]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__header_type_const_R_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t_const_RF_t swig_types[127]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__network_address_type_const_RF_t swig_types[128]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__output_point_const_RF_t swig_types[129]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t swig_types[130]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__verack_type_const_RF_t swig_types[131]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__version_type_const_RF_t swig_types[132]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_tF_t swig_types[133]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_t_size_tF_t swig_types[134]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_t_std__vectorT_std__shared_ptrT_libbitcoin__block_type_t_std__allocatorT_std__shared_ptrT_libbitcoin__block_type_t_t_t_const_R_std__vectorT_std__shared_ptrT_libbitcoin__block_type_t_std__allocatorT_std__shared_ptrT_libbitcoin__block_type_t_t_t_const_RF_t swig_types[135]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__arrayT_unsigned_char_16_t_const_RF_t swig_types[136]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__shared_ptrT_libbitcoin__acceptor_tF_t swig_types[137]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__shared_ptrT_libbitcoin__channel_tF_t swig_types[138]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t_const_RF_t swig_types[139]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t_const_RF_t swig_types[140]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_size_t_std__allocatorT_size_t_t_t_const_RF_t swig_types[141]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t_const_RF_t swig_types[142]
-#define SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_libbitcoin__channel_tF_t swig_types[143]
-#define SWIGTYPE_p_std__invalid_argument swig_types[144]
-#define SWIGTYPE_p_std__ostream swig_types[145]
-#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__acceptor_t swig_types[146]
-#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__channel_t swig_types[147]
-#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__leveldb_common_t swig_types[148]
-#define SWIGTYPE_p_std__shared_ptrT_std__atomicT_size_t_t_t swig_types[149]
-#define SWIGTYPE_p_std__shared_ptrT_tcp__acceptor_t swig_types[150]
-#define SWIGTYPE_p_std__shared_ptrT_tcp__socket_t swig_types[151]
-#define SWIGTYPE_p_std__vectorT__Tp__Alloc_t swig_types[152]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__input_point_std__allocatorT_libbitcoin__input_point_t_t swig_types[153]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t swig_types[154]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__operation_std__allocatorT_libbitcoin__operation_t_t swig_types[155]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t swig_types[156]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t swig_types[157]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_output_type_std__allocatorT_libbitcoin__transaction_output_type_t_t swig_types[158]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_type_std__allocatorT_libbitcoin__transaction_type_t_t swig_types[159]
-#define SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t swig_types[160]
-#define SWIGTYPE_p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t swig_types[161]
-#define SWIGTYPE_p_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t swig_types[162]
-#define SWIGTYPE_p_stop_handler swig_types[163]
-#define SWIGTYPE_p_store_block_handler swig_types[164]
-#define SWIGTYPE_p_store_handler swig_types[165]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[166]
-#define SWIGTYPE_p_tcp_acceptor_ptr swig_types[167]
-#define SWIGTYPE_p_transaction_type swig_types[168]
-#define SWIGTYPE_p_unsigned_char swig_types[169]
-#define SWIGTYPE_p_unsigned_int swig_types[170]
-#define SWIGTYPE_p_unsigned_long_long swig_types[171]
-#define SWIGTYPE_p_unsigned_short swig_types[172]
-#define SWIGTYPE_p_value_type swig_types[173]
-static swig_type_info *swig_types[175];
-static swig_module_info swig_module = {swig_types, 174, 0, 0, 0, 0};
+#define SWIGTYPE_p_get_blocks_type swig_types[32]
+#define SWIGTYPE_p_get_data_type swig_types[33]
+#define SWIGTYPE_p_handshake_handler swig_types[34]
+#define SWIGTYPE_p_import_block_handler swig_types[35]
+#define SWIGTYPE_p_index_list swig_types[36]
+#define SWIGTYPE_p_input_point swig_types[37]
+#define SWIGTYPE_p_int swig_types[38]
+#define SWIGTYPE_p_inventory_list swig_types[39]
+#define SWIGTYPE_p_inventory_type swig_types[40]
+#define SWIGTYPE_p_inventory_type_id swig_types[41]
+#define SWIGTYPE_p_io_service swig_types[42]
+#define SWIGTYPE_p_libbitcoin__acceptor swig_types[43]
+#define SWIGTYPE_p_libbitcoin__async_strand swig_types[44]
+#define SWIGTYPE_p_libbitcoin__block_info swig_types[45]
+#define SWIGTYPE_p_libbitcoin__block_type swig_types[46]
+#define SWIGTYPE_p_libbitcoin__blockchain swig_types[47]
+#define SWIGTYPE_p_libbitcoin__channel swig_types[48]
+#define SWIGTYPE_p_libbitcoin__channel_loader_module_base swig_types[49]
+#define SWIGTYPE_p_libbitcoin__channel_proxy swig_types[50]
+#define SWIGTYPE_p_libbitcoin__channel_stream_loader swig_types[51]
+#define SWIGTYPE_p_libbitcoin__deterministic_wallet swig_types[52]
+#define SWIGTYPE_p_libbitcoin__elliptic_curve_key swig_types[53]
+#define SWIGTYPE_p_libbitcoin__get_address_type swig_types[54]
+#define SWIGTYPE_p_libbitcoin__get_blocks_type swig_types[55]
+#define SWIGTYPE_p_libbitcoin__handshake swig_types[56]
+#define SWIGTYPE_p_libbitcoin__header_type swig_types[57]
+#define SWIGTYPE_p_libbitcoin__hosts swig_types[58]
+#define SWIGTYPE_p_libbitcoin__inventory_vector_type swig_types[59]
+#define SWIGTYPE_p_libbitcoin__leveldb_blockchain swig_types[60]
+#define SWIGTYPE_p_libbitcoin__network swig_types[61]
+#define SWIGTYPE_p_libbitcoin__network_address_type swig_types[62]
+#define SWIGTYPE_p_libbitcoin__node_address swig_types[63]
+#define SWIGTYPE_p_libbitcoin__operation swig_types[64]
+#define SWIGTYPE_p_libbitcoin__output_point swig_types[65]
+#define SWIGTYPE_p_libbitcoin__poller swig_types[66]
+#define SWIGTYPE_p_libbitcoin__protocol swig_types[67]
+#define SWIGTYPE_p_libbitcoin__script swig_types[68]
+#define SWIGTYPE_p_libbitcoin__session swig_types[69]
+#define SWIGTYPE_p_libbitcoin__session_params swig_types[70]
+#define SWIGTYPE_p_libbitcoin__threadpool swig_types[71]
+#define SWIGTYPE_p_libbitcoin__transaction_entry_info swig_types[72]
+#define SWIGTYPE_p_libbitcoin__transaction_input_type swig_types[73]
+#define SWIGTYPE_p_libbitcoin__transaction_output_type swig_types[74]
+#define SWIGTYPE_p_libbitcoin__transaction_pool swig_types[75]
+#define SWIGTYPE_p_libbitcoin__transaction_type swig_types[76]
+#define SWIGTYPE_p_libbitcoin__verack_type swig_types[77]
+#define SWIGTYPE_p_libbitcoin__version_type swig_types[78]
+#define SWIGTYPE_p_listen_handler swig_types[79]
+#define SWIGTYPE_p_load_handler swig_types[80]
+#define SWIGTYPE_p_long_long swig_types[81]
+#define SWIGTYPE_p_network swig_types[82]
+#define SWIGTYPE_p_network__connect_handler swig_types[83]
+#define SWIGTYPE_p_opcode swig_types[84]
+#define SWIGTYPE_p_output_point_list swig_types[85]
+#define SWIGTYPE_p_p_PyObject swig_types[86]
+#define SWIGTYPE_p_payment_address swig_types[87]
+#define SWIGTYPE_p_payment_type swig_types[88]
+#define SWIGTYPE_p_receive_address_handler swig_types[89]
+#define SWIGTYPE_p_receive_block_handler swig_types[90]
+#define SWIGTYPE_p_receive_get_address_handler swig_types[91]
+#define SWIGTYPE_p_receive_get_blocks_handler swig_types[92]
+#define SWIGTYPE_p_receive_get_data_handler swig_types[93]
+#define SWIGTYPE_p_receive_inventory_handler swig_types[94]
+#define SWIGTYPE_p_receive_raw_handler swig_types[95]
+#define SWIGTYPE_p_receive_transaction_handler swig_types[96]
+#define SWIGTYPE_p_receive_verack_handler swig_types[97]
+#define SWIGTYPE_p_receive_version_handler swig_types[98]
+#define SWIGTYPE_p_remove_handler swig_types[99]
+#define SWIGTYPE_p_reorganize_handler swig_types[100]
+#define SWIGTYPE_p_reorganize_subscriber_type swig_types[101]
+#define SWIGTYPE_p_save_handler swig_types[102]
+#define SWIGTYPE_p_send_handler swig_types[103]
+#define SWIGTYPE_p_setter_handler swig_types[104]
+#define SWIGTYPE_p_short swig_types[105]
+#define SWIGTYPE_p_signed_char swig_types[106]
+#define SWIGTYPE_p_size_type swig_types[107]
+#define SWIGTYPE_p_start_handler swig_types[108]
+#define SWIGTYPE_p_std__allocatorT_libbitcoin__inventory_vector_type_t swig_types[109]
+#define SWIGTYPE_p_std__allocatorT_libbitcoin__network_address_type_t swig_types[110]
+#define SWIGTYPE_p_std__allocatorT_libbitcoin__output_point_t swig_types[111]
+#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_input_type_t swig_types[112]
+#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_output_type_t swig_types[113]
+#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_type_t swig_types[114]
+#define SWIGTYPE_p_std__allocatorT_size_t_t swig_types[115]
+#define SWIGTYPE_p_std__allocatorT_std__arrayT_unsigned_char_32_t_t swig_types[116]
+#define SWIGTYPE_p_std__arrayT_unsigned_char_16_t swig_types[117]
+#define SWIGTYPE_p_std__arrayT_unsigned_char_20_t swig_types[118]
+#define SWIGTYPE_p_std__arrayT_unsigned_char_32_t swig_types[119]
+#define SWIGTYPE_p_std__atomicT_size_t_t swig_types[120]
+#define SWIGTYPE_p_std__error_code swig_types[121]
+#define SWIGTYPE_p_std__error_condition swig_types[122]
+#define SWIGTYPE_p_std__functionT_void_fboolF_t swig_types[123]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_constF_t swig_types[124]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_RF_t swig_types[125]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_address_type_const_RF_t swig_types[126]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_get_data_type_const_RF_t swig_types[127]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_inventory_type_const_RF_t swig_types[128]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__block_infoF_t swig_types[129]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__block_type_const_RF_t swig_types[130]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__get_address_type_const_RF_t swig_types[131]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__get_blocks_type_const_RF_t swig_types[132]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__header_type_const_R_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t_const_RF_t swig_types[133]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__network_address_type_const_RF_t swig_types[134]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__output_point_const_RF_t swig_types[135]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t swig_types[136]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__verack_type_const_RF_t swig_types[137]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__version_type_const_RF_t swig_types[138]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_tF_t swig_types[139]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_t_size_tF_t swig_types[140]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_t_std__vectorT_std__shared_ptrT_libbitcoin__block_type_t_std__allocatorT_std__shared_ptrT_libbitcoin__block_type_t_t_t_const_R_std__vectorT_std__shared_ptrT_libbitcoin__block_type_t_std__allocatorT_std__shared_ptrT_libbitcoin__block_type_t_t_t_const_RF_t swig_types[141]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__arrayT_unsigned_char_16_t_const_RF_t swig_types[142]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__shared_ptrT_libbitcoin__acceptor_tF_t swig_types[143]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__shared_ptrT_libbitcoin__channel_tF_t swig_types[144]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t_const_RF_t swig_types[145]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t_const_RF_t swig_types[146]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_size_t_std__allocatorT_size_t_t_t_const_RF_t swig_types[147]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t_const_RF_t swig_types[148]
+#define SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_libbitcoin__channel_tF_t swig_types[149]
+#define SWIGTYPE_p_std__invalid_argument swig_types[150]
+#define SWIGTYPE_p_std__ostream swig_types[151]
+#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__acceptor_t swig_types[152]
+#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__channel_t swig_types[153]
+#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__leveldb_common_t swig_types[154]
+#define SWIGTYPE_p_std__shared_ptrT_std__atomicT_size_t_t_t swig_types[155]
+#define SWIGTYPE_p_std__shared_ptrT_tcp__acceptor_t swig_types[156]
+#define SWIGTYPE_p_std__shared_ptrT_tcp__socket_t swig_types[157]
+#define SWIGTYPE_p_std__vectorT__Tp__Alloc_t swig_types[158]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t swig_types[159]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__input_point_std__allocatorT_libbitcoin__input_point_t_t swig_types[160]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t swig_types[161]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t swig_types[162]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__operation_std__allocatorT_libbitcoin__operation_t_t swig_types[163]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t swig_types[164]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t swig_types[165]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_output_type_std__allocatorT_libbitcoin__transaction_output_type_t_t swig_types[166]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_type_std__allocatorT_libbitcoin__transaction_type_t_t swig_types[167]
+#define SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t swig_types[168]
+#define SWIGTYPE_p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t swig_types[169]
+#define SWIGTYPE_p_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t swig_types[170]
+#define SWIGTYPE_p_stop_handler swig_types[171]
+#define SWIGTYPE_p_store_block_handler swig_types[172]
+#define SWIGTYPE_p_store_handler swig_types[173]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[174]
+#define SWIGTYPE_p_tcp_acceptor_ptr swig_types[175]
+#define SWIGTYPE_p_transaction_type swig_types[176]
+#define SWIGTYPE_p_unsigned_char swig_types[177]
+#define SWIGTYPE_p_unsigned_int swig_types[178]
+#define SWIGTYPE_p_unsigned_long_long swig_types[179]
+#define SWIGTYPE_p_unsigned_short swig_types[180]
+#define SWIGTYPE_p_value_type swig_types[181]
+#define SWIGTYPE_p_verack_type swig_types[182]
+#define SWIGTYPE_p_version_type swig_types[183]
+static swig_type_info *swig_types[185];
+static swig_module_info swig_module = {swig_types, 184, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4499,9 +4509,9 @@ namespace swig
 
 
   namespace swig {
-    template <>  struct traits<libbitcoin::input_point > {
+    template <>  struct traits<libbitcoin::hash_digest > {
       typedef pointer_category category;
-      static const char* type_name() { return"libbitcoin::input_point"; }
+      static const char* type_name() { return"libbitcoin::hash_digest"; }
     };
   }
 
@@ -4605,6 +4615,209 @@ namespace swig {
 
 
       namespace swig {
+	template <>  struct traits<std::vector<libbitcoin::hash_digest, std::allocator< libbitcoin::hash_digest > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "libbitcoin::hash_digest" "," "std::allocator< libbitcoin::hash_digest >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_libbitcoin_hash_digest_Sg__iterator(std::vector< libbitcoin::hash_digest > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_vector_Sl_libbitcoin_hash_digest_Sg____nonzero__(std::vector< libbitcoin::hash_digest > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_libbitcoin_hash_digest_Sg____bool__(std::vector< libbitcoin::hash_digest > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< libbitcoin::hash_digest >::size_type std_vector_Sl_libbitcoin_hash_digest_Sg____len__(std::vector< libbitcoin::hash_digest > const *self){
+      return self->size();
+    }
+
+SWIGINTERNINLINE PyObject* 
+SWIG_From_unsigned_SS_long  (unsigned long value)
+{
+  return (value > LONG_MAX) ?
+    PyLong_FromUnsignedLong(value) : PyInt_FromLong(static_cast< long >(value)); 
+}
+
+
+SWIGINTERNINLINE PyObject *
+SWIG_From_size_t  (size_t value)
+{    
+  return SWIG_From_unsigned_SS_long  (static_cast< unsigned long >(value));
+}
+
+SWIGINTERN std::vector< libbitcoin::hash_digest >::value_type std_vector_Sl_libbitcoin_hash_digest_Sg__pop(std::vector< libbitcoin::hash_digest > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *std_vector_Sl_libbitcoin_hash_digest_Sg____getslice__(std::vector< libbitcoin::hash_digest > *self,std::vector< libbitcoin::hash_digest >::difference_type i,std::vector< libbitcoin::hash_digest >::difference_type j){
+      return swig::getslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_hash_digest_Sg____setslice____SWIG_0(std::vector< libbitcoin::hash_digest > *self,std::vector< libbitcoin::hash_digest >::difference_type i,std::vector< libbitcoin::hash_digest >::difference_type j,std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > const &v=std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >()){
+      swig::setslice(self, i, j, v);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_hash_digest_Sg____delslice__(std::vector< libbitcoin::hash_digest > *self,std::vector< libbitcoin::hash_digest >::difference_type i,std::vector< libbitcoin::hash_digest >::difference_type j){
+      swig::delslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_hash_digest_Sg____delitem____SWIG_0(std::vector< libbitcoin::hash_digest > *self,std::vector< libbitcoin::hash_digest >::difference_type i){
+      self->erase(swig::getpos(self,i));
+    }
+SWIGINTERN std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *std_vector_Sl_libbitcoin_hash_digest_Sg____getitem____SWIG_0(std::vector< libbitcoin::hash_digest > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      return swig::getslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_hash_digest_Sg____setitem____SWIG_0(std::vector< libbitcoin::hash_digest > *self,PySliceObject *slice,std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::setslice(self, i, j, v);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_hash_digest_Sg____setitem____SWIG_1(std::vector< libbitcoin::hash_digest > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::delslice(self, i,j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_hash_digest_Sg____delitem____SWIG_1(std::vector< libbitcoin::hash_digest > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::delslice(self, i,j);
+    }
+SWIGINTERN std::vector< libbitcoin::hash_digest >::value_type const &std_vector_Sl_libbitcoin_hash_digest_Sg____getitem____SWIG_1(std::vector< libbitcoin::hash_digest > const *self,std::vector< libbitcoin::hash_digest >::difference_type i){
+      return *(swig::cgetpos(self, i));
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_hash_digest_Sg____setitem____SWIG_2(std::vector< libbitcoin::hash_digest > *self,std::vector< libbitcoin::hash_digest >::difference_type i,std::vector< libbitcoin::hash_digest >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_hash_digest_Sg__append(std::vector< libbitcoin::hash_digest > *self,std::vector< libbitcoin::hash_digest >::value_type const &x){
+      self->push_back(x);
+    }
+
+  namespace swig {
+    template <>  struct traits<libbitcoin::inventory_vector_type > {
+      typedef pointer_category category;
+      static const char* type_name() { return"libbitcoin::inventory_vector_type"; }
+    };
+  }
+
+
+      namespace swig {
+	template <>  struct traits<std::vector<libbitcoin::inventory_vector_type, std::allocator< libbitcoin::inventory_vector_type > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "libbitcoin::inventory_vector_type" "," "std::allocator< libbitcoin::inventory_vector_type >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_libbitcoin_inventory_vector_type_Sg__iterator(std::vector< libbitcoin::inventory_vector_type > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_vector_Sl_libbitcoin_inventory_vector_type_Sg____nonzero__(std::vector< libbitcoin::inventory_vector_type > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_libbitcoin_inventory_vector_type_Sg____bool__(std::vector< libbitcoin::inventory_vector_type > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< libbitcoin::inventory_vector_type >::size_type std_vector_Sl_libbitcoin_inventory_vector_type_Sg____len__(std::vector< libbitcoin::inventory_vector_type > const *self){
+      return self->size();
+    }
+SWIGINTERN std::vector< libbitcoin::inventory_vector_type >::value_type std_vector_Sl_libbitcoin_inventory_vector_type_Sg__pop(std::vector< libbitcoin::inventory_vector_type > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *std_vector_Sl_libbitcoin_inventory_vector_type_Sg____getslice__(std::vector< libbitcoin::inventory_vector_type > *self,std::vector< libbitcoin::inventory_vector_type >::difference_type i,std::vector< libbitcoin::inventory_vector_type >::difference_type j){
+      return swig::getslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_inventory_vector_type_Sg____setslice____SWIG_0(std::vector< libbitcoin::inventory_vector_type > *self,std::vector< libbitcoin::inventory_vector_type >::difference_type i,std::vector< libbitcoin::inventory_vector_type >::difference_type j,std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > const &v=std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >()){
+      swig::setslice(self, i, j, v);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_inventory_vector_type_Sg____delslice__(std::vector< libbitcoin::inventory_vector_type > *self,std::vector< libbitcoin::inventory_vector_type >::difference_type i,std::vector< libbitcoin::inventory_vector_type >::difference_type j){
+      swig::delslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_inventory_vector_type_Sg____delitem____SWIG_0(std::vector< libbitcoin::inventory_vector_type > *self,std::vector< libbitcoin::inventory_vector_type >::difference_type i){
+      self->erase(swig::getpos(self,i));
+    }
+SWIGINTERN std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *std_vector_Sl_libbitcoin_inventory_vector_type_Sg____getitem____SWIG_0(std::vector< libbitcoin::inventory_vector_type > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      return swig::getslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_inventory_vector_type_Sg____setitem____SWIG_0(std::vector< libbitcoin::inventory_vector_type > *self,PySliceObject *slice,std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::setslice(self, i, j, v);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_inventory_vector_type_Sg____setitem____SWIG_1(std::vector< libbitcoin::inventory_vector_type > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::delslice(self, i,j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_inventory_vector_type_Sg____delitem____SWIG_1(std::vector< libbitcoin::inventory_vector_type > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::delslice(self, i,j);
+    }
+SWIGINTERN std::vector< libbitcoin::inventory_vector_type >::value_type const &std_vector_Sl_libbitcoin_inventory_vector_type_Sg____getitem____SWIG_1(std::vector< libbitcoin::inventory_vector_type > const *self,std::vector< libbitcoin::inventory_vector_type >::difference_type i){
+      return *(swig::cgetpos(self, i));
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_inventory_vector_type_Sg____setitem____SWIG_2(std::vector< libbitcoin::inventory_vector_type > *self,std::vector< libbitcoin::inventory_vector_type >::difference_type i,std::vector< libbitcoin::inventory_vector_type >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_inventory_vector_type_Sg__append(std::vector< libbitcoin::inventory_vector_type > *self,std::vector< libbitcoin::inventory_vector_type >::value_type const &x){
+      self->push_back(x);
+    }
+
+  namespace swig {
+    template <>  struct traits<libbitcoin::input_point > {
+      typedef pointer_category category;
+      static const char* type_name() { return"libbitcoin::input_point"; }
+    };
+  }
+
+
+      namespace swig {
 	template <>  struct traits<std::vector<libbitcoin::input_point, std::allocator< libbitcoin::input_point > > > {
 	  typedef pointer_category category;
 	  static const char* type_name() {
@@ -4625,21 +4838,6 @@ SWIGINTERN bool std_vector_Sl_libbitcoin_input_point_Sg____bool__(std::vector< l
 SWIGINTERN std::vector< libbitcoin::input_point >::size_type std_vector_Sl_libbitcoin_input_point_Sg____len__(std::vector< libbitcoin::input_point > const *self){
       return self->size();
     }
-
-SWIGINTERNINLINE PyObject* 
-SWIG_From_unsigned_SS_long  (unsigned long value)
-{
-  return (value > LONG_MAX) ?
-    PyLong_FromUnsignedLong(value) : PyInt_FromLong(static_cast< long >(value)); 
-}
-
-
-SWIGINTERNINLINE PyObject *
-SWIG_From_size_t  (size_t value)
-{    
-  return SWIG_From_unsigned_SS_long  (static_cast< unsigned long >(value));
-}
-
 SWIGINTERN std::vector< libbitcoin::input_point >::value_type std_vector_Sl_libbitcoin_input_point_Sg__pop(std::vector< libbitcoin::input_point > *self){
       if (self->size() == 0)
 	throw std::out_of_range("pop from empty container");
@@ -4987,6 +5185,100 @@ SWIGINTERN void std_vector_Sl_libbitcoin_transaction_type_Sg__append(std::vector
       self->push_back(x);
     }
 
+  namespace swig {
+    template <>  struct traits<libbitcoin::network_address_type > {
+      typedef pointer_category category;
+      static const char* type_name() { return"libbitcoin::network_address_type"; }
+    };
+  }
+
+
+      namespace swig {
+	template <>  struct traits<std::vector<libbitcoin::network_address_type, std::allocator< libbitcoin::network_address_type > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "libbitcoin::network_address_type" "," "std::allocator< libbitcoin::network_address_type >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_libbitcoin_network_address_type_Sg__iterator(std::vector< libbitcoin::network_address_type > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_vector_Sl_libbitcoin_network_address_type_Sg____nonzero__(std::vector< libbitcoin::network_address_type > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_libbitcoin_network_address_type_Sg____bool__(std::vector< libbitcoin::network_address_type > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< libbitcoin::network_address_type >::size_type std_vector_Sl_libbitcoin_network_address_type_Sg____len__(std::vector< libbitcoin::network_address_type > const *self){
+      return self->size();
+    }
+SWIGINTERN std::vector< libbitcoin::network_address_type >::value_type std_vector_Sl_libbitcoin_network_address_type_Sg__pop(std::vector< libbitcoin::network_address_type > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *std_vector_Sl_libbitcoin_network_address_type_Sg____getslice__(std::vector< libbitcoin::network_address_type > *self,std::vector< libbitcoin::network_address_type >::difference_type i,std::vector< libbitcoin::network_address_type >::difference_type j){
+      return swig::getslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_network_address_type_Sg____setslice____SWIG_0(std::vector< libbitcoin::network_address_type > *self,std::vector< libbitcoin::network_address_type >::difference_type i,std::vector< libbitcoin::network_address_type >::difference_type j,std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > const &v=std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >()){
+      swig::setslice(self, i, j, v);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_network_address_type_Sg____delslice__(std::vector< libbitcoin::network_address_type > *self,std::vector< libbitcoin::network_address_type >::difference_type i,std::vector< libbitcoin::network_address_type >::difference_type j){
+      swig::delslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_network_address_type_Sg____delitem____SWIG_0(std::vector< libbitcoin::network_address_type > *self,std::vector< libbitcoin::network_address_type >::difference_type i){
+      self->erase(swig::getpos(self,i));
+    }
+SWIGINTERN std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *std_vector_Sl_libbitcoin_network_address_type_Sg____getitem____SWIG_0(std::vector< libbitcoin::network_address_type > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      return swig::getslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_network_address_type_Sg____setitem____SWIG_0(std::vector< libbitcoin::network_address_type > *self,PySliceObject *slice,std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::setslice(self, i, j, v);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_network_address_type_Sg____setitem____SWIG_1(std::vector< libbitcoin::network_address_type > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::delslice(self, i,j);
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_network_address_type_Sg____delitem____SWIG_1(std::vector< libbitcoin::network_address_type > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::delslice(self, i,j);
+    }
+SWIGINTERN std::vector< libbitcoin::network_address_type >::value_type const &std_vector_Sl_libbitcoin_network_address_type_Sg____getitem____SWIG_1(std::vector< libbitcoin::network_address_type > const *self,std::vector< libbitcoin::network_address_type >::difference_type i){
+      return *(swig::cgetpos(self, i));
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_network_address_type_Sg____setitem____SWIG_2(std::vector< libbitcoin::network_address_type > *self,std::vector< libbitcoin::network_address_type >::difference_type i,std::vector< libbitcoin::network_address_type >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
+    }
+SWIGINTERN void std_vector_Sl_libbitcoin_network_address_type_Sg__append(std::vector< libbitcoin::network_address_type > *self,std::vector< libbitcoin::network_address_type >::value_type const &x){
+      self->push_back(x);
+    }
+
 namespace swig {
   template <> struct traits<size_t > {
     typedef value_category category;
@@ -5226,6 +5518,86 @@ void python_index_list_cb_handler(PyObject *pyfunc, const std::error_code &ec, c
         gstate = PyGILState_Ensure();
         PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
         PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::index_list(static_cast< const libbitcoin::index_list& >(blk))), SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t , 0 );
+
+        PyObject *arglist = Py_BuildValue("(OO)", resultobj, errorobj);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+
+
+void python_version_type_cb_handler(PyObject *pyfunc, const std::error_code &ec, const version_type& blk) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+        PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
+        PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::version_type(static_cast< const libbitcoin::version_type& >(blk))), SWIGTYPE_p_version_type , 0 );
+
+        PyObject *arglist = Py_BuildValue("(OO)", resultobj, errorobj);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+
+
+void python_verack_type_cb_handler(PyObject *pyfunc, const std::error_code &ec, const verack_type& blk) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+        PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
+        PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::verack_type(static_cast< const libbitcoin::verack_type& >(blk))), SWIGTYPE_p_verack_type , 0 );
+
+        PyObject *arglist = Py_BuildValue("(OO)", resultobj, errorobj);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+
+
+void python_inventory_type_cb_handler(PyObject *pyfunc, const std::error_code &ec, const inventory_type& blk) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+        PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
+        PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::inventory_type(static_cast< const libbitcoin::inventory_type& >(blk))), SWIGTYPE_p_inventory_type , 0 );
+
+        PyObject *arglist = Py_BuildValue("(OO)", resultobj, errorobj);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+
+
+void python_get_data_type_cb_handler(PyObject *pyfunc, const std::error_code &ec, const get_data_type& blk) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+        PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
+        PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::get_data_type(static_cast< const libbitcoin::get_data_type& >(blk))), SWIGTYPE_p_get_data_type , 0 );
+
+        PyObject *arglist = Py_BuildValue("(OO)", resultobj, errorobj);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+
+
+void python_get_blocks_type_cb_handler(PyObject *pyfunc, const std::error_code &ec, const get_blocks_type& blk) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+        PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
+        PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::get_blocks_type(static_cast< const libbitcoin::get_blocks_type& >(blk))), SWIGTYPE_p_get_blocks_type , 0 );
 
         PyObject *arglist = Py_BuildValue("(OO)", resultobj, errorobj);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
@@ -6514,6 +6886,4123 @@ SWIGINTERN PyObject *SwigPyIterator_swigregister(PyObject *SWIGUNUSEDPARM(self),
   PyObject *obj;
   if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_swig__SwigPyIterator, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &obj0;
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_iterator",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_iterator" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (swig::SwigPyIterator *)std_vector_Sl_libbitcoin_hash_digest_Sg__iterator(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___nonzero__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___nonzero__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_vector_Sl_libbitcoin_hash_digest_Sg____nonzero__((std::vector< libbitcoin::hash_digest > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___bool__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___bool__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___bool__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_vector_Sl_libbitcoin_hash_digest_Sg____bool__((std::vector< libbitcoin::hash_digest > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___len__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___len__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = std_vector_Sl_libbitcoin_hash_digest_Sg____len__((std::vector< libbitcoin::hash_digest > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_pop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest >::value_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_pop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_pop" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = std_vector_Sl_libbitcoin_hash_digest_Sg__pop(arg1);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  {
+    const char* data_ptr = reinterpret_cast<const char*>((&result)->data());
+    resultobj = PyString_FromStringAndSize(data_ptr, (&result)->size());
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___getslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg2 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___getslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___getslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type___getslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_block_locator_type___getslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *)std_vector_Sl_libbitcoin_hash_digest_Sg____getslice__(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___setslice____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg2 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg3 ;
+  std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___setslice__",4,4,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___setslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type___setslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_block_locator_type___setslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val3);
+  {
+    std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *ptr = (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *)0;
+    res4 = swig::asptr(obj3, &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "py_block_locator_type___setslice__" "', argument " "4"" of type '" "std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_block_locator_type___setslice__" "', argument " "4"" of type '" "std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_hash_digest_Sg____setslice____SWIG_0(arg1,arg2,arg3,(std::vector< std::array< unsigned char,32 >,std::allocator< std::array< unsigned char,32 > > > const &)*arg4);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___setslice____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg2 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___setslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___setslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type___setslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_block_locator_type___setslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_hash_digest_Sg____setslice____SWIG_0(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___setslice__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[5];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 4) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_py_block_locator_type___setslice____SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_py_block_locator_type___setslice____SWIG_0(self, args);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_block_locator_type___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::hash_digest >::__setslice__(std::vector< libbitcoin::hash_digest >::difference_type,std::vector< libbitcoin::hash_digest >::difference_type,std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > const &)\n"
+    "    std::vector< libbitcoin::hash_digest >::__setslice__(std::vector< libbitcoin::hash_digest >::difference_type,std::vector< libbitcoin::hash_digest >::difference_type)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___delslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg2 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___delslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___delslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type___delslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_block_locator_type___delslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_hash_digest_Sg____delslice__(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___delitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___delitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___delitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type___delitem__" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val2);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_hash_digest_Sg____delitem____SWIG_0(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___getitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___getitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type___getitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *)std_vector_Sl_libbitcoin_hash_digest_Sg____getitem____SWIG_0(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___setitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___setitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  {
+    std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *ptr = (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *)0;
+    res3 = swig::asptr(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_block_locator_type___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_block_locator_type___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_hash_digest_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< std::array< unsigned char,32 >,std::allocator< std::array< unsigned char,32 > > > const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___setitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___setitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___setitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_hash_digest_Sg____setitem____SWIG_1(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___delitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___delitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___delitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type___delitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_hash_digest_Sg____delitem____SWIG_1(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___delitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_block_locator_type___delitem____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_block_locator_type___delitem____SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_block_locator_type___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::hash_digest >::__delitem__(std::vector< libbitcoin::hash_digest >::difference_type)\n"
+    "    std::vector< libbitcoin::hash_digest >::__delitem__(PySliceObject *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___getitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::hash_digest >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___getitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type___getitem__" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val2);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< libbitcoin::hash_digest >::value_type *) &std_vector_Sl_libbitcoin_hash_digest_Sg____getitem____SWIG_1((std::vector< libbitcoin::hash_digest > const *)arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__arrayT_unsigned_char_32_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___getitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_block_locator_type___getitem____SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_block_locator_type___getitem____SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_block_locator_type___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::hash_digest >::__getitem__(PySliceObject *)\n"
+    "    std::vector< libbitcoin::hash_digest >::__getitem__(std::vector< libbitcoin::hash_digest >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___setitem____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::difference_type arg2 ;
+  std::vector< libbitcoin::hash_digest >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type___setitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type___setitem__" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::difference_type >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_std__arrayT_unsigned_char_32_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_block_locator_type___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_block_locator_type___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::hash_digest >::value_type * >(argp3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_hash_digest_Sg____setitem____SWIG_2(arg1,arg2,(std::array< unsigned char,32 > const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type___setitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_block_locator_type___setitem____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_block_locator_type___setitem____SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_std__arrayT_unsigned_char_32_t, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_block_locator_type___setitem____SWIG_2(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_block_locator_type___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::hash_digest >::__setitem__(PySliceObject *,std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > const &)\n"
+    "    std::vector< libbitcoin::hash_digest >::__setitem__(PySliceObject *)\n"
+    "    std::vector< libbitcoin::hash_digest >::__setitem__(std::vector< libbitcoin::hash_digest >::difference_type,std::vector< libbitcoin::hash_digest >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_append",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_append" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__arrayT_unsigned_char_32_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "py_block_locator_type_append" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_block_locator_type_append" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::hash_digest >::value_type * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    std_vector_Sl_libbitcoin_hash_digest_Sg__append(arg1,(std::array< unsigned char,32 > const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_block_locator_type__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *result = 0 ;
+  
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::hash_digest > *)new std::vector< libbitcoin::hash_digest >();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_block_locator_type__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_block_locator_type",1,1,&obj0)) SWIG_fail;
+  {
+    std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *ptr = (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *)0;
+    res1 = swig::asptr(obj0, &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_py_block_locator_type" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_py_block_locator_type" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::hash_digest > *)new std::vector< libbitcoin::hash_digest >((std::vector< libbitcoin::hash_digest > const &)*arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_empty(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_empty",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_empty" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((std::vector< libbitcoin::hash_digest > const *)arg1)->empty();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_size",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_size" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< libbitcoin::hash_digest > const *)arg1)->size();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_clear",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_clear" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->clear();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_swap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_swap",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_swap" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "py_block_locator_type_swap" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_block_locator_type_swap" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->swap(*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_get_allocator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  SwigValueWrapper< std::allocator< std::array< unsigned char,32 > > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_get_allocator",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_get_allocator" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< libbitcoin::hash_digest > const *)arg1)->get_allocator();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< libbitcoin::hash_digest >::allocator_type(static_cast< const std::vector< libbitcoin::hash_digest >::allocator_type& >(result))), SWIGTYPE_p_std__allocatorT_std__arrayT_unsigned_char_32_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_begin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_begin",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_begin" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->begin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::hash_digest >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_end(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_end",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_end" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->end();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::hash_digest >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_rbegin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest >::reverse_iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_rbegin",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_rbegin" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rbegin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::hash_digest >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_rend(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest >::reverse_iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_rend",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_rend" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rend();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::hash_digest >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_block_locator_type__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_block_locator_type",1,1,&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_py_block_locator_type" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< libbitcoin::hash_digest >::size_type >(val1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::hash_digest > *)new std::vector< libbitcoin::hash_digest >(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_pop_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_pop_back",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_pop_back" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->pop_back();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_resize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_resize",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_resize" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type_resize" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::size_type >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->resize(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::hash_digest >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_erase",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_erase" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->erase(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::hash_digest >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::iterator arg2 ;
+  std::vector< libbitcoin::hash_digest >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< libbitcoin::hash_digest >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_erase",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_erase" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(obj2, SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type_erase" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type_erase" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->erase(arg2,arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::hash_digest >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_erase(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_py_block_locator_type_erase__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_py_block_locator_type_erase__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_block_locator_type_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::hash_digest >::erase(std::vector< libbitcoin::hash_digest >::iterator)\n"
+    "    std::vector< libbitcoin::hash_digest >::erase(std::vector< libbitcoin::hash_digest >::iterator,std::vector< libbitcoin::hash_digest >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_block_locator_type__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest >::size_type arg1 ;
+  std::vector< libbitcoin::hash_digest >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::hash_digest > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_block_locator_type",2,2,&obj0,&obj1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_py_block_locator_type" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< libbitcoin::hash_digest >::size_type >(val1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__arrayT_unsigned_char_32_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_py_block_locator_type" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_py_block_locator_type" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::hash_digest >::value_type * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::hash_digest > *)new std::vector< libbitcoin::hash_digest >(arg1,(std::vector< libbitcoin::hash_digest >::value_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_block_locator_type(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_py_block_locator_type__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_py_block_locator_type__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_py_block_locator_type__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_std__arrayT_unsigned_char_32_t, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_py_block_locator_type__SWIG_3(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_py_block_locator_type'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::hash_digest >::vector()\n"
+    "    std::vector< libbitcoin::hash_digest >::vector(std::vector< libbitcoin::hash_digest > const &)\n"
+    "    std::vector< libbitcoin::hash_digest >::vector(std::vector< libbitcoin::hash_digest >::size_type)\n"
+    "    std::vector< libbitcoin::hash_digest >::vector(std::vector< libbitcoin::hash_digest >::size_type,std::vector< libbitcoin::hash_digest >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_push_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_push_back",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_push_back" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__arrayT_unsigned_char_32_t,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "py_block_locator_type_push_back" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_block_locator_type_push_back" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::hash_digest >::value_type * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->push_back((std::vector< libbitcoin::hash_digest >::value_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_front(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_front",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_front" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::hash_digest >::value_type *) &((std::vector< libbitcoin::hash_digest > const *)arg1)->front();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__arrayT_unsigned_char_32_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_back",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_back" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::hash_digest >::value_type *) &((std::vector< libbitcoin::hash_digest > const *)arg1)->back();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__arrayT_unsigned_char_32_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_assign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::size_type arg2 ;
+  std::vector< libbitcoin::hash_digest >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_assign",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_assign" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type_assign" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_std__arrayT_unsigned_char_32_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_block_locator_type_assign" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_block_locator_type_assign" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::hash_digest >::value_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->assign(arg2,(std::vector< libbitcoin::hash_digest >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_resize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::size_type arg2 ;
+  std::vector< libbitcoin::hash_digest >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_resize",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_resize" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type_resize" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_std__arrayT_unsigned_char_32_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_block_locator_type_resize" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_block_locator_type_resize" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::hash_digest >::value_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->resize(arg2,(std::vector< libbitcoin::hash_digest >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_resize(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_block_locator_type_resize__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_std__arrayT_unsigned_char_32_t, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_block_locator_type_resize__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_block_locator_type_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::hash_digest >::resize(std::vector< libbitcoin::hash_digest >::size_type)\n"
+    "    std::vector< libbitcoin::hash_digest >::resize(std::vector< libbitcoin::hash_digest >::size_type,std::vector< libbitcoin::hash_digest >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_insert__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::iterator arg2 ;
+  std::vector< libbitcoin::hash_digest >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< libbitcoin::hash_digest >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_insert",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_insert" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_std__arrayT_unsigned_char_32_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_block_locator_type_insert" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_block_locator_type_insert" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::hash_digest >::value_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->insert(arg2,(std::vector< libbitcoin::hash_digest >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::hash_digest >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_insert__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::iterator arg2 ;
+  std::vector< libbitcoin::hash_digest >::size_type arg3 ;
+  std::vector< libbitcoin::hash_digest >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_insert",4,4,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_insert" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_block_locator_type_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_block_locator_type_insert" "', argument " "3"" of type '" "std::vector< libbitcoin::hash_digest >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::hash_digest >::size_type >(val3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_std__arrayT_unsigned_char_32_t,  0  | 0);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "py_block_locator_type_insert" "', argument " "4"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_block_locator_type_insert" "', argument " "4"" of type '" "std::vector< libbitcoin::hash_digest >::value_type const &""'"); 
+  }
+  arg4 = reinterpret_cast< std::vector< libbitcoin::hash_digest >::value_type * >(argp4);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->insert(arg2,arg3,(std::vector< libbitcoin::hash_digest >::value_type const &)*arg4);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_insert(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[5];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 4) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *>(iter) != 0));
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_std__arrayT_unsigned_char_32_t, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_block_locator_type_insert__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::hash_digest >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_std__arrayT_unsigned_char_32_t, 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_py_block_locator_type_insert__SWIG_1(self, args);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_block_locator_type_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::hash_digest >::insert(std::vector< libbitcoin::hash_digest >::iterator,std::vector< libbitcoin::hash_digest >::value_type const &)\n"
+    "    std::vector< libbitcoin::hash_digest >::insert(std::vector< libbitcoin::hash_digest >::iterator,std::vector< libbitcoin::hash_digest >::size_type,std::vector< libbitcoin::hash_digest >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_reserve(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  std::vector< libbitcoin::hash_digest >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_reserve",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_reserve" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_block_locator_type_reserve" "', argument " "2"" of type '" "std::vector< libbitcoin::hash_digest >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::hash_digest >::size_type >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->reserve(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_block_locator_type_capacity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::hash_digest >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_block_locator_type_capacity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_block_locator_type_capacity" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< libbitcoin::hash_digest > const *)arg1)->capacity();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_py_block_locator_type(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::hash_digest > *arg1 = (std::vector< libbitcoin::hash_digest > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_py_block_locator_type",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_py_block_locator_type" "', argument " "1"" of type '" "std::vector< libbitcoin::hash_digest > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::hash_digest > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *py_block_locator_type_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &obj0;
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_iterator",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_iterator" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (swig::SwigPyIterator *)std_vector_Sl_libbitcoin_inventory_vector_type_Sg__iterator(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___nonzero__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___nonzero__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_vector_Sl_libbitcoin_inventory_vector_type_Sg____nonzero__((std::vector< libbitcoin::inventory_vector_type > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___bool__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___bool__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___bool__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_vector_Sl_libbitcoin_inventory_vector_type_Sg____bool__((std::vector< libbitcoin::inventory_vector_type > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___len__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___len__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = std_vector_Sl_libbitcoin_inventory_vector_type_Sg____len__((std::vector< libbitcoin::inventory_vector_type > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_pop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_pop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_pop" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = std_vector_Sl_libbitcoin_inventory_vector_type_Sg__pop(arg1);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj((new std::vector< libbitcoin::inventory_vector_type >::value_type(static_cast< const std::vector< libbitcoin::inventory_vector_type >::value_type& >(result))), SWIGTYPE_p_libbitcoin__inventory_vector_type, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___getslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg2 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___getslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___getslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list___getslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_inventory_list___getslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *)std_vector_Sl_libbitcoin_inventory_vector_type_Sg____getslice__(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___setslice____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg2 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg3 ;
+  std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___setslice__",4,4,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___setslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list___setslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_inventory_list___setslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val3);
+  {
+    std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *ptr = (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *)0;
+    res4 = swig::asptr(obj3, &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "py_inventory_list___setslice__" "', argument " "4"" of type '" "std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_inventory_list___setslice__" "', argument " "4"" of type '" "std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_inventory_vector_type_Sg____setslice____SWIG_0(arg1,arg2,arg3,(std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > const &)*arg4);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___setslice____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg2 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___setslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___setslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list___setslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_inventory_list___setslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_inventory_vector_type_Sg____setslice____SWIG_0(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___setslice__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[5];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 4) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_py_inventory_list___setslice____SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_py_inventory_list___setslice____SWIG_0(self, args);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_inventory_list___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::__setslice__(std::vector< libbitcoin::inventory_vector_type >::difference_type,std::vector< libbitcoin::inventory_vector_type >::difference_type,std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > const &)\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::__setslice__(std::vector< libbitcoin::inventory_vector_type >::difference_type,std::vector< libbitcoin::inventory_vector_type >::difference_type)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___delslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg2 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___delslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___delslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list___delslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_inventory_list___delslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_inventory_vector_type_Sg____delslice__(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___delitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___delitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___delitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list___delitem__" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val2);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_inventory_vector_type_Sg____delitem____SWIG_0(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___getitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___getitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list___getitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *)std_vector_Sl_libbitcoin_inventory_vector_type_Sg____getitem____SWIG_0(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___setitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___setitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  {
+    std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *ptr = (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *)0;
+    res3 = swig::asptr(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_inventory_list___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_inventory_list___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_inventory_vector_type_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___setitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___setitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___setitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_inventory_vector_type_Sg____setitem____SWIG_1(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___delitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___delitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___delitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list___delitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_inventory_vector_type_Sg____delitem____SWIG_1(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___delitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_inventory_list___delitem____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_inventory_list___delitem____SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_inventory_list___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::__delitem__(std::vector< libbitcoin::inventory_vector_type >::difference_type)\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::__delitem__(PySliceObject *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___getitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___getitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list___getitem__" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val2);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< libbitcoin::inventory_vector_type >::value_type *) &std_vector_Sl_libbitcoin_inventory_vector_type_Sg____getitem____SWIG_1((std::vector< libbitcoin::inventory_vector_type > const *)arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_libbitcoin__inventory_vector_type, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___getitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_inventory_list___getitem____SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_inventory_list___getitem____SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_inventory_list___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::__getitem__(PySliceObject *)\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::__getitem__(std::vector< libbitcoin::inventory_vector_type >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___setitem____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::difference_type arg2 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list___setitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list___setitem__" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::difference_type >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_libbitcoin__inventory_vector_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_inventory_list___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_inventory_list___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type >::value_type * >(argp3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_inventory_vector_type_Sg____setitem____SWIG_2(arg1,arg2,(libbitcoin::inventory_vector_type const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list___setitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_inventory_list___setitem____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_inventory_list___setitem____SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_libbitcoin__inventory_vector_type, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_inventory_list___setitem____SWIG_2(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_inventory_list___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::__setitem__(PySliceObject *,std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > const &)\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::__setitem__(PySliceObject *)\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::__setitem__(std::vector< libbitcoin::inventory_vector_type >::difference_type,std::vector< libbitcoin::inventory_vector_type >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_append",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_append" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_libbitcoin__inventory_vector_type,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "py_inventory_list_append" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_inventory_list_append" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type >::value_type * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    std_vector_Sl_libbitcoin_inventory_vector_type_Sg__append(arg1,(libbitcoin::inventory_vector_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_inventory_list__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *result = 0 ;
+  
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::inventory_vector_type > *)new std::vector< libbitcoin::inventory_vector_type >();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_inventory_list__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_inventory_list",1,1,&obj0)) SWIG_fail;
+  {
+    std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *ptr = (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *)0;
+    res1 = swig::asptr(obj0, &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_py_inventory_list" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_py_inventory_list" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::inventory_vector_type > *)new std::vector< libbitcoin::inventory_vector_type >((std::vector< libbitcoin::inventory_vector_type > const &)*arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_empty(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_empty",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_empty" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((std::vector< libbitcoin::inventory_vector_type > const *)arg1)->empty();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_size",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_size" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< libbitcoin::inventory_vector_type > const *)arg1)->size();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_clear",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_clear" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->clear();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_swap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_swap",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_swap" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "py_inventory_list_swap" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_inventory_list_swap" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->swap(*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_get_allocator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  SwigValueWrapper< std::allocator< libbitcoin::inventory_vector_type > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_get_allocator",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_get_allocator" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< libbitcoin::inventory_vector_type > const *)arg1)->get_allocator();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< libbitcoin::inventory_vector_type >::allocator_type(static_cast< const std::vector< libbitcoin::inventory_vector_type >::allocator_type& >(result))), SWIGTYPE_p_std__allocatorT_libbitcoin__inventory_vector_type_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_begin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_begin",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_begin" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->begin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::inventory_vector_type >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_end(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_end",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_end" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->end();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::inventory_vector_type >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_rbegin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::reverse_iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_rbegin",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_rbegin" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rbegin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::inventory_vector_type >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_rend(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::reverse_iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_rend",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_rend" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rend();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::inventory_vector_type >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_inventory_list__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_inventory_list",1,1,&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_py_inventory_list" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< libbitcoin::inventory_vector_type >::size_type >(val1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::inventory_vector_type > *)new std::vector< libbitcoin::inventory_vector_type >(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_pop_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_pop_back",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_pop_back" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->pop_back();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_resize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_resize",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_resize" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list_resize" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::size_type >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->resize(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_erase",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_erase" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->erase(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::inventory_vector_type >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::iterator arg2 ;
+  std::vector< libbitcoin::inventory_vector_type >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_erase",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_erase" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(obj2, SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list_erase" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list_erase" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->erase(arg2,arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::inventory_vector_type >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_erase(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_py_inventory_list_erase__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_py_inventory_list_erase__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_inventory_list_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::erase(std::vector< libbitcoin::inventory_vector_type >::iterator)\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::erase(std::vector< libbitcoin::inventory_vector_type >::iterator,std::vector< libbitcoin::inventory_vector_type >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_inventory_list__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type >::size_type arg1 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_inventory_list",2,2,&obj0,&obj1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_py_inventory_list" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< libbitcoin::inventory_vector_type >::size_type >(val1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_libbitcoin__inventory_vector_type,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_py_inventory_list" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_py_inventory_list" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type >::value_type * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::inventory_vector_type > *)new std::vector< libbitcoin::inventory_vector_type >(arg1,(std::vector< libbitcoin::inventory_vector_type >::value_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_inventory_list(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_py_inventory_list__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_py_inventory_list__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_py_inventory_list__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_libbitcoin__inventory_vector_type, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_py_inventory_list__SWIG_3(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_py_inventory_list'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::vector()\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::vector(std::vector< libbitcoin::inventory_vector_type > const &)\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::vector(std::vector< libbitcoin::inventory_vector_type >::size_type)\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::vector(std::vector< libbitcoin::inventory_vector_type >::size_type,std::vector< libbitcoin::inventory_vector_type >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_push_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_push_back",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_push_back" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_libbitcoin__inventory_vector_type,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "py_inventory_list_push_back" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_inventory_list_push_back" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type >::value_type * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->push_back((std::vector< libbitcoin::inventory_vector_type >::value_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_front(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_front",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_front" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::inventory_vector_type >::value_type *) &((std::vector< libbitcoin::inventory_vector_type > const *)arg1)->front();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_libbitcoin__inventory_vector_type, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_back",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_back" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::inventory_vector_type >::value_type *) &((std::vector< libbitcoin::inventory_vector_type > const *)arg1)->back();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_libbitcoin__inventory_vector_type, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_assign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::size_type arg2 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_assign",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_assign" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list_assign" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_libbitcoin__inventory_vector_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_inventory_list_assign" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_inventory_list_assign" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type >::value_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->assign(arg2,(std::vector< libbitcoin::inventory_vector_type >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_resize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::size_type arg2 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_resize",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_resize" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list_resize" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_libbitcoin__inventory_vector_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_inventory_list_resize" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_inventory_list_resize" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type >::value_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->resize(arg2,(std::vector< libbitcoin::inventory_vector_type >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_resize(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_inventory_list_resize__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_libbitcoin__inventory_vector_type, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_inventory_list_resize__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_inventory_list_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::resize(std::vector< libbitcoin::inventory_vector_type >::size_type)\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::resize(std::vector< libbitcoin::inventory_vector_type >::size_type,std::vector< libbitcoin::inventory_vector_type >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_insert__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::iterator arg2 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_insert",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_insert" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_libbitcoin__inventory_vector_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_inventory_list_insert" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_inventory_list_insert" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type >::value_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->insert(arg2,(std::vector< libbitcoin::inventory_vector_type >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::inventory_vector_type >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_insert__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::iterator arg2 ;
+  std::vector< libbitcoin::inventory_vector_type >::size_type arg3 ;
+  std::vector< libbitcoin::inventory_vector_type >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_insert",4,4,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_insert" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_inventory_list_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_inventory_list_insert" "', argument " "3"" of type '" "std::vector< libbitcoin::inventory_vector_type >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::inventory_vector_type >::size_type >(val3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_libbitcoin__inventory_vector_type,  0  | 0);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "py_inventory_list_insert" "', argument " "4"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_inventory_list_insert" "', argument " "4"" of type '" "std::vector< libbitcoin::inventory_vector_type >::value_type const &""'"); 
+  }
+  arg4 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type >::value_type * >(argp4);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->insert(arg2,arg3,(std::vector< libbitcoin::inventory_vector_type >::value_type const &)*arg4);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_insert(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[5];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 4) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *>(iter) != 0));
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_libbitcoin__inventory_vector_type, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_inventory_list_insert__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::inventory_vector_type >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_libbitcoin__inventory_vector_type, 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_py_inventory_list_insert__SWIG_1(self, args);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_inventory_list_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::insert(std::vector< libbitcoin::inventory_vector_type >::iterator,std::vector< libbitcoin::inventory_vector_type >::value_type const &)\n"
+    "    std::vector< libbitcoin::inventory_vector_type >::insert(std::vector< libbitcoin::inventory_vector_type >::iterator,std::vector< libbitcoin::inventory_vector_type >::size_type,std::vector< libbitcoin::inventory_vector_type >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_reserve(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_reserve",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_reserve" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_inventory_list_reserve" "', argument " "2"" of type '" "std::vector< libbitcoin::inventory_vector_type >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::inventory_vector_type >::size_type >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->reserve(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_inventory_list_capacity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::inventory_vector_type >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_inventory_list_capacity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_inventory_list_capacity" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< libbitcoin::inventory_vector_type > const *)arg1)->capacity();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_py_inventory_list(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::inventory_vector_type > *arg1 = (std::vector< libbitcoin::inventory_vector_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_py_inventory_list",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_py_inventory_list" "', argument " "1"" of type '" "std::vector< libbitcoin::inventory_vector_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::inventory_vector_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *py_inventory_list_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -14745,6 +19234,2063 @@ SWIGINTERN PyObject *py_transaction_list_swigregister(PyObject *SWIGUNUSEDPARM(s
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_py_network_address_list_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &obj0;
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_iterator",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_iterator" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (swig::SwigPyIterator *)std_vector_Sl_libbitcoin_network_address_type_Sg__iterator(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___nonzero__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___nonzero__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_vector_Sl_libbitcoin_network_address_type_Sg____nonzero__((std::vector< libbitcoin::network_address_type > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___bool__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___bool__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___bool__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_vector_Sl_libbitcoin_network_address_type_Sg____bool__((std::vector< libbitcoin::network_address_type > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___len__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___len__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = std_vector_Sl_libbitcoin_network_address_type_Sg____len__((std::vector< libbitcoin::network_address_type > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_pop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type >::value_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_pop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_pop" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = std_vector_Sl_libbitcoin_network_address_type_Sg__pop(arg1);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj((new std::vector< libbitcoin::network_address_type >::value_type(static_cast< const std::vector< libbitcoin::network_address_type >::value_type& >(result))), SWIGTYPE_p_libbitcoin__network_address_type, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___getslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg2 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___getslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___getslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list___getslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_network_address_list___getslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *)std_vector_Sl_libbitcoin_network_address_type_Sg____getslice__(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___setslice____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg2 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg3 ;
+  std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___setslice__",4,4,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___setslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list___setslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_network_address_list___setslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val3);
+  {
+    std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *ptr = (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *)0;
+    res4 = swig::asptr(obj3, &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "py_network_address_list___setslice__" "', argument " "4"" of type '" "std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_network_address_list___setslice__" "', argument " "4"" of type '" "std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_network_address_type_Sg____setslice____SWIG_0(arg1,arg2,arg3,(std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > const &)*arg4);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___setslice____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg2 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___setslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___setslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list___setslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_network_address_list___setslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_network_address_type_Sg____setslice____SWIG_0(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___setslice__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[5];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 4) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_py_network_address_list___setslice____SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_py_network_address_list___setslice____SWIG_0(self, args);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_network_address_list___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::network_address_type >::__setslice__(std::vector< libbitcoin::network_address_type >::difference_type,std::vector< libbitcoin::network_address_type >::difference_type,std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > const &)\n"
+    "    std::vector< libbitcoin::network_address_type >::__setslice__(std::vector< libbitcoin::network_address_type >::difference_type,std::vector< libbitcoin::network_address_type >::difference_type)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___delslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg2 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___delslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___delslice__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list___delslice__" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_network_address_list___delslice__" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_network_address_type_Sg____delslice__(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___delitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___delitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___delitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list___delitem__" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val2);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_network_address_type_Sg____delitem____SWIG_0(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___getitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___getitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list___getitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *)std_vector_Sl_libbitcoin_network_address_type_Sg____getitem____SWIG_0(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___setitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___setitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  {
+    std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *ptr = (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *)0;
+    res3 = swig::asptr(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_network_address_list___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_network_address_list___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_network_address_type_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___setitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___setitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___setitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_network_address_type_Sg____setitem____SWIG_1(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___delitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___delitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___delitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list___delitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_network_address_type_Sg____delitem____SWIG_1(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___delitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_network_address_list___delitem____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_network_address_list___delitem____SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_network_address_list___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::network_address_type >::__delitem__(std::vector< libbitcoin::network_address_type >::difference_type)\n"
+    "    std::vector< libbitcoin::network_address_type >::__delitem__(PySliceObject *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___getitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::network_address_type >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___getitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list___getitem__" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val2);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< libbitcoin::network_address_type >::value_type *) &std_vector_Sl_libbitcoin_network_address_type_Sg____getitem____SWIG_1((std::vector< libbitcoin::network_address_type > const *)arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_libbitcoin__network_address_type, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___getitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_network_address_list___getitem____SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_network_address_list___getitem____SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_network_address_list___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::network_address_type >::__getitem__(PySliceObject *)\n"
+    "    std::vector< libbitcoin::network_address_type >::__getitem__(std::vector< libbitcoin::network_address_type >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___setitem____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::difference_type arg2 ;
+  std::vector< libbitcoin::network_address_type >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list___setitem__" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list___setitem__" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::difference_type >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_libbitcoin__network_address_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_network_address_list___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_network_address_list___setitem__" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::network_address_type >::value_type * >(argp3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_libbitcoin_network_address_type_Sg____setitem____SWIG_2(arg1,arg2,(libbitcoin::network_address_type const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list___setitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_network_address_list___setitem____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_network_address_list___setitem____SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_libbitcoin__network_address_type, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_network_address_list___setitem____SWIG_2(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_network_address_list___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::network_address_type >::__setitem__(PySliceObject *,std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > const &)\n"
+    "    std::vector< libbitcoin::network_address_type >::__setitem__(PySliceObject *)\n"
+    "    std::vector< libbitcoin::network_address_type >::__setitem__(std::vector< libbitcoin::network_address_type >::difference_type,std::vector< libbitcoin::network_address_type >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_append",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_append" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_libbitcoin__network_address_type,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "py_network_address_list_append" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_network_address_list_append" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::network_address_type >::value_type * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    std_vector_Sl_libbitcoin_network_address_type_Sg__append(arg1,(libbitcoin::network_address_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_network_address_list__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *result = 0 ;
+  
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::network_address_type > *)new std::vector< libbitcoin::network_address_type >();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_network_address_list__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_network_address_list",1,1,&obj0)) SWIG_fail;
+  {
+    std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *ptr = (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *)0;
+    res1 = swig::asptr(obj0, &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_py_network_address_list" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_py_network_address_list" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::network_address_type > *)new std::vector< libbitcoin::network_address_type >((std::vector< libbitcoin::network_address_type > const &)*arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_empty(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_empty",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_empty" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((std::vector< libbitcoin::network_address_type > const *)arg1)->empty();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_size",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_size" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< libbitcoin::network_address_type > const *)arg1)->size();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_clear",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_clear" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->clear();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_swap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_swap",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_swap" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "py_network_address_list_swap" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_network_address_list_swap" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->swap(*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_get_allocator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  SwigValueWrapper< std::allocator< libbitcoin::network_address_type > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_get_allocator",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_get_allocator" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< libbitcoin::network_address_type > const *)arg1)->get_allocator();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< libbitcoin::network_address_type >::allocator_type(static_cast< const std::vector< libbitcoin::network_address_type >::allocator_type& >(result))), SWIGTYPE_p_std__allocatorT_libbitcoin__network_address_type_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_begin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_begin",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_begin" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->begin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::network_address_type >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_end(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_end",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_end" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->end();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::network_address_type >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_rbegin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type >::reverse_iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_rbegin",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_rbegin" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rbegin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::network_address_type >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_rend(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type >::reverse_iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_rend",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_rend" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rend();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::network_address_type >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_network_address_list__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_network_address_list",1,1,&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_py_network_address_list" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< libbitcoin::network_address_type >::size_type >(val1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::network_address_type > *)new std::vector< libbitcoin::network_address_type >(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_pop_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_pop_back",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_pop_back" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->pop_back();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_resize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_resize",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_resize" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list_resize" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::size_type >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->resize(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::network_address_type >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_erase",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_erase" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->erase(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::network_address_type >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::iterator arg2 ;
+  std::vector< libbitcoin::network_address_type >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< libbitcoin::network_address_type >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_erase",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_erase" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list_erase" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(obj2, SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list_erase" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list_erase" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->erase(arg2,arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::network_address_type >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_erase(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_py_network_address_list_erase__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_py_network_address_list_erase__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_network_address_list_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::network_address_type >::erase(std::vector< libbitcoin::network_address_type >::iterator)\n"
+    "    std::vector< libbitcoin::network_address_type >::erase(std::vector< libbitcoin::network_address_type >::iterator,std::vector< libbitcoin::network_address_type >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_network_address_list__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type >::size_type arg1 ;
+  std::vector< libbitcoin::network_address_type >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< libbitcoin::network_address_type > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_network_address_list",2,2,&obj0,&obj1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_py_network_address_list" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< libbitcoin::network_address_type >::size_type >(val1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_libbitcoin__network_address_type,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_py_network_address_list" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_py_network_address_list" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::network_address_type >::value_type * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::network_address_type > *)new std::vector< libbitcoin::network_address_type >(arg1,(std::vector< libbitcoin::network_address_type >::value_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_network_address_list(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_py_network_address_list__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_py_network_address_list__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_py_network_address_list__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_libbitcoin__network_address_type, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_new_py_network_address_list__SWIG_3(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_py_network_address_list'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::network_address_type >::vector()\n"
+    "    std::vector< libbitcoin::network_address_type >::vector(std::vector< libbitcoin::network_address_type > const &)\n"
+    "    std::vector< libbitcoin::network_address_type >::vector(std::vector< libbitcoin::network_address_type >::size_type)\n"
+    "    std::vector< libbitcoin::network_address_type >::vector(std::vector< libbitcoin::network_address_type >::size_type,std::vector< libbitcoin::network_address_type >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_push_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_push_back",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_push_back" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_libbitcoin__network_address_type,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "py_network_address_list_push_back" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_network_address_list_push_back" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< libbitcoin::network_address_type >::value_type * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->push_back((std::vector< libbitcoin::network_address_type >::value_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_front(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_front",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_front" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::network_address_type >::value_type *) &((std::vector< libbitcoin::network_address_type > const *)arg1)->front();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_libbitcoin__network_address_type, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_back",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_back" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< libbitcoin::network_address_type >::value_type *) &((std::vector< libbitcoin::network_address_type > const *)arg1)->back();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_libbitcoin__network_address_type, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_assign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::size_type arg2 ;
+  std::vector< libbitcoin::network_address_type >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_assign",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_assign" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list_assign" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_libbitcoin__network_address_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_network_address_list_assign" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_network_address_list_assign" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::network_address_type >::value_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->assign(arg2,(std::vector< libbitcoin::network_address_type >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_resize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::size_type arg2 ;
+  std::vector< libbitcoin::network_address_type >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_resize",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_resize" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list_resize" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::size_type >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_libbitcoin__network_address_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_network_address_list_resize" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_network_address_list_resize" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::network_address_type >::value_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->resize(arg2,(std::vector< libbitcoin::network_address_type >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_resize(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_network_address_list_resize__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_libbitcoin__network_address_type, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_network_address_list_resize__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_network_address_list_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::network_address_type >::resize(std::vector< libbitcoin::network_address_type >::size_type)\n"
+    "    std::vector< libbitcoin::network_address_type >::resize(std::vector< libbitcoin::network_address_type >::size_type,std::vector< libbitcoin::network_address_type >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_insert__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::iterator arg2 ;
+  std::vector< libbitcoin::network_address_type >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< libbitcoin::network_address_type >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_insert",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_insert" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_libbitcoin__network_address_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_network_address_list_insert" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_network_address_list_insert" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< std::vector< libbitcoin::network_address_type >::value_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->insert(arg2,(std::vector< libbitcoin::network_address_type >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< libbitcoin::network_address_type >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_insert__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::iterator arg2 ;
+  std::vector< libbitcoin::network_address_type >::size_type arg3 ;
+  std::vector< libbitcoin::network_address_type >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_insert",4,4,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_insert" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_network_address_list_insert" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_network_address_list_insert" "', argument " "3"" of type '" "std::vector< libbitcoin::network_address_type >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< libbitcoin::network_address_type >::size_type >(val3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_libbitcoin__network_address_type,  0  | 0);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "py_network_address_list_insert" "', argument " "4"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_network_address_list_insert" "', argument " "4"" of type '" "std::vector< libbitcoin::network_address_type >::value_type const &""'"); 
+  }
+  arg4 = reinterpret_cast< std::vector< libbitcoin::network_address_type >::value_type * >(argp4);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->insert(arg2,arg3,(std::vector< libbitcoin::network_address_type >::value_type const &)*arg4);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_insert(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[5];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 4) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *>(iter) != 0));
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_libbitcoin__network_address_type, 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_network_address_list_insert__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< libbitcoin::network_address_type >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = SWIG_ConvertPtr(argv[3], 0, SWIGTYPE_p_libbitcoin__network_address_type, 0);
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_py_network_address_list_insert__SWIG_1(self, args);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_network_address_list_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< libbitcoin::network_address_type >::insert(std::vector< libbitcoin::network_address_type >::iterator,std::vector< libbitcoin::network_address_type >::value_type const &)\n"
+    "    std::vector< libbitcoin::network_address_type >::insert(std::vector< libbitcoin::network_address_type >::iterator,std::vector< libbitcoin::network_address_type >::size_type,std::vector< libbitcoin::network_address_type >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_reserve(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  std::vector< libbitcoin::network_address_type >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_reserve",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_reserve" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_network_address_list_reserve" "', argument " "2"" of type '" "std::vector< libbitcoin::network_address_type >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< libbitcoin::network_address_type >::size_type >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->reserve(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_network_address_list_capacity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< libbitcoin::network_address_type >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_network_address_list_capacity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_network_address_list_capacity" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< libbitcoin::network_address_type > const *)arg1)->capacity();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_py_network_address_list(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< libbitcoin::network_address_type > *arg1 = (std::vector< libbitcoin::network_address_type > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_py_network_address_list",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_py_network_address_list" "', argument " "1"" of type '" "std::vector< libbitcoin::network_address_type > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< libbitcoin::network_address_type > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *py_network_address_list_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
 SWIGINTERN PyObject *_wrap_py_size_list_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
@@ -17182,6 +23728,221 @@ SWIGINTERN PyObject *_wrap_python_index_list_cb_handler(PyObject *SWIGUNUSEDPARM
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
     python_index_list_cb_handler(arg1,(std::error_code const &)*arg2,(index_list const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_python_version_type_cb_handler(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  std::error_code *arg2 = 0 ;
+  version_type *arg3 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"python_version_type_cb_handler",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  arg1 = obj0;
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__error_code,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "python_version_type_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_version_type_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::error_code * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_version_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "python_version_type_cb_handler" "', argument " "3"" of type '" "version_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_version_type_cb_handler" "', argument " "3"" of type '" "version_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< version_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    python_version_type_cb_handler(arg1,(std::error_code const &)*arg2,(version_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_python_verack_type_cb_handler(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  std::error_code *arg2 = 0 ;
+  verack_type *arg3 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"python_verack_type_cb_handler",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  arg1 = obj0;
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__error_code,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "python_verack_type_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_verack_type_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::error_code * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_verack_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "python_verack_type_cb_handler" "', argument " "3"" of type '" "verack_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_verack_type_cb_handler" "', argument " "3"" of type '" "verack_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< verack_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    python_verack_type_cb_handler(arg1,(std::error_code const &)*arg2,(verack_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_python_inventory_type_cb_handler(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  std::error_code *arg2 = 0 ;
+  inventory_type *arg3 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"python_inventory_type_cb_handler",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  arg1 = obj0;
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__error_code,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "python_inventory_type_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_inventory_type_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::error_code * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_inventory_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "python_inventory_type_cb_handler" "', argument " "3"" of type '" "inventory_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_inventory_type_cb_handler" "', argument " "3"" of type '" "inventory_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< inventory_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    python_inventory_type_cb_handler(arg1,(std::error_code const &)*arg2,(inventory_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_python_get_data_type_cb_handler(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  std::error_code *arg2 = 0 ;
+  get_data_type *arg3 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"python_get_data_type_cb_handler",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  arg1 = obj0;
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__error_code,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "python_get_data_type_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_get_data_type_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::error_code * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_get_data_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "python_get_data_type_cb_handler" "', argument " "3"" of type '" "get_data_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_get_data_type_cb_handler" "', argument " "3"" of type '" "get_data_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< get_data_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    python_get_data_type_cb_handler(arg1,(std::error_code const &)*arg2,(get_data_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_python_get_blocks_type_cb_handler(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  std::error_code *arg2 = 0 ;
+  get_blocks_type *arg3 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"python_get_blocks_type_cb_handler",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  arg1 = obj0;
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__error_code,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "python_get_blocks_type_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_get_blocks_type_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::error_code * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_get_blocks_type,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "python_get_blocks_type_cb_handler" "', argument " "3"" of type '" "get_blocks_type const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_get_blocks_type_cb_handler" "', argument " "3"" of type '" "get_blocks_type const &""'"); 
+  }
+  arg3 = reinterpret_cast< get_blocks_type * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    python_get_blocks_type_cb_handler(arg1,(std::error_code const &)*arg2,(get_blocks_type const &)*arg3);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_Py_Void();
@@ -23429,8 +30190,6 @@ SWIGINTERN PyObject *_wrap_channel_proxy_subscribe_inventory(PyObject *SWIGUNUSE
   libbitcoin::channel_proxy::receive_inventory_handler arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
@@ -23441,17 +30200,8 @@ SWIGINTERN PyObject *_wrap_channel_proxy_subscribe_inventory(PyObject *SWIGUNUSE
   }
   arg1 = reinterpret_cast< libbitcoin::channel_proxy * >(argp1);
   {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_inventory_type_const_RF_t,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "channel_proxy_subscribe_inventory" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_inventory_handler""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "channel_proxy_subscribe_inventory" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_inventory_handler""'");
-    } else {
-      libbitcoin::channel_proxy::receive_inventory_handler * temp = reinterpret_cast< libbitcoin::channel_proxy::receive_inventory_handler * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+    Py_INCREF(obj1);
+    arg2 = std::bind(python_inventory_type_cb_handler, obj1, _1, _2);
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
@@ -23471,8 +30221,6 @@ SWIGINTERN PyObject *_wrap_channel_proxy_subscribe_get_data(PyObject *SWIGUNUSED
   libbitcoin::channel_proxy::receive_get_data_handler arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
@@ -23483,17 +30231,8 @@ SWIGINTERN PyObject *_wrap_channel_proxy_subscribe_get_data(PyObject *SWIGUNUSED
   }
   arg1 = reinterpret_cast< libbitcoin::channel_proxy * >(argp1);
   {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_get_data_type_const_RF_t,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "channel_proxy_subscribe_get_data" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_get_data_handler""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "channel_proxy_subscribe_get_data" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_get_data_handler""'");
-    } else {
-      libbitcoin::channel_proxy::receive_get_data_handler * temp = reinterpret_cast< libbitcoin::channel_proxy::receive_get_data_handler * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+    Py_INCREF(obj1);
+    arg2 = std::bind(python_get_data_type_cb_handler, obj1, _1, _2);
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
@@ -24042,8 +30781,6 @@ SWIGINTERN PyObject *_wrap_channel_subscribe_inventory(PyObject *SWIGUNUSEDPARM(
   libbitcoin::channel_proxy::receive_inventory_handler arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
@@ -24054,17 +30791,8 @@ SWIGINTERN PyObject *_wrap_channel_subscribe_inventory(PyObject *SWIGUNUSEDPARM(
   }
   arg1 = reinterpret_cast< libbitcoin::channel * >(argp1);
   {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_inventory_type_const_RF_t,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "channel_subscribe_inventory" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_inventory_handler""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "channel_subscribe_inventory" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_inventory_handler""'");
-    } else {
-      libbitcoin::channel_proxy::receive_inventory_handler * temp = reinterpret_cast< libbitcoin::channel_proxy::receive_inventory_handler * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+    Py_INCREF(obj1);
+    arg2 = std::bind(python_inventory_type_cb_handler, obj1, _1, _2);
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
@@ -24084,8 +30812,6 @@ SWIGINTERN PyObject *_wrap_channel_subscribe_get_data(PyObject *SWIGUNUSEDPARM(s
   libbitcoin::channel_proxy::receive_get_data_handler arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
@@ -24096,17 +30822,8 @@ SWIGINTERN PyObject *_wrap_channel_subscribe_get_data(PyObject *SWIGUNUSEDPARM(s
   }
   arg1 = reinterpret_cast< libbitcoin::channel * >(argp1);
   {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_get_data_type_const_RF_t,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "channel_subscribe_get_data" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_get_data_handler""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "channel_subscribe_get_data" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_get_data_handler""'");
-    } else {
-      libbitcoin::channel_proxy::receive_get_data_handler * temp = reinterpret_cast< libbitcoin::channel_proxy::receive_get_data_handler * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+    Py_INCREF(obj1);
+    arg2 = std::bind(python_get_data_type_cb_handler, obj1, _1, _2);
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
@@ -29151,6 +35868,74 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"SwigPyIterator___add__", _wrap_SwigPyIterator___add__, METH_VARARGS, NULL},
 	 { (char *)"SwigPyIterator___sub__", _wrap_SwigPyIterator___sub__, METH_VARARGS, NULL},
 	 { (char *)"SwigPyIterator_swigregister", SwigPyIterator_swigregister, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_iterator", _wrap_py_block_locator_type_iterator, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type___nonzero__", _wrap_py_block_locator_type___nonzero__, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type___bool__", _wrap_py_block_locator_type___bool__, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type___len__", _wrap_py_block_locator_type___len__, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_pop", _wrap_py_block_locator_type_pop, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type___getslice__", _wrap_py_block_locator_type___getslice__, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type___setslice__", _wrap_py_block_locator_type___setslice__, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type___delslice__", _wrap_py_block_locator_type___delslice__, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type___delitem__", _wrap_py_block_locator_type___delitem__, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type___getitem__", _wrap_py_block_locator_type___getitem__, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type___setitem__", _wrap_py_block_locator_type___setitem__, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_append", _wrap_py_block_locator_type_append, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_empty", _wrap_py_block_locator_type_empty, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_size", _wrap_py_block_locator_type_size, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_clear", _wrap_py_block_locator_type_clear, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_swap", _wrap_py_block_locator_type_swap, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_get_allocator", _wrap_py_block_locator_type_get_allocator, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_begin", _wrap_py_block_locator_type_begin, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_end", _wrap_py_block_locator_type_end, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_rbegin", _wrap_py_block_locator_type_rbegin, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_rend", _wrap_py_block_locator_type_rend, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_pop_back", _wrap_py_block_locator_type_pop_back, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_erase", _wrap_py_block_locator_type_erase, METH_VARARGS, NULL},
+	 { (char *)"new_py_block_locator_type", _wrap_new_py_block_locator_type, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_push_back", _wrap_py_block_locator_type_push_back, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_front", _wrap_py_block_locator_type_front, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_back", _wrap_py_block_locator_type_back, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_assign", _wrap_py_block_locator_type_assign, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_resize", _wrap_py_block_locator_type_resize, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_insert", _wrap_py_block_locator_type_insert, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_reserve", _wrap_py_block_locator_type_reserve, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_capacity", _wrap_py_block_locator_type_capacity, METH_VARARGS, NULL},
+	 { (char *)"delete_py_block_locator_type", _wrap_delete_py_block_locator_type, METH_VARARGS, NULL},
+	 { (char *)"py_block_locator_type_swigregister", py_block_locator_type_swigregister, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_iterator", _wrap_py_inventory_list_iterator, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list___nonzero__", _wrap_py_inventory_list___nonzero__, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list___bool__", _wrap_py_inventory_list___bool__, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list___len__", _wrap_py_inventory_list___len__, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_pop", _wrap_py_inventory_list_pop, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list___getslice__", _wrap_py_inventory_list___getslice__, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list___setslice__", _wrap_py_inventory_list___setslice__, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list___delslice__", _wrap_py_inventory_list___delslice__, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list___delitem__", _wrap_py_inventory_list___delitem__, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list___getitem__", _wrap_py_inventory_list___getitem__, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list___setitem__", _wrap_py_inventory_list___setitem__, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_append", _wrap_py_inventory_list_append, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_empty", _wrap_py_inventory_list_empty, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_size", _wrap_py_inventory_list_size, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_clear", _wrap_py_inventory_list_clear, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_swap", _wrap_py_inventory_list_swap, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_get_allocator", _wrap_py_inventory_list_get_allocator, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_begin", _wrap_py_inventory_list_begin, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_end", _wrap_py_inventory_list_end, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_rbegin", _wrap_py_inventory_list_rbegin, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_rend", _wrap_py_inventory_list_rend, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_pop_back", _wrap_py_inventory_list_pop_back, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_erase", _wrap_py_inventory_list_erase, METH_VARARGS, NULL},
+	 { (char *)"new_py_inventory_list", _wrap_new_py_inventory_list, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_push_back", _wrap_py_inventory_list_push_back, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_front", _wrap_py_inventory_list_front, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_back", _wrap_py_inventory_list_back, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_assign", _wrap_py_inventory_list_assign, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_resize", _wrap_py_inventory_list_resize, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_insert", _wrap_py_inventory_list_insert, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_reserve", _wrap_py_inventory_list_reserve, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_capacity", _wrap_py_inventory_list_capacity, METH_VARARGS, NULL},
+	 { (char *)"delete_py_inventory_list", _wrap_delete_py_inventory_list, METH_VARARGS, NULL},
+	 { (char *)"py_inventory_list_swigregister", py_inventory_list_swigregister, METH_VARARGS, NULL},
 	 { (char *)"py_input_point_list_iterator", _wrap_py_input_point_list_iterator, METH_VARARGS, NULL},
 	 { (char *)"py_input_point_list___nonzero__", _wrap_py_input_point_list___nonzero__, METH_VARARGS, NULL},
 	 { (char *)"py_input_point_list___bool__", _wrap_py_input_point_list___bool__, METH_VARARGS, NULL},
@@ -29287,6 +36072,40 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"py_transaction_list_capacity", _wrap_py_transaction_list_capacity, METH_VARARGS, NULL},
 	 { (char *)"delete_py_transaction_list", _wrap_delete_py_transaction_list, METH_VARARGS, NULL},
 	 { (char *)"py_transaction_list_swigregister", py_transaction_list_swigregister, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_iterator", _wrap_py_network_address_list_iterator, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list___nonzero__", _wrap_py_network_address_list___nonzero__, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list___bool__", _wrap_py_network_address_list___bool__, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list___len__", _wrap_py_network_address_list___len__, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_pop", _wrap_py_network_address_list_pop, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list___getslice__", _wrap_py_network_address_list___getslice__, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list___setslice__", _wrap_py_network_address_list___setslice__, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list___delslice__", _wrap_py_network_address_list___delslice__, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list___delitem__", _wrap_py_network_address_list___delitem__, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list___getitem__", _wrap_py_network_address_list___getitem__, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list___setitem__", _wrap_py_network_address_list___setitem__, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_append", _wrap_py_network_address_list_append, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_empty", _wrap_py_network_address_list_empty, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_size", _wrap_py_network_address_list_size, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_clear", _wrap_py_network_address_list_clear, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_swap", _wrap_py_network_address_list_swap, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_get_allocator", _wrap_py_network_address_list_get_allocator, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_begin", _wrap_py_network_address_list_begin, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_end", _wrap_py_network_address_list_end, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_rbegin", _wrap_py_network_address_list_rbegin, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_rend", _wrap_py_network_address_list_rend, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_pop_back", _wrap_py_network_address_list_pop_back, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_erase", _wrap_py_network_address_list_erase, METH_VARARGS, NULL},
+	 { (char *)"new_py_network_address_list", _wrap_new_py_network_address_list, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_push_back", _wrap_py_network_address_list_push_back, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_front", _wrap_py_network_address_list_front, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_back", _wrap_py_network_address_list_back, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_assign", _wrap_py_network_address_list_assign, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_resize", _wrap_py_network_address_list_resize, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_insert", _wrap_py_network_address_list_insert, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_reserve", _wrap_py_network_address_list_reserve, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_capacity", _wrap_py_network_address_list_capacity, METH_VARARGS, NULL},
+	 { (char *)"delete_py_network_address_list", _wrap_delete_py_network_address_list, METH_VARARGS, NULL},
+	 { (char *)"py_network_address_list_swigregister", py_network_address_list_swigregister, METH_VARARGS, NULL},
 	 { (char *)"py_size_list_iterator", _wrap_py_size_list_iterator, METH_VARARGS, NULL},
 	 { (char *)"py_size_list___nonzero__", _wrap_py_size_list___nonzero__, METH_VARARGS, NULL},
 	 { (char *)"py_size_list___bool__", _wrap_py_size_list___bool__, METH_VARARGS, NULL},
@@ -29330,6 +36149,11 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"python_get_address_type_cb_handler", _wrap_python_get_address_type_cb_handler, METH_VARARGS, NULL},
 	 { (char *)"python_input_point_cb_handler", _wrap_python_input_point_cb_handler, METH_VARARGS, NULL},
 	 { (char *)"python_index_list_cb_handler", _wrap_python_index_list_cb_handler, METH_VARARGS, NULL},
+	 { (char *)"python_version_type_cb_handler", _wrap_python_version_type_cb_handler, METH_VARARGS, NULL},
+	 { (char *)"python_verack_type_cb_handler", _wrap_python_verack_type_cb_handler, METH_VARARGS, NULL},
+	 { (char *)"python_inventory_type_cb_handler", _wrap_python_inventory_type_cb_handler, METH_VARARGS, NULL},
+	 { (char *)"python_get_data_type_cb_handler", _wrap_python_get_data_type_cb_handler, METH_VARARGS, NULL},
+	 { (char *)"python_get_blocks_type_cb_handler", _wrap_python_get_blocks_type_cb_handler, METH_VARARGS, NULL},
 	 { (char *)"python_cb_handler", _wrap_python_cb_handler, METH_VARARGS, NULL},
 	 { (char *)"python_size_t_cb_handler", _wrap_python_size_t_cb_handler, METH_VARARGS, NULL},
 	 { (char *)"python_channel_cb_handler", _wrap_python_channel_cb_handler, METH_VARARGS, NULL},
@@ -29731,12 +36555,15 @@ static swig_type_info _swigt__p_fetch_handler_transaction = {"_p_fetch_handler_t
 static swig_type_info _swigt__p_fetch_handler_transaction_index = {"_p_fetch_handler_transaction_index", "fetch_handler_transaction_index *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fetch_network_address_handler = {"_p_fetch_network_address_handler", "fetch_network_address_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_get_address_type = {"_p_get_address_type", "get_address_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_get_blocks_type = {"_p_get_blocks_type", "get_blocks_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_get_data_type = {"_p_get_data_type", "get_data_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_handshake_handler = {"_p_handshake_handler", "handshake_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_import_block_handler = {"_p_import_block_handler", "import_block_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_index_list = {"_p_index_list", "index_list *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_input_point = {"_p_input_point", "input_point *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int = {"_p_int", "intptr_t *|int *|int_least32_t *|int_fast32_t *|int32_t *|int_fast16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_inventory_list = {"_p_inventory_list", "inventory_list *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_inventory_type = {"_p_inventory_type", "inventory_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_inventory_type_id = {"_p_inventory_type_id", "inventory_type_id *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_io_service = {"_p_io_service", "io_service *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_libbitcoin__acceptor = {"_p_libbitcoin__acceptor", "libbitcoin::acceptor *", 0, 0, (void*)0, 0};
@@ -29755,10 +36582,10 @@ static swig_type_info _swigt__p_libbitcoin__get_blocks_type = {"_p_libbitcoin__g
 static swig_type_info _swigt__p_libbitcoin__handshake = {"_p_libbitcoin__handshake", "libbitcoin::handshake *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_libbitcoin__header_type = {"_p_libbitcoin__header_type", "libbitcoin::header_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_libbitcoin__hosts = {"_p_libbitcoin__hosts", "libbitcoin::hosts *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_libbitcoin__inventory_vector_type = {"_p_libbitcoin__inventory_vector_type", "libbitcoin::inventory_vector_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_libbitcoin__inventory_vector_type = {"_p_libbitcoin__inventory_vector_type", "libbitcoin::inventory_vector_type *|std::vector< libbitcoin::inventory_vector_type >::value_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_libbitcoin__leveldb_blockchain = {"_p_libbitcoin__leveldb_blockchain", "libbitcoin::leveldb_blockchain *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_libbitcoin__network = {"_p_libbitcoin__network", "libbitcoin::network *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_libbitcoin__network_address_type = {"_p_libbitcoin__network_address_type", "libbitcoin::network_address_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_libbitcoin__network_address_type = {"_p_libbitcoin__network_address_type", "libbitcoin::network_address_type *|std::vector< libbitcoin::network_address_type >::value_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_libbitcoin__node_address = {"_p_libbitcoin__node_address", "libbitcoin::node_address *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_libbitcoin__operation = {"_p_libbitcoin__operation", "libbitcoin::operation *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_libbitcoin__output_point = {"_p_libbitcoin__output_point", "std::vector< libbitcoin::input_point >::value_type *|libbitcoin::output_point *|libbitcoin::input_point *", 0, 0, (void*)0, 0};
@@ -29805,14 +36632,17 @@ static swig_type_info _swigt__p_short = {"_p_short", "short *|int_least16_t *|in
 static swig_type_info _swigt__p_signed_char = {"_p_signed_char", "signed char *|int_least8_t *|int_fast8_t *|int8_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_size_type = {"_p_size_type", "size_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_start_handler = {"_p_start_handler", "start_handler *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_libbitcoin__inventory_vector_type_t = {"_p_std__allocatorT_libbitcoin__inventory_vector_type_t", "std::vector< libbitcoin::inventory_vector_type >::allocator_type *|std::allocator< libbitcoin::inventory_vector_type > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_libbitcoin__network_address_type_t = {"_p_std__allocatorT_libbitcoin__network_address_type_t", "std::vector< libbitcoin::network_address_type >::allocator_type *|std::allocator< libbitcoin::network_address_type > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_libbitcoin__output_point_t = {"_p_std__allocatorT_libbitcoin__output_point_t", "std::vector< libbitcoin::input_point >::allocator_type *|std::allocator< libbitcoin::output_point > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_libbitcoin__transaction_input_type_t = {"_p_std__allocatorT_libbitcoin__transaction_input_type_t", "std::allocator< libbitcoin::transaction_input_type > *|std::vector< libbitcoin::transaction_input_type >::allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_libbitcoin__transaction_output_type_t = {"_p_std__allocatorT_libbitcoin__transaction_output_type_t", "std::allocator< libbitcoin::transaction_output_type > *|std::vector< libbitcoin::transaction_output_type >::allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_libbitcoin__transaction_type_t = {"_p_std__allocatorT_libbitcoin__transaction_type_t", "std::allocator< libbitcoin::transaction_type > *|std::vector< libbitcoin::transaction_type >::allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_size_t_t = {"_p_std__allocatorT_size_t_t", "std::vector< size_t >::allocator_type *|std::allocator< size_t > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_std__arrayT_unsigned_char_32_t_t = {"_p_std__allocatorT_std__arrayT_unsigned_char_32_t_t", "std::allocator< std::array< unsigned char,32 > > *|std::vector< libbitcoin::hash_digest >::allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__arrayT_unsigned_char_16_t = {"_p_std__arrayT_unsigned_char_16_t", "libbitcoin::ip_address_type *|std::array< unsigned char,16 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__arrayT_unsigned_char_20_t = {"_p_std__arrayT_unsigned_char_20_t", "libbitcoin::short_hash *|std::array< unsigned char,20 > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__arrayT_unsigned_char_32_t = {"_p_std__arrayT_unsigned_char_32_t", "libbitcoin::secret_parameter *|libbitcoin::hash_digest *|std::array< unsigned char,32 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__arrayT_unsigned_char_32_t = {"_p_std__arrayT_unsigned_char_32_t", "libbitcoin::secret_parameter *|std::vector< libbitcoin::hash_digest >::value_type *|libbitcoin::hash_digest *|std::array< unsigned char,32 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__atomicT_size_t_t = {"_p_std__atomicT_size_t_t", "std::atomic< size_t > *|libbitcoin::atomic_counter *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__error_code = {"_p_std__error_code", "std::error_code *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__error_condition = {"_p_std__error_condition", "std::error_condition *", 0, 0, (void*)0, 0};
@@ -29852,15 +36682,17 @@ static swig_type_info _swigt__p_std__shared_ptrT_std__atomicT_size_t_t_t = {"_p_
 static swig_type_info _swigt__p_std__shared_ptrT_tcp__acceptor_t = {"_p_std__shared_ptrT_tcp__acceptor_t", "std::shared_ptr< tcp::acceptor > *|libbitcoin::acceptor::tcp_acceptor_ptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__shared_ptrT_tcp__socket_t = {"_p_std__shared_ptrT_tcp__socket_t", "std::shared_ptr< tcp::socket > *|libbitcoin::socket_ptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT__Tp__Alloc_t = {"_p_std__vectorT__Tp__Alloc_t", "std::vector< _Tp,_Alloc > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t = {"_p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t", "std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *|std::vector< libbitcoin::hash_digest > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_libbitcoin__input_point_std__allocatorT_libbitcoin__input_point_t_t = {"_p_std__vectorT_libbitcoin__input_point_std__allocatorT_libbitcoin__input_point_t_t", "std::vector< libbitcoin::input_point,std::allocator< libbitcoin::input_point > > *|std::vector< libbitcoin::input_point > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t = {"_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t", "std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *|libbitcoin::inventory_list *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t = {"_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t", "std::vector< libbitcoin::inventory_vector_type,std::allocator< libbitcoin::inventory_vector_type > > *|libbitcoin::inventory_list *|std::vector< libbitcoin::inventory_vector_type > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t = {"_p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t", "std::vector< libbitcoin::network_address_type,std::allocator< libbitcoin::network_address_type > > *|std::vector< libbitcoin::network_address_type > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_libbitcoin__operation_std__allocatorT_libbitcoin__operation_t_t = {"_p_std__vectorT_libbitcoin__operation_std__allocatorT_libbitcoin__operation_t_t", "libbitcoin::operation_stack *|std::vector< libbitcoin::operation,std::allocator< libbitcoin::operation > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t = {"_p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t", "std::vector< libbitcoin::input_point,std::allocator< libbitcoin::input_point > > *|std::vector< libbitcoin::output_point,std::allocator< libbitcoin::output_point > > *|libbitcoin::input_point_list *|libbitcoin::output_point_list *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t = {"_p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t", "libbitcoin::transaction_input_list *|std::vector< libbitcoin::transaction_input_type,std::allocator< libbitcoin::transaction_input_type > > *|std::vector< libbitcoin::transaction_input_type > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_libbitcoin__transaction_output_type_std__allocatorT_libbitcoin__transaction_output_type_t_t = {"_p_std__vectorT_libbitcoin__transaction_output_type_std__allocatorT_libbitcoin__transaction_output_type_t_t", "std::vector< libbitcoin::transaction_output_type,std::allocator< libbitcoin::transaction_output_type > > *|libbitcoin::transaction_output_list *|std::vector< libbitcoin::transaction_output_type > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_libbitcoin__transaction_type_std__allocatorT_libbitcoin__transaction_type_t_t = {"_p_std__vectorT_libbitcoin__transaction_type_std__allocatorT_libbitcoin__transaction_type_t_t", "libbitcoin::transaction_list *|std::vector< libbitcoin::transaction_type,std::allocator< libbitcoin::transaction_type > > *|std::vector< libbitcoin::transaction_type > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_size_t_std__allocatorT_size_t_t_t = {"_p_std__vectorT_size_t_std__allocatorT_size_t_t_t", "std::vector< size_t,std::allocator< size_t > > *|libbitcoin::index_list *|std::vector< size_t > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t = {"_p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t", "libbitcoin::block_locator_type *|std::vector< std::array< unsigned char,32 >,std::allocator< std::array< unsigned char,32 > > > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t = {"_p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t", "libbitcoin::block_locator_type *|std::vector< libbitcoin::hash_digest,std::allocator< libbitcoin::hash_digest > > *|std::vector< std::array< unsigned char,32 >,std::allocator< std::array< unsigned char,32 > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t = {"_p_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t", "libbitcoin::private_data *|std::vector< unsigned char,std::allocator< unsigned char > > *|libbitcoin::data_chunk *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_stop_handler = {"_p_stop_handler", "stop_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_store_block_handler = {"_p_store_block_handler", "store_block_handler *", 0, 0, (void*)0, 0};
@@ -29873,6 +36705,8 @@ static swig_type_info _swigt__p_unsigned_int = {"_p_unsigned_int", "uintptr_t *|
 static swig_type_info _swigt__p_unsigned_long_long = {"_p_unsigned_long_long", "uint_least64_t *|uint_fast64_t *|uint64_t *|unsigned long long *|uintmax_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_unsigned_short = {"_p_unsigned_short", "unsigned short *|uint_least16_t *|uint16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_value_type = {"_p_value_type", "value_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_verack_type = {"_p_verack_type", "verack_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_version_type = {"_p_version_type", "version_type *", 0, 0, (void*)0, 0};
 
 static swig_type_info *swig_type_initial[] = {
   &_swigt__p_accept_handler,
@@ -29907,12 +36741,15 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_fetch_handler_transaction_index,
   &_swigt__p_fetch_network_address_handler,
   &_swigt__p_get_address_type,
+  &_swigt__p_get_blocks_type,
+  &_swigt__p_get_data_type,
   &_swigt__p_handshake_handler,
   &_swigt__p_import_block_handler,
   &_swigt__p_index_list,
   &_swigt__p_input_point,
   &_swigt__p_int,
   &_swigt__p_inventory_list,
+  &_swigt__p_inventory_type,
   &_swigt__p_inventory_type_id,
   &_swigt__p_io_service,
   &_swigt__p_libbitcoin__acceptor,
@@ -29981,11 +36818,14 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_signed_char,
   &_swigt__p_size_type,
   &_swigt__p_start_handler,
+  &_swigt__p_std__allocatorT_libbitcoin__inventory_vector_type_t,
+  &_swigt__p_std__allocatorT_libbitcoin__network_address_type_t,
   &_swigt__p_std__allocatorT_libbitcoin__output_point_t,
   &_swigt__p_std__allocatorT_libbitcoin__transaction_input_type_t,
   &_swigt__p_std__allocatorT_libbitcoin__transaction_output_type_t,
   &_swigt__p_std__allocatorT_libbitcoin__transaction_type_t,
   &_swigt__p_std__allocatorT_size_t_t,
+  &_swigt__p_std__allocatorT_std__arrayT_unsigned_char_32_t_t,
   &_swigt__p_std__arrayT_unsigned_char_16_t,
   &_swigt__p_std__arrayT_unsigned_char_20_t,
   &_swigt__p_std__arrayT_unsigned_char_32_t,
@@ -30028,8 +36868,10 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__shared_ptrT_tcp__acceptor_t,
   &_swigt__p_std__shared_ptrT_tcp__socket_t,
   &_swigt__p_std__vectorT__Tp__Alloc_t,
+  &_swigt__p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t,
   &_swigt__p_std__vectorT_libbitcoin__input_point_std__allocatorT_libbitcoin__input_point_t_t,
   &_swigt__p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t,
+  &_swigt__p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t,
   &_swigt__p_std__vectorT_libbitcoin__operation_std__allocatorT_libbitcoin__operation_t_t,
   &_swigt__p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t,
   &_swigt__p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t,
@@ -30049,6 +36891,8 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_unsigned_long_long,
   &_swigt__p_unsigned_short,
   &_swigt__p_value_type,
+  &_swigt__p_verack_type,
+  &_swigt__p_version_type,
 };
 
 static swig_cast_info _swigc__p_accept_handler[] = {  {&_swigt__p_accept_handler, 0, 0, 0},{0, 0, 0, 0}};
@@ -30083,12 +36927,15 @@ static swig_cast_info _swigc__p_fetch_handler_transaction[] = {  {&_swigt__p_fet
 static swig_cast_info _swigc__p_fetch_handler_transaction_index[] = {  {&_swigt__p_fetch_handler_transaction_index, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fetch_network_address_handler[] = {  {&_swigt__p_fetch_network_address_handler, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_get_address_type[] = {  {&_swigt__p_get_address_type, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_get_blocks_type[] = {  {&_swigt__p_get_blocks_type, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_get_data_type[] = {  {&_swigt__p_get_data_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_handshake_handler[] = {  {&_swigt__p_handshake_handler, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_import_block_handler[] = {  {&_swigt__p_import_block_handler, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_index_list[] = {  {&_swigt__p_index_list, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_input_point[] = {  {&_swigt__p_input_point, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_inventory_list[] = {  {&_swigt__p_inventory_list, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_inventory_type[] = {  {&_swigt__p_inventory_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_inventory_type_id[] = {  {&_swigt__p_inventory_type_id, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_io_service[] = {  {&_swigt__p_io_service, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_libbitcoin__acceptor[] = {  {&_swigt__p_libbitcoin__acceptor, 0, 0, 0},{0, 0, 0, 0}};
@@ -30157,11 +37004,14 @@ static swig_cast_info _swigc__p_short[] = {  {&_swigt__p_short, 0, 0, 0},{0, 0, 
 static swig_cast_info _swigc__p_signed_char[] = {  {&_swigt__p_signed_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_start_handler[] = {  {&_swigt__p_start_handler, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_libbitcoin__inventory_vector_type_t[] = {  {&_swigt__p_std__allocatorT_libbitcoin__inventory_vector_type_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_libbitcoin__network_address_type_t[] = {  {&_swigt__p_std__allocatorT_libbitcoin__network_address_type_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_libbitcoin__output_point_t[] = {  {&_swigt__p_std__allocatorT_libbitcoin__output_point_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_libbitcoin__transaction_input_type_t[] = {  {&_swigt__p_std__allocatorT_libbitcoin__transaction_input_type_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_libbitcoin__transaction_output_type_t[] = {  {&_swigt__p_std__allocatorT_libbitcoin__transaction_output_type_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_libbitcoin__transaction_type_t[] = {  {&_swigt__p_std__allocatorT_libbitcoin__transaction_type_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_size_t_t[] = {  {&_swigt__p_std__allocatorT_size_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_std__arrayT_unsigned_char_32_t_t[] = {  {&_swigt__p_std__allocatorT_std__arrayT_unsigned_char_32_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__arrayT_unsigned_char_16_t[] = {  {&_swigt__p_std__arrayT_unsigned_char_16_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__arrayT_unsigned_char_20_t[] = {  {&_swigt__p_std__arrayT_unsigned_char_20_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__arrayT_unsigned_char_32_t[] = {  {&_swigt__p_std__arrayT_unsigned_char_32_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -30204,8 +37054,10 @@ static swig_cast_info _swigc__p_std__shared_ptrT_std__atomicT_size_t_t_t[] = {  
 static swig_cast_info _swigc__p_std__shared_ptrT_tcp__acceptor_t[] = {  {&_swigt__p_std__shared_ptrT_tcp__acceptor_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__shared_ptrT_tcp__socket_t[] = {  {&_swigt__p_std__shared_ptrT_tcp__socket_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT__Tp__Alloc_t[] = {  {&_swigt__p_std__vectorT__Tp__Alloc_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t[] = {  {&_swigt__p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_libbitcoin__input_point_std__allocatorT_libbitcoin__input_point_t_t[] = {  {&_swigt__p_std__vectorT_libbitcoin__input_point_std__allocatorT_libbitcoin__input_point_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t[] = {  {&_swigt__p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t[] = {  {&_swigt__p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_libbitcoin__operation_std__allocatorT_libbitcoin__operation_t_t[] = {  {&_swigt__p_std__vectorT_libbitcoin__operation_std__allocatorT_libbitcoin__operation_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t[] = {  {&_swigt__p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t[] = {  {&_swigt__p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -30225,6 +37077,8 @@ static swig_cast_info _swigc__p_unsigned_int[] = {  {&_swigt__p_unsigned_int, 0,
 static swig_cast_info _swigc__p_unsigned_long_long[] = {  {&_swigt__p_unsigned_long_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_unsigned_short[] = {  {&_swigt__p_unsigned_short, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_value_type[] = {  {&_swigt__p_value_type, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_verack_type[] = {  {&_swigt__p_verack_type, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_version_type[] = {  {&_swigt__p_version_type, 0, 0, 0},{0, 0, 0, 0}};
 
 static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_accept_handler,
@@ -30259,12 +37113,15 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_fetch_handler_transaction_index,
   _swigc__p_fetch_network_address_handler,
   _swigc__p_get_address_type,
+  _swigc__p_get_blocks_type,
+  _swigc__p_get_data_type,
   _swigc__p_handshake_handler,
   _swigc__p_import_block_handler,
   _swigc__p_index_list,
   _swigc__p_input_point,
   _swigc__p_int,
   _swigc__p_inventory_list,
+  _swigc__p_inventory_type,
   _swigc__p_inventory_type_id,
   _swigc__p_io_service,
   _swigc__p_libbitcoin__acceptor,
@@ -30333,11 +37190,14 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_signed_char,
   _swigc__p_size_type,
   _swigc__p_start_handler,
+  _swigc__p_std__allocatorT_libbitcoin__inventory_vector_type_t,
+  _swigc__p_std__allocatorT_libbitcoin__network_address_type_t,
   _swigc__p_std__allocatorT_libbitcoin__output_point_t,
   _swigc__p_std__allocatorT_libbitcoin__transaction_input_type_t,
   _swigc__p_std__allocatorT_libbitcoin__transaction_output_type_t,
   _swigc__p_std__allocatorT_libbitcoin__transaction_type_t,
   _swigc__p_std__allocatorT_size_t_t,
+  _swigc__p_std__allocatorT_std__arrayT_unsigned_char_32_t_t,
   _swigc__p_std__arrayT_unsigned_char_16_t,
   _swigc__p_std__arrayT_unsigned_char_20_t,
   _swigc__p_std__arrayT_unsigned_char_32_t,
@@ -30380,8 +37240,10 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__shared_ptrT_tcp__acceptor_t,
   _swigc__p_std__shared_ptrT_tcp__socket_t,
   _swigc__p_std__vectorT__Tp__Alloc_t,
+  _swigc__p_std__vectorT_libbitcoin__hash_digest_std__allocatorT_libbitcoin__hash_digest_t_t,
   _swigc__p_std__vectorT_libbitcoin__input_point_std__allocatorT_libbitcoin__input_point_t_t,
   _swigc__p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t,
+  _swigc__p_std__vectorT_libbitcoin__network_address_type_std__allocatorT_libbitcoin__network_address_type_t_t,
   _swigc__p_std__vectorT_libbitcoin__operation_std__allocatorT_libbitcoin__operation_t_t,
   _swigc__p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t,
   _swigc__p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t,
@@ -30401,6 +37263,8 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_unsigned_long_long,
   _swigc__p_unsigned_short,
   _swigc__p_value_type,
+  _swigc__p_verack_type,
+  _swigc__p_version_type,
 };
 
 
