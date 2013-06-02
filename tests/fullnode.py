@@ -36,7 +36,7 @@ class fullnode(object):
         print "[fullnode.start] ok"
 
     def stop(self):
-        self._session.stop(None)
+        self._session.stop(self.on_session_stop)
         self._net_pool.stop()
         self._disk_pool.stop()
         self._mem_pool.join()
@@ -48,28 +48,29 @@ class fullnode(object):
     def on_chain_start(self, ec):
         print "[fullnode.chain] started", ec
 
+    def on_session_stop(self, ec):
+        print "[fullnode.session] stopped", ec
+
     def on_session_start(self, ec):
         print "[fullnode.session] started", ec
         if ec:
-            print "error"
             self.stop()
             sys.exit(1)
 
     def monitor_tx(self, node):
-        print "(fullnode.tx)", node, node.__class__, dir(node)
+        print "(fullnode.tx)", node
         node.subscribe_transaction(lambda tx, ec=None: self.recv_tx(node, tx, ec))
         self._protocol.subscribe_channel(self.monitor_tx)
 
-    def recv_tx(self, node, tx, ec=None):
+    def recv_tx(self, node, tx, ec):
         print "(fullnode.recv_tx)", ec, tx
         if ec:
             print "error", ec
             return
         def handle_confirm(ec=None):
-            print "error", ec
-        self._txpool.store(tx, handle_confirm, lambda u, ec: self.new_unconfirm_valid_tx(node, tx, u, ec))
-        # XXX Following runs into an infinite loop if we use it like this
-        #node.subscribe_transaction(lambda tx, ec=None: self.recv_tx(node, tx, ec))
+            print "store confirm", ec
+        self._txpool.store(tx, handle_confirm, lambda u, _ec: self.new_unconfirm_valid_tx(node, tx, u, _ec))
+        node.subscribe_transaction(lambda _tx, _ec: self.recv_tx(node, _tx, _ec))
 
     def new_unconfirm_valid_tx(self, node, tx, unconfirmed, ec):
         print "(fullnode.valid_tx)", ec, tx, unconfirmed
