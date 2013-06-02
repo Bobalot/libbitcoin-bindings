@@ -20,9 +20,24 @@ CB_TYPEMAP1(libbitcoin::transaction_type, transaction_type)
 /* channel.subscribe_address */
 CB_TYPEMAP1(address_type, address_type)
 /* channel.subscribe_get_address */
-CB_TYPEMAP1(get_address_type, address_type)
-/* blockchain.fetch_block_depth */
-/* blockchain.fetch_last_depth */
+CB_TYPEMAP1(get_address_type, get_address_type)
+/* channel.subscribe_version(receive_version_handler */
+/* channel.subscribe_veack(receive_version_handler */
+CB_TYPEMAP1(version_type, version_type)
+CB_TYPEMAP1(verack_type, verack_type)
+/* channel.subscribe_inventory */
+CB_TYPEMAP1(inventory_type, inventory_type)
+/* channel.subscribe_get_data */
+CB_TYPEMAP1(get_data_type, get_data_type)
+/* channel.subscribe_get_blocks */
+CB_TYPEMAP1(get_blocks_type, get_blocks_type)
+/* channel.subscribe_block */
+CB_TYPEMAP1(block_type, block_type)
+/*
+ TODO channel.subscribe_raw(receive_raw_handler
+*/
+/* TODO blockchain.fetch_block_depth */
+/* TODO blockchain.fetch_last_depth */
 CB_TYPEMAP1(size_t, size_t)
 
 

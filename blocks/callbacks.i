@@ -63,6 +63,13 @@ CB_HANDLER_NONS(get_address_type, SWIGTYPE_p_get_address_type)
 CB_HANDLER_NONS(input_point, SWIGTYPE_p_input_point)
 CB_HANDLER_NONS(index_list, SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t)
 
+/* channel.subscribe_XX */
+CB_HANDLER_NONS(version_type, SWIGTYPE_p_version_type)
+CB_HANDLER_NONS(verack_type, SWIGTYPE_p_verack_type)
+CB_HANDLER_NONS(inventory_type, SWIGTYPE_p_inventory_type)
+CB_HANDLER_NONS(get_data_type, SWIGTYPE_p_get_data_type)
+CB_HANDLER_NONS(get_blocks_type, SWIGTYPE_p_get_blocks_type)
+
 /*
 */
 
