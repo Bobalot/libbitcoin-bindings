@@ -31,6 +31,7 @@ using std::placeholders::_2;
 %apply libbitcoin::channel & { libbitcoin::channel * };
 %apply libbitcoin::transaction_type & { libbitcoin::transaction_type * };
 %apply libbitcoin::handshake & { libbitcoin::handshake * };
+%apply libbitcoin::script & { libbitcoin::script * };
 
 %include "blocks/pre.i"
 %include "blocks/callbacks.i"
@@ -40,6 +41,7 @@ namespace libbitcoin {
     typedef std::vector<size_t> index_list;
 }
 %include "modules/error_code.i"
+%include "modules/script.i"
 %include "modules/primitives.i"
 
 %include "modules/threadpool.i"
