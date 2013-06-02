@@ -68,6 +68,7 @@ class fullnode(object):
         def handle_confirm(ec=None):
             print "error", ec
         self._txpool.store(tx, handle_confirm, lambda u, ec=None: self.new_unconfirm_valid_tx(node, tx, u, ec))
+        # XXX Following runs into an infinite loop if we use it like this
         #node.subscribe_transaction(lambda tx, ec=None: self.recv_tx(node, tx, ec))
 
     def new_unconfirm_valid_tx(self, node, tx, unconfirmed, ec=None):
