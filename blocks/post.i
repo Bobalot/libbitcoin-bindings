@@ -11,3 +11,15 @@
                 self->fetch_block_header(depth, std::bind(python_block_type_cb_handler, pyfunc, _1, _2));
         }
 }
+%extend std::error_code {
+%pythoncode {
+        def __str__(self):
+            return "error_code(%d, '%s')" % (self.value(), self.message())
+        def __int__(self):
+            return self.value()
+        def __nonzero__(self):
+            return self.value() != 0
+        def __bool__(self):
+            return self.__nonzero__
+%}
+}

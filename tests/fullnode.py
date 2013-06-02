@@ -45,11 +45,11 @@ class fullnode(object):
         self._chain.stop()
         print "[fullnode.stop] ok"
 
-    def on_chain_start(self, ec=None):
-        print "[fullnode.chain] started"
+    def on_chain_start(self, ec):
+        print "[fullnode.chain] started", ec
 
-    def on_session_start(self, ec=None):
-        print "[fullnode.session] started"
+    def on_session_start(self, ec):
+        print "[fullnode.session] started", ec
         if ec:
             print "error"
             self.stop()
@@ -63,19 +63,19 @@ class fullnode(object):
     def recv_tx(self, node, tx, ec=None):
         print "(fullnode.recv_tx)", ec, tx
         if ec:
-            print "error"
+            print "error", ec
             return
         def handle_confirm(ec=None):
             print "error", ec
-        self._txpool.store(tx, handle_confirm, lambda u, ec=None: self.new_unconfirm_valid_tx(node, tx, u, ec))
+        self._txpool.store(tx, handle_confirm, lambda u, ec: self.new_unconfirm_valid_tx(node, tx, u, ec))
         # XXX Following runs into an infinite loop if we use it like this
         #node.subscribe_transaction(lambda tx, ec=None: self.recv_tx(node, tx, ec))
 
-    def new_unconfirm_valid_tx(self, node, tx, unconfirmed, ec=None):
+    def new_unconfirm_valid_tx(self, node, tx, unconfirmed, ec):
         print "(fullnode.valid_tx)", ec, tx, unconfirmed
         tx_hash = hash_transaction(tx)
         if ec:
-            print "Error"
+            print "Error", ec
         else:
             print "Accepted transaction"
             print unconfirmed.__class__

@@ -1,45 +1,52 @@
-
-%typemap(in) std::function<void (const std::error_code, const libbitcoin::block_type)> {
+%define CB_BLOCKCHAIN_TYPEMAP(handler, type)
+%typemap(in) libbitcoin::blockchain::fetch_handler_ ## handler {
     Py_INCREF($input);
-    $1 = std::bind(python_block_type_cb_handler, $input, _1, _2);
+    $1 = std::bind(python_ ## type ## _cb_handler, $input, _1, _2);
 }
+%enddef
+
+%define CB_TYPEMAP1(handler, type)
+%typemap(in) std::function<void (const std::error_code&, const handler&)> {
+    Py_INCREF($input);
+    $1 = std::bind(python_ ## type ## _cb_handler, $input, _1, _2);
+}
+%enddef
 
 /* txpool.store */
-%typemap(in) std::function<void (const std::error_code&, const libbitcoin::index_list&)> {
-    Py_INCREF($input);
-    $1 = std::bind(python_index_list_cb_handler, $input, _1, _2);
-}
+CB_TYPEMAP1(libbitcoin::index_list, index_list)
+/* node.subscribe_transaction
+   blockchain.fetch_transaction */
+CB_TYPEMAP1(libbitcoin::transaction_type, transaction_type)
+/* channel.subscribe_address */
+CB_TYPEMAP1(address_type, address_type)
+/* channel.subscribe_get_address */
+CB_TYPEMAP1(get_address_type, address_type)
+/* blockchain.fetch_block_depth */
+/* blockchain.fetch_last_depth */
+CB_TYPEMAP1(size_t, size_t)
 
-
-/* node.subscribe_transaction */
-%typemap(in) std::function<void (const std::error_code&, const libbitcoin::transaction_type&)> {
-    Py_INCREF($input);
-    $1 = std::bind(python_transaction_type_cb_handler, $input, _1, _2);
-}
 
 %typemap(in) std::function<void (std::shared_ptr< libbitcoin::channel >)> {
     Py_INCREF($input);
     $1 = std::bind(python_channel_cb_handler, $input, _1);
 }
 
-/* channel.subscribe_address */
-%typemap(in) std::function<void (const std::error_code&, const address_type&)> {
-    Py_INCREF($input);
-    $1 = std::bind(python_address_type_cb_handler, $input, _1, _2);
-}
+/* Blockchain */
+/* blockchain.fetch_block_transaction_hashes */
+CB_BLOCKCHAIN_TYPEMAP(block_transaction_hashes, inventory_list)
+CB_BLOCKCHAIN_TYPEMAP(block_locator, block_locator)
+/* blockchain.fetch_block_header */
+CB_BLOCKCHAIN_TYPEMAP(block_header, block_type)
+/* blockchain.fetch_spend */
+CB_BLOCKCHAIN_TYPEMAP(spend, input_point)
+/* blockchain.fetch_outputs */
+CB_BLOCKCHAIN_TYPEMAP(outputs, output_point_list)
 
-/* channel.subscribe_get_address */
-%typemap(in) std::function<void (const std::error_code&, const get_address_type&)> {
-    Py_INCREF($input);
-    $1 = std::bind(python_get_address_type_cb_handler, $input, _1, _2);
-}
+/* MISSING: */
+/* TODO blockchain.fetch_transaction_index */
+/* TODO blockchain.subscribe_reorganize */
 
-
-%typemap(in) libbitcoin::blockchain::fetch_handler_block_header {
-    Py_INCREF($input);
-    $1 = std::bind(python_block_type_cb_handler, $input, _1, _2);
-}
-
+/* Error codes */
 %typemap(in) std::function<void (const std::error_code)> {
     Py_INCREF($input);
     $1 = std::bind(python_cb_handler, $input, _1);
