@@ -4,6 +4,19 @@
     $1 = std::bind(python_block_type_cb_handler, $input, _1, _2);
 }
 
+/* txpool.store */
+%typemap(in) std::function<void (const std::error_code&, const libbitcoin::index_list&)> {
+    Py_INCREF($input);
+    $1 = std::bind(python_index_list_cb_handler, $input, _1, _2);
+}
+
+
+/* node.subscribe_transaction */
+%typemap(in) std::function<void (const std::error_code&, const libbitcoin::transaction_type&)> {
+    Py_INCREF($input);
+    $1 = std::bind(python_transaction_type_cb_handler, $input, _1, _2);
+}
+
 %typemap(in) std::function<void (std::shared_ptr< libbitcoin::channel >)> {
     Py_INCREF($input);
     $1 = std::bind(python_channel_cb_handler, $input, _1);

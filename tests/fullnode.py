@@ -2,6 +2,7 @@ import sys
 
 from bitcoin import threadpool, hosts, handshake, network, protocol, session
 from bitcoin import leveldb_blockchain, poller, transaction_pool, create_session_params
+from bitcoin import hash_transaction
 import time
 
 class fullnode(object):
@@ -25,57 +26,58 @@ class fullnode(object):
 				     self._poller,
 				     self._txpool)
         self._session = session(self._net_pool, pars)
-        print "[fullnode.__init__] OK"
+        print "[fullnode] ok"
 
     def start(self):
         self._protocol.subscribe_channel(self.monitor_tx)
         self._chain.start('database', self.on_chain_start)
         self._txpool.start()
         self._session.start(self.on_session_start)
-        print "[fullnode.start] OK"
+        print "[fullnode.start] ok"
 
     def stop(self):
-        self._session.stop()
+        self._session.stop(None)
         self._net_pool.stop()
         self._disk_pool.stop()
         self._mem_pool.join()
         self._disk_pool.join()
         self._mem_pool.join()
         self._chain.stop()
-        print "[fullnode.stop] OK"
+        print "[fullnode.stop] ok"
 
     def on_chain_start(self, ec=None):
-        print "[chain] started"
+        print "[fullnode.chain] started"
 
     def on_session_start(self, ec=None):
-        print "[session] started"
+        print "[fullnode.session] started"
         if ec:
             print "error"
             self.stop()
             sys.exit(1)
 
     def monitor_tx(self, node):
-        print "[tx]", node
-        self._node.subscribe_transaction(self.recv_tx)
-        self._node.subscribe_channel(self.monitor_tx)
+        print "(fullnode.tx)", node, node.__class__, dir(node)
+        node.subscribe_transaction(lambda tx, ec=None: self.recv_tx(node, tx, ec))
+        self._protocol.subscribe_channel(self.monitor_tx)
 
-    def recv_tx(self, ec, tx):
-        print "[recv_tx]", ec, tx
+    def recv_tx(self, node, tx, ec=None):
+        print "(fullnode.recv_tx)", ec, tx
         if ec:
             print "error"
             return
         def handle_confirm(ec=None):
             print "error", ec
-        self._txpool.store(tx, handle_confirm, self.new_unconfirm_valid_tx)
-        self._node.subscribe_transaction(self.recv_tx)
+        self._txpool.store(tx, handle_confirm, lambda u, ec=None: self.new_unconfirm_valid_tx(node, tx, u, ec))
+        #node.subscribe_transaction(lambda tx, ec=None: self.recv_tx(node, tx, ec))
 
-    def new_unconfirm_valid_tx(self, ec, unconfirmed):
-        print "[valid_tx]", ec, tx
+    def new_unconfirm_valid_tx(self, node, tx, unconfirmed, ec=None):
+        print "(fullnode.valid_tx)", ec, tx, unconfirmed
         tx_hash = hash_transaction(tx)
         if ec:
             print "Error"
         else:
             print "Accepted transaction"
+            print unconfirmed.__class__
             if not unconfirmed.empty():
                print "Unconfirmed"
                for idx in unconfirmed: 

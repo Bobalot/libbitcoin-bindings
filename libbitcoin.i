@@ -22,26 +22,36 @@ using std::placeholders::_2;
 
 %ignore libbitcoin::hosts::hosts(threadpool &,size_t);
 
+%include "blocks/typemaps.i"
+%include "blocks/templates.i"
+
 %apply libbitcoin::threadpool & { libbitcoin::threadpool * };
 %apply libbitcoin::blockchain & { libbitcoin::blockchain * };
 %apply libbitcoin::leveldb_blockchain & { libbitcoin::leveldb_blockchain * };
+%apply libbitcoin::channel & { libbitcoin::channel * };
+%apply libbitcoin::transaction_type & { libbitcoin::transaction_type * };
+%apply libbitcoin::handshake & { libbitcoin::handshake * };
 
-%include "blocks/typemaps.i"
-%include "blocks/templates.i"
 %include "blocks/pre.i"
+%include "blocks/callbacks.i"
 
 %include "bitcoin/types.hpp"
+namespace libbitcoin {
+    typedef std::vector<size_t> index_list;
+}
+%include "modules/error_code.i"
 %include "modules/primitives.i"
 
 %include "modules/threadpool.i"
 /* Header files we want to wrap */
 %include "modules/hosts.i"
 %include "modules/handshake.i"
-%apply libbitcoin::handshake & { libbitcoin::handshake * };
 %include "modules/network.i"
 %include "modules/channel.i"
-typedef std::shared_ptr<channel> channel_ptr;
-%template(py_channel_ptr) std::shared_ptr<channel>;
+
+typedef std::shared_ptr<libbitcoin::channel> channel_ptr;
+%template(py_channel_ptr) std::shared_ptr<libbitcoin::channel>;
+
 %include "modules/protocol.i"
 %include "bitcoin/utility/elliptic_curve_key.hpp"
 

@@ -1,6 +1,3 @@
-#ifndef LIBBITCOIN_NET_CHANNEL_HPP
-#define LIBBITCOIN_NET_CHANNEL_HPP
-
 #include <boost/asio.hpp>
 #include <boost/array.hpp>
 #include <boost/utility.hpp>
@@ -101,7 +98,7 @@ private:
 };
 
 class channel_proxy
-  : public std::enable_shared_from_this<channel_proxy>
+  /*: public std::enable_shared_from_this<channel_proxy>*/
 {
 public:
     typedef std::function<void (const std::error_code&)> send_handler;
@@ -190,7 +187,8 @@ public:
     void subscribe_inventory(receive_inventory_handler handle_receive);
     void subscribe_get_data(receive_get_data_handler handle_receive);
     void subscribe_get_blocks(receive_get_blocks_handler handle_receive);
-    void subscribe_transaction(receive_transaction_handler handle_receive);
+    void subscribe_transaction(std::function<void (const std::error_code&,
+        const transaction_type&)> handle_receive);
     void subscribe_block(receive_block_handler handle_receive);
     void subscribe_raw(receive_raw_handler handle_receive);
 
@@ -334,7 +332,8 @@ public:
     void subscribe_get_blocks(
         channel_proxy::receive_get_blocks_handler handle_receive);
     void subscribe_transaction(
-        channel_proxy::receive_transaction_handler handle_receive);
+        std::function<void (const std::error_code&,
+        const transaction_type&)> handle_receive);
     void subscribe_block(
         channel_proxy::receive_block_handler handle_receive);
     void subscribe_raw(
@@ -350,6 +349,4 @@ private:
 };
 
 } // namespace libbitcoin
-
-#endif
 
