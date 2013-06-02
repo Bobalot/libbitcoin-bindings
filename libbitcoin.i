@@ -31,7 +31,6 @@ using std::placeholders::_2;
 %apply libbitcoin::channel & { libbitcoin::channel * };
 %apply libbitcoin::transaction_type & { libbitcoin::transaction_type * };
 %apply libbitcoin::handshake & { libbitcoin::handshake * };
-%apply libbitcoin::script & { libbitcoin::script * };
 
 %include "blocks/pre.i"
 %include "blocks/callbacks.i"
@@ -42,6 +41,7 @@ namespace libbitcoin {
 }
 %include "modules/error_code.i"
 %include "modules/script.i"
+%apply libbitcoin::script & { libbitcoin::script * };
 %include "modules/primitives.i"
 
 %include "modules/threadpool.i"

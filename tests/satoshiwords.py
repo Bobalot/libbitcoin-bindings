@@ -1,10 +1,10 @@
 from bitcoin import genesis_block, save_script
 
 genblk = genesis_block()
-assert genblk.transactions.size() == 1
+assert len(genblk.transactions) == 1
 
 coinbase_tx = genblk.transactions[0]
-assert coinbase_tx.inputs.size() == 1
+assert len(coinbase_tx.inputs) == 1
 
 coinbase_input = coinbase_tx.inputs[0]
 
