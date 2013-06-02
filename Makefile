@@ -16,7 +16,9 @@ cleandatabase:
 swig:
 	$(SWIG) -c++ -python -modern -threads `pkg-config --cflags-only-I libbitcoin` -I`$(SWIG) -swiglib`/python libbitcoin.i
 
-test:
+test: basetests fullnode
+
+basetests:
 	echo "WALLET TEST"
 	PYTHONPATH=$(PWD) python tests/wallet.py
 	echo "CURVES TEST"
@@ -25,6 +27,8 @@ test:
 	PYTHONPATH=$(PWD) python tests/test.py
 	echo "GENESIS BLOCK"
 	PYTHONPATH=$(PWD) python tests/satoshiwords.py
+
+fullnode:
 	echo "FULL NODE TEST"
 	PYTHONPATH=$(PWD) python tests/fullnode.py
 
