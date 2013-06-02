@@ -280,6 +280,50 @@ class py_transaction_list(object):
 py_transaction_list_swigregister = _bitcoin.py_transaction_list_swigregister
 py_transaction_list_swigregister(py_transaction_list)
 
+class py_size_list(object):
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+    def iterator(self): return _bitcoin.py_size_list_iterator(self)
+    def __iter__(self): return self.iterator()
+    def __nonzero__(self): return _bitcoin.py_size_list___nonzero__(self)
+    def __bool__(self): return _bitcoin.py_size_list___bool__(self)
+    def __len__(self): return _bitcoin.py_size_list___len__(self)
+    def pop(self): return _bitcoin.py_size_list_pop(self)
+    def __getslice__(self, *args): return _bitcoin.py_size_list___getslice__(self, *args)
+    def __setslice__(self, *args): return _bitcoin.py_size_list___setslice__(self, *args)
+    def __delslice__(self, *args): return _bitcoin.py_size_list___delslice__(self, *args)
+    def __delitem__(self, *args): return _bitcoin.py_size_list___delitem__(self, *args)
+    def __getitem__(self, *args): return _bitcoin.py_size_list___getitem__(self, *args)
+    def __setitem__(self, *args): return _bitcoin.py_size_list___setitem__(self, *args)
+    def append(self, *args): return _bitcoin.py_size_list_append(self, *args)
+    def empty(self): return _bitcoin.py_size_list_empty(self)
+    def size(self): return _bitcoin.py_size_list_size(self)
+    def clear(self): return _bitcoin.py_size_list_clear(self)
+    def swap(self, *args): return _bitcoin.py_size_list_swap(self, *args)
+    def get_allocator(self): return _bitcoin.py_size_list_get_allocator(self)
+    def begin(self): return _bitcoin.py_size_list_begin(self)
+    def end(self): return _bitcoin.py_size_list_end(self)
+    def rbegin(self): return _bitcoin.py_size_list_rbegin(self)
+    def rend(self): return _bitcoin.py_size_list_rend(self)
+    def pop_back(self): return _bitcoin.py_size_list_pop_back(self)
+    def erase(self, *args): return _bitcoin.py_size_list_erase(self, *args)
+    def __init__(self, *args): 
+        this = _bitcoin.new_py_size_list(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def push_back(self, *args): return _bitcoin.py_size_list_push_back(self, *args)
+    def front(self): return _bitcoin.py_size_list_front(self)
+    def back(self): return _bitcoin.py_size_list_back(self)
+    def assign(self, *args): return _bitcoin.py_size_list_assign(self, *args)
+    def resize(self, *args): return _bitcoin.py_size_list_resize(self, *args)
+    def insert(self, *args): return _bitcoin.py_size_list_insert(self, *args)
+    def reserve(self, *args): return _bitcoin.py_size_list_reserve(self, *args)
+    def capacity(self): return _bitcoin.py_size_list_capacity(self)
+    __swig_destroy__ = _bitcoin.delete_py_size_list
+    __del__ = lambda self : None;
+py_size_list_swigregister = _bitcoin.py_size_list_swigregister
+py_size_list_swigregister(py_size_list)
+
 
 def python_block_type_cb_handler(*args):
   return _bitcoin.python_block_type_cb_handler(*args)
@@ -289,13 +333,13 @@ def python_transaction_type_cb_handler(*args):
   return _bitcoin.python_transaction_type_cb_handler(*args)
 python_transaction_type_cb_handler = _bitcoin.python_transaction_type_cb_handler
 
+def python_index_list_cb_handler(*args):
+  return _bitcoin.python_index_list_cb_handler(*args)
+python_index_list_cb_handler = _bitcoin.python_index_list_cb_handler
+
 def python_cb_handler(*args):
   return _bitcoin.python_cb_handler(*args)
 python_cb_handler = _bitcoin.python_cb_handler
-
-def python_block_cb_handler(*args):
-  return _bitcoin.python_block_cb_handler(*args)
-python_block_cb_handler = _bitcoin.python_block_cb_handler
 
 def python_channel_cb_handler(*args):
   return _bitcoin.python_channel_cb_handler(*args)
@@ -313,6 +357,27 @@ class node_address(object):
     __del__ = lambda self : None;
 node_address_swigregister = _bitcoin.node_address_swigregister
 node_address_swigregister(node_address)
+
+class error_code(object):
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+    def clear(self): return _bitcoin.error_code_clear(self)
+    def value(self): return _bitcoin.error_code_value(self)
+    def default_error_condition(self): return _bitcoin.error_code_default_error_condition(self)
+    def message(self): return _bitcoin.error_code_message(self)
+    def __nonzero__(self):
+        return _bitcoin.error_code___nonzero__(self)
+    __bool__ = __nonzero__
+
+
+    def __init__(self): 
+        this = _bitcoin.new_error_code()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _bitcoin.delete_error_code
+    __del__ = lambda self : None;
+error_code_swigregister = _bitcoin.error_code_swigregister
+error_code_swigregister(error_code)
 
 class network_address_type(object):
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')

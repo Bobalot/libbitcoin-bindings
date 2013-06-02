@@ -2974,138 +2974,140 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_fetch_network_address_handler swig_types[28]
 #define SWIGTYPE_p_handshake_handler swig_types[29]
 #define SWIGTYPE_p_import_block_handler swig_types[30]
-#define SWIGTYPE_p_int swig_types[31]
-#define SWIGTYPE_p_inventory_type_id swig_types[32]
-#define SWIGTYPE_p_io_service swig_types[33]
-#define SWIGTYPE_p_libbitcoin__acceptor swig_types[34]
-#define SWIGTYPE_p_libbitcoin__async_strand swig_types[35]
-#define SWIGTYPE_p_libbitcoin__block_info swig_types[36]
-#define SWIGTYPE_p_libbitcoin__block_type swig_types[37]
-#define SWIGTYPE_p_libbitcoin__blockchain swig_types[38]
-#define SWIGTYPE_p_libbitcoin__channel swig_types[39]
-#define SWIGTYPE_p_libbitcoin__channel_loader_module_base swig_types[40]
-#define SWIGTYPE_p_libbitcoin__channel_proxy swig_types[41]
-#define SWIGTYPE_p_libbitcoin__channel_stream_loader swig_types[42]
-#define SWIGTYPE_p_libbitcoin__deterministic_wallet swig_types[43]
-#define SWIGTYPE_p_libbitcoin__elliptic_curve_key swig_types[44]
-#define SWIGTYPE_p_libbitcoin__get_address_type swig_types[45]
-#define SWIGTYPE_p_libbitcoin__get_blocks_type swig_types[46]
-#define SWIGTYPE_p_libbitcoin__handshake swig_types[47]
-#define SWIGTYPE_p_libbitcoin__header_type swig_types[48]
-#define SWIGTYPE_p_libbitcoin__hosts swig_types[49]
-#define SWIGTYPE_p_libbitcoin__inventory_vector_type swig_types[50]
-#define SWIGTYPE_p_libbitcoin__leveldb_blockchain swig_types[51]
-#define SWIGTYPE_p_libbitcoin__network swig_types[52]
-#define SWIGTYPE_p_libbitcoin__network_address_type swig_types[53]
-#define SWIGTYPE_p_libbitcoin__node_address swig_types[54]
-#define SWIGTYPE_p_libbitcoin__output_point swig_types[55]
-#define SWIGTYPE_p_libbitcoin__poller swig_types[56]
-#define SWIGTYPE_p_libbitcoin__protocol swig_types[57]
-#define SWIGTYPE_p_libbitcoin__session swig_types[58]
-#define SWIGTYPE_p_libbitcoin__session_params swig_types[59]
-#define SWIGTYPE_p_libbitcoin__threadpool swig_types[60]
-#define SWIGTYPE_p_libbitcoin__transaction_entry_info swig_types[61]
-#define SWIGTYPE_p_libbitcoin__transaction_input_type swig_types[62]
-#define SWIGTYPE_p_libbitcoin__transaction_output_type swig_types[63]
-#define SWIGTYPE_p_libbitcoin__transaction_pool swig_types[64]
-#define SWIGTYPE_p_libbitcoin__transaction_type swig_types[65]
-#define SWIGTYPE_p_libbitcoin__verack_type swig_types[66]
-#define SWIGTYPE_p_libbitcoin__version_type swig_types[67]
-#define SWIGTYPE_p_listen_handler swig_types[68]
-#define SWIGTYPE_p_load_handler swig_types[69]
-#define SWIGTYPE_p_long_long swig_types[70]
-#define SWIGTYPE_p_network swig_types[71]
-#define SWIGTYPE_p_network__connect_handler swig_types[72]
-#define SWIGTYPE_p_p_PyObject swig_types[73]
-#define SWIGTYPE_p_payment_address swig_types[74]
-#define SWIGTYPE_p_receive_address_handler swig_types[75]
-#define SWIGTYPE_p_receive_block_handler swig_types[76]
-#define SWIGTYPE_p_receive_get_address_handler swig_types[77]
-#define SWIGTYPE_p_receive_get_blocks_handler swig_types[78]
-#define SWIGTYPE_p_receive_get_data_handler swig_types[79]
-#define SWIGTYPE_p_receive_inventory_handler swig_types[80]
-#define SWIGTYPE_p_receive_raw_handler swig_types[81]
-#define SWIGTYPE_p_receive_transaction_handler swig_types[82]
-#define SWIGTYPE_p_receive_verack_handler swig_types[83]
-#define SWIGTYPE_p_receive_version_handler swig_types[84]
-#define SWIGTYPE_p_remove_handler swig_types[85]
-#define SWIGTYPE_p_reorganize_handler swig_types[86]
-#define SWIGTYPE_p_reorganize_subscriber_type swig_types[87]
-#define SWIGTYPE_p_save_handler swig_types[88]
-#define SWIGTYPE_p_script swig_types[89]
-#define SWIGTYPE_p_send_handler swig_types[90]
-#define SWIGTYPE_p_setter_handler swig_types[91]
-#define SWIGTYPE_p_short swig_types[92]
-#define SWIGTYPE_p_signed_char swig_types[93]
-#define SWIGTYPE_p_size_type swig_types[94]
-#define SWIGTYPE_p_start_handler swig_types[95]
-#define SWIGTYPE_p_std__allocatorT_libbitcoin__output_point_t swig_types[96]
-#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_input_type_t swig_types[97]
-#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_output_type_t swig_types[98]
-#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_type_t swig_types[99]
-#define SWIGTYPE_p_std__arrayT_unsigned_char_16_t swig_types[100]
-#define SWIGTYPE_p_std__arrayT_unsigned_char_20_t swig_types[101]
-#define SWIGTYPE_p_std__arrayT_unsigned_char_32_t swig_types[102]
-#define SWIGTYPE_p_std__atomicT_size_t_t swig_types[103]
-#define SWIGTYPE_p_std__error_code swig_types[104]
-#define SWIGTYPE_p_std__functionT_void_fboolF_t swig_types[105]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_constF_t swig_types[106]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_RF_t swig_types[107]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_address_type_const_RF_t swig_types[108]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_get_data_type_const_RF_t swig_types[109]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_inventory_type_const_RF_t swig_types[110]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__block_infoF_t swig_types[111]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__block_type_const_RF_t swig_types[112]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__get_address_type_const_RF_t swig_types[113]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__get_blocks_type_const_RF_t swig_types[114]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__header_type_const_R_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t_const_RF_t swig_types[115]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__network_address_type_const_RF_t swig_types[116]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__output_point_const_RF_t swig_types[117]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t swig_types[118]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__verack_type_const_RF_t swig_types[119]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__version_type_const_RF_t swig_types[120]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_tF_t swig_types[121]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_t_size_tF_t swig_types[122]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_t_std__vectorT_std__shared_ptrT_libbitcoin__block_type_t_std__allocatorT_std__shared_ptrT_libbitcoin__block_type_t_t_t_const_R_std__vectorT_std__shared_ptrT_libbitcoin__block_type_t_std__allocatorT_std__shared_ptrT_libbitcoin__block_type_t_t_t_const_RF_t swig_types[123]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__arrayT_unsigned_char_16_t_const_RF_t swig_types[124]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__shared_ptrT_libbitcoin__acceptor_tF_t swig_types[125]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__shared_ptrT_libbitcoin__channel_tF_t swig_types[126]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t_const_RF_t swig_types[127]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t_const_RF_t swig_types[128]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_size_t_std__allocatorT_size_t_t_t_const_RF_t swig_types[129]
-#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t_const_RF_t swig_types[130]
-#define SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_libbitcoin__channel_tF_t swig_types[131]
-#define SWIGTYPE_p_std__invalid_argument swig_types[132]
-#define SWIGTYPE_p_std__shared_ptrT_channel_t swig_types[133]
-#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__acceptor_t swig_types[134]
-#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__channel_t swig_types[135]
-#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__leveldb_common_t swig_types[136]
-#define SWIGTYPE_p_std__shared_ptrT_std__atomicT_size_t_t_t swig_types[137]
-#define SWIGTYPE_p_std__shared_ptrT_tcp__acceptor_t swig_types[138]
-#define SWIGTYPE_p_std__shared_ptrT_tcp__socket_t swig_types[139]
-#define SWIGTYPE_p_std__vectorT__Tp__Alloc_t swig_types[140]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__input_point_std__allocatorT_libbitcoin__input_point_t_t swig_types[141]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t swig_types[142]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t swig_types[143]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t swig_types[144]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_output_type_std__allocatorT_libbitcoin__transaction_output_type_t_t swig_types[145]
-#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_type_std__allocatorT_libbitcoin__transaction_type_t_t swig_types[146]
-#define SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t swig_types[147]
-#define SWIGTYPE_p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t swig_types[148]
-#define SWIGTYPE_p_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t swig_types[149]
-#define SWIGTYPE_p_stop_handler swig_types[150]
-#define SWIGTYPE_p_store_block_handler swig_types[151]
-#define SWIGTYPE_p_store_handler swig_types[152]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[153]
-#define SWIGTYPE_p_tcp_acceptor_ptr swig_types[154]
-#define SWIGTYPE_p_transaction_type swig_types[155]
-#define SWIGTYPE_p_unsigned_char swig_types[156]
-#define SWIGTYPE_p_unsigned_int swig_types[157]
-#define SWIGTYPE_p_unsigned_long_long swig_types[158]
-#define SWIGTYPE_p_unsigned_short swig_types[159]
-#define SWIGTYPE_p_value_type swig_types[160]
-static swig_type_info *swig_types[162];
-static swig_module_info swig_module = {swig_types, 161, 0, 0, 0, 0};
+#define SWIGTYPE_p_index_list swig_types[31]
+#define SWIGTYPE_p_int swig_types[32]
+#define SWIGTYPE_p_inventory_type_id swig_types[33]
+#define SWIGTYPE_p_io_service swig_types[34]
+#define SWIGTYPE_p_libbitcoin__acceptor swig_types[35]
+#define SWIGTYPE_p_libbitcoin__async_strand swig_types[36]
+#define SWIGTYPE_p_libbitcoin__block_info swig_types[37]
+#define SWIGTYPE_p_libbitcoin__block_type swig_types[38]
+#define SWIGTYPE_p_libbitcoin__blockchain swig_types[39]
+#define SWIGTYPE_p_libbitcoin__channel swig_types[40]
+#define SWIGTYPE_p_libbitcoin__channel_loader_module_base swig_types[41]
+#define SWIGTYPE_p_libbitcoin__channel_proxy swig_types[42]
+#define SWIGTYPE_p_libbitcoin__channel_stream_loader swig_types[43]
+#define SWIGTYPE_p_libbitcoin__deterministic_wallet swig_types[44]
+#define SWIGTYPE_p_libbitcoin__elliptic_curve_key swig_types[45]
+#define SWIGTYPE_p_libbitcoin__get_address_type swig_types[46]
+#define SWIGTYPE_p_libbitcoin__get_blocks_type swig_types[47]
+#define SWIGTYPE_p_libbitcoin__handshake swig_types[48]
+#define SWIGTYPE_p_libbitcoin__header_type swig_types[49]
+#define SWIGTYPE_p_libbitcoin__hosts swig_types[50]
+#define SWIGTYPE_p_libbitcoin__inventory_vector_type swig_types[51]
+#define SWIGTYPE_p_libbitcoin__leveldb_blockchain swig_types[52]
+#define SWIGTYPE_p_libbitcoin__network swig_types[53]
+#define SWIGTYPE_p_libbitcoin__network_address_type swig_types[54]
+#define SWIGTYPE_p_libbitcoin__node_address swig_types[55]
+#define SWIGTYPE_p_libbitcoin__output_point swig_types[56]
+#define SWIGTYPE_p_libbitcoin__poller swig_types[57]
+#define SWIGTYPE_p_libbitcoin__protocol swig_types[58]
+#define SWIGTYPE_p_libbitcoin__session swig_types[59]
+#define SWIGTYPE_p_libbitcoin__session_params swig_types[60]
+#define SWIGTYPE_p_libbitcoin__threadpool swig_types[61]
+#define SWIGTYPE_p_libbitcoin__transaction_entry_info swig_types[62]
+#define SWIGTYPE_p_libbitcoin__transaction_input_type swig_types[63]
+#define SWIGTYPE_p_libbitcoin__transaction_output_type swig_types[64]
+#define SWIGTYPE_p_libbitcoin__transaction_pool swig_types[65]
+#define SWIGTYPE_p_libbitcoin__transaction_type swig_types[66]
+#define SWIGTYPE_p_libbitcoin__verack_type swig_types[67]
+#define SWIGTYPE_p_libbitcoin__version_type swig_types[68]
+#define SWIGTYPE_p_listen_handler swig_types[69]
+#define SWIGTYPE_p_load_handler swig_types[70]
+#define SWIGTYPE_p_long_long swig_types[71]
+#define SWIGTYPE_p_network swig_types[72]
+#define SWIGTYPE_p_network__connect_handler swig_types[73]
+#define SWIGTYPE_p_p_PyObject swig_types[74]
+#define SWIGTYPE_p_payment_address swig_types[75]
+#define SWIGTYPE_p_receive_address_handler swig_types[76]
+#define SWIGTYPE_p_receive_block_handler swig_types[77]
+#define SWIGTYPE_p_receive_get_address_handler swig_types[78]
+#define SWIGTYPE_p_receive_get_blocks_handler swig_types[79]
+#define SWIGTYPE_p_receive_get_data_handler swig_types[80]
+#define SWIGTYPE_p_receive_inventory_handler swig_types[81]
+#define SWIGTYPE_p_receive_raw_handler swig_types[82]
+#define SWIGTYPE_p_receive_transaction_handler swig_types[83]
+#define SWIGTYPE_p_receive_verack_handler swig_types[84]
+#define SWIGTYPE_p_receive_version_handler swig_types[85]
+#define SWIGTYPE_p_remove_handler swig_types[86]
+#define SWIGTYPE_p_reorganize_handler swig_types[87]
+#define SWIGTYPE_p_reorganize_subscriber_type swig_types[88]
+#define SWIGTYPE_p_save_handler swig_types[89]
+#define SWIGTYPE_p_script swig_types[90]
+#define SWIGTYPE_p_send_handler swig_types[91]
+#define SWIGTYPE_p_setter_handler swig_types[92]
+#define SWIGTYPE_p_short swig_types[93]
+#define SWIGTYPE_p_signed_char swig_types[94]
+#define SWIGTYPE_p_size_type swig_types[95]
+#define SWIGTYPE_p_start_handler swig_types[96]
+#define SWIGTYPE_p_std__allocatorT_libbitcoin__output_point_t swig_types[97]
+#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_input_type_t swig_types[98]
+#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_output_type_t swig_types[99]
+#define SWIGTYPE_p_std__allocatorT_libbitcoin__transaction_type_t swig_types[100]
+#define SWIGTYPE_p_std__allocatorT_size_t_t swig_types[101]
+#define SWIGTYPE_p_std__arrayT_unsigned_char_16_t swig_types[102]
+#define SWIGTYPE_p_std__arrayT_unsigned_char_20_t swig_types[103]
+#define SWIGTYPE_p_std__arrayT_unsigned_char_32_t swig_types[104]
+#define SWIGTYPE_p_std__atomicT_size_t_t swig_types[105]
+#define SWIGTYPE_p_std__error_code swig_types[106]
+#define SWIGTYPE_p_std__error_condition swig_types[107]
+#define SWIGTYPE_p_std__functionT_void_fboolF_t swig_types[108]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_constF_t swig_types[109]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_RF_t swig_types[110]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_address_type_const_RF_t swig_types[111]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_get_data_type_const_RF_t swig_types[112]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_inventory_type_const_RF_t swig_types[113]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__block_infoF_t swig_types[114]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__block_type_const_RF_t swig_types[115]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__get_address_type_const_RF_t swig_types[116]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__get_blocks_type_const_RF_t swig_types[117]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__header_type_const_R_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t_const_RF_t swig_types[118]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__network_address_type_const_RF_t swig_types[119]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__output_point_const_RF_t swig_types[120]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t swig_types[121]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__verack_type_const_RF_t swig_types[122]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__version_type_const_RF_t swig_types[123]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_tF_t swig_types[124]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_t_size_tF_t swig_types[125]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_size_t_std__vectorT_std__shared_ptrT_libbitcoin__block_type_t_std__allocatorT_std__shared_ptrT_libbitcoin__block_type_t_t_t_const_R_std__vectorT_std__shared_ptrT_libbitcoin__block_type_t_std__allocatorT_std__shared_ptrT_libbitcoin__block_type_t_t_t_const_RF_t swig_types[126]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__arrayT_unsigned_char_16_t_const_RF_t swig_types[127]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__shared_ptrT_libbitcoin__acceptor_tF_t swig_types[128]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__shared_ptrT_libbitcoin__channel_tF_t swig_types[129]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t_const_RF_t swig_types[130]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t_const_RF_t swig_types[131]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_size_t_std__allocatorT_size_t_t_t_const_RF_t swig_types[132]
+#define SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t_const_RF_t swig_types[133]
+#define SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_libbitcoin__channel_tF_t swig_types[134]
+#define SWIGTYPE_p_std__invalid_argument swig_types[135]
+#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__acceptor_t swig_types[136]
+#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__channel_t swig_types[137]
+#define SWIGTYPE_p_std__shared_ptrT_libbitcoin__leveldb_common_t swig_types[138]
+#define SWIGTYPE_p_std__shared_ptrT_std__atomicT_size_t_t_t swig_types[139]
+#define SWIGTYPE_p_std__shared_ptrT_tcp__acceptor_t swig_types[140]
+#define SWIGTYPE_p_std__shared_ptrT_tcp__socket_t swig_types[141]
+#define SWIGTYPE_p_std__vectorT__Tp__Alloc_t swig_types[142]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__input_point_std__allocatorT_libbitcoin__input_point_t_t swig_types[143]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t swig_types[144]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t swig_types[145]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t swig_types[146]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_output_type_std__allocatorT_libbitcoin__transaction_output_type_t_t swig_types[147]
+#define SWIGTYPE_p_std__vectorT_libbitcoin__transaction_type_std__allocatorT_libbitcoin__transaction_type_t_t swig_types[148]
+#define SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t swig_types[149]
+#define SWIGTYPE_p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t swig_types[150]
+#define SWIGTYPE_p_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t swig_types[151]
+#define SWIGTYPE_p_stop_handler swig_types[152]
+#define SWIGTYPE_p_store_block_handler swig_types[153]
+#define SWIGTYPE_p_store_handler swig_types[154]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[155]
+#define SWIGTYPE_p_tcp_acceptor_ptr swig_types[156]
+#define SWIGTYPE_p_transaction_type swig_types[157]
+#define SWIGTYPE_p_unsigned_char swig_types[158]
+#define SWIGTYPE_p_unsigned_int swig_types[159]
+#define SWIGTYPE_p_unsigned_long_long swig_types[160]
+#define SWIGTYPE_p_unsigned_short swig_types[161]
+#define SWIGTYPE_p_value_type swig_types[162]
+static swig_type_info *swig_types[164];
+static swig_module_info swig_module = {swig_types, 163, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4974,41 +4976,111 @@ SWIGINTERN void std_vector_Sl_libbitcoin_transaction_type_Sg__append(std::vector
       self->push_back(x);
     }
 
-
-/*
- Python callback
-*/
-void python_cb_handler(PyObject *pyfunc, const std::error_code &ec) {
-        PyGILState_STATE gstate;
-        gstate = PyGILState_Ensure();
-        PyObject *arglist = Py_BuildValue("(I)", ec);
-        PyObject *result = PyEval_CallObject(pyfunc, arglist);
-        Py_DECREF(arglist);
-        PyGILState_Release(gstate);
-};
-
-void python_channel_cb_handler(PyObject *pyfunc, channel_ptr channel) {
-        PyGILState_STATE gstate;
-        gstate = PyGILState_Ensure();
-        PyObject *arglist = Py_BuildValue("(O)", &channel);
-        PyObject *result = PyEval_CallObject(pyfunc, arglist);
-        Py_DECREF(arglist);
-        PyGILState_Release(gstate);
-};
-
-void python_block_cb_handler(PyObject *pyfunc, const std::error_code &ec, const block_type& blk) {
-        PyGILState_STATE gstate;
-        gstate = PyGILState_Ensure();
-        PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::block_type(static_cast< const libbitcoin::block_type& >(blk))), SWIGTYPE_p_libbitcoin__block_type, 0 );
-        Py_INCREF(resultobj);
-
-        PyObject *arglist = Py_BuildValue("(O)", resultobj);
-        PyObject *result = PyEval_CallObject(pyfunc, arglist);
-        Py_DECREF(arglist);
-        PyGILState_Release(gstate);
-};
+namespace swig {
+  template <> struct traits<size_t > {
+    typedef value_category category;
+    static const char* type_name() { return"size_t"; }
+  };  
+  template <>  struct traits_asval<size_t > {   
+    typedef size_t value_type;
+    static int asval(PyObject *obj, value_type *val) { 
+      return SWIG_AsVal_size_t (obj, val);
+    }
+  };
+  template <>  struct traits_from<size_t > {
+    typedef size_t value_type;
+    static PyObject *from(const value_type& val) {
+      return SWIG_From_size_t  (val);
+    }
+  };
+}
 
 
+      namespace swig {
+	template <>  struct traits<std::vector<size_t, std::allocator< size_t > > > {
+	  typedef pointer_category category;
+	  static const char* type_name() {
+	    return "std::vector<" "size_t" "," "std::allocator< size_t >" " >";
+	  }
+	};
+      }
+    
+SWIGINTERN swig::SwigPyIterator *std_vector_Sl_size_t_Sg__iterator(std::vector< size_t > *self,PyObject **PYTHON_SELF){
+      return swig::make_output_iterator(self->begin(), self->begin(), self->end(), *PYTHON_SELF);
+    }
+SWIGINTERN bool std_vector_Sl_size_t_Sg____nonzero__(std::vector< size_t > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN bool std_vector_Sl_size_t_Sg____bool__(std::vector< size_t > const *self){
+      return !(self->empty());
+    }
+SWIGINTERN std::vector< size_t >::size_type std_vector_Sl_size_t_Sg____len__(std::vector< size_t > const *self){
+      return self->size();
+    }
+SWIGINTERN std::vector< size_t >::value_type std_vector_Sl_size_t_Sg__pop(std::vector< size_t > *self){
+      if (self->size() == 0)
+	throw std::out_of_range("pop from empty container");
+      std::vector<size_t,std::allocator< size_t > >::value_type x = self->back();
+      self->pop_back();
+      return x;
+    }
+SWIGINTERN std::vector< size_t,std::allocator< size_t > > *std_vector_Sl_size_t_Sg____getslice__(std::vector< size_t > *self,std::vector< size_t >::difference_type i,std::vector< size_t >::difference_type j){
+      return swig::getslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_size_t_Sg____setslice____SWIG_0(std::vector< size_t > *self,std::vector< size_t >::difference_type i,std::vector< size_t >::difference_type j,std::vector< size_t,std::allocator< size_t > > const &v=std::vector< size_t,std::allocator< size_t > >()){
+      swig::setslice(self, i, j, v);
+    }
+SWIGINTERN void std_vector_Sl_size_t_Sg____delslice__(std::vector< size_t > *self,std::vector< size_t >::difference_type i,std::vector< size_t >::difference_type j){
+      swig::delslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_size_t_Sg____delitem____SWIG_0(std::vector< size_t > *self,std::vector< size_t >::difference_type i){
+      self->erase(swig::getpos(self,i));
+    }
+SWIGINTERN std::vector< size_t,std::allocator< size_t > > *std_vector_Sl_size_t_Sg____getitem____SWIG_0(std::vector< size_t > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return NULL;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      return swig::getslice(self, i, j);
+    }
+SWIGINTERN void std_vector_Sl_size_t_Sg____setitem____SWIG_0(std::vector< size_t > *self,PySliceObject *slice,std::vector< size_t,std::allocator< size_t > > const &v){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::setslice(self, i, j, v);
+    }
+SWIGINTERN void std_vector_Sl_size_t_Sg____setitem____SWIG_1(std::vector< size_t > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::delslice(self, i,j);
+    }
+SWIGINTERN void std_vector_Sl_size_t_Sg____delitem____SWIG_1(std::vector< size_t > *self,PySliceObject *slice){
+      Py_ssize_t i, j, step;
+      if( !PySlice_Check(slice) ) {
+        SWIG_Error(SWIG_TypeError, "Slice object expected.");
+        return;
+      }
+      PySlice_GetIndices(SWIGPY_SLICE_ARG(slice), self->size(), &i, &j, &step);
+      swig::delslice(self, i,j);
+    }
+SWIGINTERN std::vector< size_t >::value_type const &std_vector_Sl_size_t_Sg____getitem____SWIG_1(std::vector< size_t > const *self,std::vector< size_t >::difference_type i){
+      return *(swig::cgetpos(self, i));
+    }
+SWIGINTERN void std_vector_Sl_size_t_Sg____setitem____SWIG_2(std::vector< size_t > *self,std::vector< size_t >::difference_type i,std::vector< size_t >::value_type const &x){
+      *(swig::getpos(self,i)) = x;
+    }
+SWIGINTERN void std_vector_Sl_size_t_Sg__append(std::vector< size_t > *self,std::vector< size_t >::value_type const &x){
+      self->push_back(x);
+    }
 
 void python_block_type_cb_handler(PyObject *pyfunc, const std::error_code &ec, const block_type& blk) {
         PyGILState_STATE gstate;
@@ -5017,6 +5089,9 @@ void python_block_type_cb_handler(PyObject *pyfunc, const std::error_code &ec, c
 
         PyObject *arglist = Py_BuildValue("(O)", resultobj);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
         Py_DECREF(arglist);
         PyGILState_Release(gstate);
 };
@@ -5029,9 +5104,67 @@ void python_transaction_type_cb_handler(PyObject *pyfunc, const std::error_code 
 
         PyObject *arglist = Py_BuildValue("(O)", resultobj);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
         Py_DECREF(arglist);
         PyGILState_Release(gstate);
 };
+
+
+void python_index_list_cb_handler(PyObject *pyfunc, const std::error_code &ec, const index_list& blk) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+        PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::index_list(static_cast< const libbitcoin::index_list& >(blk))), SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t , 0 );
+
+        PyObject *arglist = Py_BuildValue("(O)", resultobj);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+
+
+
+/*
+ Python callback with no parameters
+ */
+
+void python_cb_handler(PyObject *pyfunc, const std::error_code &ec) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+        PyObject *arglist = Py_BuildValue("(I)", ec);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+
+/*
+ Python callback for channel
+*/
+void python_channel_cb_handler(PyObject *pyfunc, libbitcoin::channel_ptr channel) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+
+        /* Initialize swig pointers */
+        PyObject *resultobj = 0;
+        resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(channel.get()), SWIGTYPE_p_libbitcoin__channel, 0 );
+
+        /* Call function */
+        PyObject *arglist = Py_BuildValue("(O)", resultobj);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+
 
 
 SWIGINTERN swig_type_info*
@@ -5311,7 +5444,7 @@ SWIGINTERN void libbitcoin_blockchain_import_block(libbitcoin::blockchain *self,
         }
 SWIGINTERN void libbitcoin_blockchain_py_fetch_block_header(libbitcoin::blockchain *self,size_t depth,PyObject *pyfunc){
                 Py_INCREF(pyfunc);
-                self->fetch_block_header(depth, std::bind(python_block_cb_handler, pyfunc, _1, _2));
+                self->fetch_block_header(depth, std::bind(python_block_type_cb_handler, pyfunc, _1, _2));
         }
 
 
@@ -14488,6 +14621,2065 @@ SWIGINTERN PyObject *py_transaction_list_swigregister(PyObject *SWIGUNUSEDPARM(s
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_py_size_list_iterator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  PyObject **arg2 = (PyObject **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  swig::SwigPyIterator *result = 0 ;
+  
+  arg2 = &obj0;
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_iterator",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_iterator" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (swig::SwigPyIterator *)std_vector_Sl_size_t_Sg__iterator(arg1,arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_swig__SwigPyIterator, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___nonzero__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___nonzero__" "', argument " "1"" of type '" "std::vector< size_t > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_vector_Sl_size_t_Sg____nonzero__((std::vector< size_t > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___bool__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___bool__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___bool__" "', argument " "1"" of type '" "std::vector< size_t > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)std_vector_Sl_size_t_Sg____bool__((std::vector< size_t > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___len__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___len__" "', argument " "1"" of type '" "std::vector< size_t > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = std_vector_Sl_size_t_Sg____len__((std::vector< size_t > const *)arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_pop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t >::value_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_pop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_pop" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = std_vector_Sl_size_t_Sg__pop(arg1);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___getslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::difference_type arg2 ;
+  std::vector< size_t >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< size_t,std::allocator< size_t > > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___getslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___getslice__" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list___getslice__" "', argument " "2"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_size_list___getslice__" "', argument " "3"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< size_t >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< size_t,std::allocator< size_t > > *)std_vector_Sl_size_t_Sg____getslice__(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___setslice____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::difference_type arg2 ;
+  std::vector< size_t >::difference_type arg3 ;
+  std::vector< size_t,std::allocator< size_t > > *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  int res4 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___setslice__",4,4,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___setslice__" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list___setslice__" "', argument " "2"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_size_list___setslice__" "', argument " "3"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< size_t >::difference_type >(val3);
+  {
+    std::vector<size_t,std::allocator< size_t > > *ptr = (std::vector<size_t,std::allocator< size_t > > *)0;
+    res4 = swig::asptr(obj3, &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "py_size_list___setslice__" "', argument " "4"" of type '" "std::vector< size_t,std::allocator< size_t > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_size_list___setslice__" "', argument " "4"" of type '" "std::vector< size_t,std::allocator< size_t > > const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_size_t_Sg____setslice____SWIG_0(arg1,arg2,arg3,(std::vector< size_t,std::allocator< size_t > > const &)*arg4);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___setslice____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::difference_type arg2 ;
+  std::vector< size_t >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___setslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___setslice__" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list___setslice__" "', argument " "2"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_size_list___setslice__" "', argument " "3"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< size_t >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_size_t_Sg____setslice____SWIG_0(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___setslice__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[5];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 4) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_py_size_list___setslice____SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_ptrdiff_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          int res = swig::asptr(argv[3], (std::vector<size_t,std::allocator< size_t > >**)(0));
+          _v = SWIG_CheckState(res);
+          if (_v) {
+            return _wrap_py_size_list___setslice____SWIG_0(self, args);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_size_list___setslice__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< size_t >::__setslice__(std::vector< size_t >::difference_type,std::vector< size_t >::difference_type,std::vector< size_t,std::allocator< size_t > > const &)\n"
+    "    std::vector< size_t >::__setslice__(std::vector< size_t >::difference_type,std::vector< size_t >::difference_type)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___delslice__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::difference_type arg2 ;
+  std::vector< size_t >::difference_type arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  ptrdiff_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___delslice__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___delslice__" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list___delslice__" "', argument " "2"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_ptrdiff_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_size_list___delslice__" "', argument " "3"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg3 = static_cast< std::vector< size_t >::difference_type >(val3);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_size_t_Sg____delslice__(arg1,arg2,arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___delitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___delitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___delitem__" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list___delitem__" "', argument " "2"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::difference_type >(val2);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_size_t_Sg____delitem____SWIG_0(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___getitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< size_t,std::allocator< size_t > > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___getitem__" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list___getitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< size_t,std::allocator< size_t > > *)std_vector_Sl_size_t_Sg____getitem____SWIG_0(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___setitem____SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  std::vector< size_t,std::allocator< size_t > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___setitem__" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  {
+    std::vector<size_t,std::allocator< size_t > > *ptr = (std::vector<size_t,std::allocator< size_t > > *)0;
+    res3 = swig::asptr(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "py_size_list___setitem__" "', argument " "3"" of type '" "std::vector< size_t,std::allocator< size_t > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_size_list___setitem__" "', argument " "3"" of type '" "std::vector< size_t,std::allocator< size_t > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_size_t_Sg____setitem____SWIG_0(arg1,arg2,(std::vector< size_t,std::allocator< size_t > > const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  catch(std::invalid_argument &_e) {
+    SWIG_exception_fail(SWIG_ValueError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___setitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___setitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___setitem__" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list___setitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_size_t_Sg____setitem____SWIG_1(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___delitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  PySliceObject *arg2 = (PySliceObject *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___delitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___delitem__" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    if (!PySlice_Check(obj1)) {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list___delitem__" "', argument " "2"" of type '" "PySliceObject *""'");
+    }
+    arg2 = (PySliceObject *) obj1;
+  }
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_size_t_Sg____delitem____SWIG_1(arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___delitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_size_list___delitem____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_size_list___delitem____SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_size_list___delitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< size_t >::__delitem__(std::vector< size_t >::difference_type)\n"
+    "    std::vector< size_t >::__delitem__(PySliceObject *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___getitem____SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::difference_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< size_t >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___getitem__",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___getitem__" "', argument " "1"" of type '" "std::vector< size_t > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list___getitem__" "', argument " "2"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::difference_type >(val2);
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      result = (std::vector< size_t >::value_type *) &std_vector_Sl_size_t_Sg____getitem____SWIG_1((std::vector< size_t > const *)arg1,arg2);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_From_size_t(static_cast< size_t >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___getitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_size_list___getitem____SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_size_list___getitem____SWIG_1(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_size_list___getitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< size_t >::__getitem__(PySliceObject *)\n"
+    "    std::vector< size_t >::__getitem__(std::vector< size_t >::difference_type) const\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___setitem____SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::difference_type arg2 ;
+  std::vector< size_t >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  ptrdiff_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< size_t >::value_type temp3 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list___setitem__",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list___setitem__" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_ptrdiff_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list___setitem__" "', argument " "2"" of type '" "std::vector< size_t >::difference_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::difference_type >(val2);
+  ecode3 = SWIG_AsVal_size_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_size_list___setitem__" "', argument " "3"" of type '" "std::vector< size_t >::value_type""'");
+  } 
+  temp3 = static_cast< std::vector< size_t >::value_type >(val3);
+  arg3 = &temp3;
+  try {
+    {
+      SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+      std_vector_Sl_size_t_Sg____setitem____SWIG_2(arg1,arg2,(size_t const &)*arg3);
+      SWIG_PYTHON_THREAD_END_ALLOW;
+    }
+  }
+  catch(std::out_of_range &_e) {
+    SWIG_exception_fail(SWIG_IndexError, (&_e)->what());
+  }
+  
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list___setitem__(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        return _wrap_py_size_list___setitem____SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        _v = PySlice_Check(argv[1]);
+      }
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector<size_t,std::allocator< size_t > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_py_size_list___setitem____SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_ptrdiff_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_py_size_list___setitem____SWIG_2(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_size_list___setitem__'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< size_t >::__setitem__(PySliceObject *,std::vector< size_t,std::allocator< size_t > > const &)\n"
+    "    std::vector< size_t >::__setitem__(PySliceObject *)\n"
+    "    std::vector< size_t >::__setitem__(std::vector< size_t >::difference_type,std::vector< size_t >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_append(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< size_t >::value_type temp2 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_append",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_append" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list_append" "', argument " "2"" of type '" "std::vector< size_t >::value_type""'");
+  } 
+  temp2 = static_cast< std::vector< size_t >::value_type >(val2);
+  arg2 = &temp2;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    std_vector_Sl_size_t_Sg__append(arg1,(size_t const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_size_list__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *result = 0 ;
+  
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< size_t > *)new std::vector< size_t >();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_size_list__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_size_list",1,1,&obj0)) SWIG_fail;
+  {
+    std::vector<size_t,std::allocator< size_t > > *ptr = (std::vector<size_t,std::allocator< size_t > > *)0;
+    res1 = swig::asptr(obj0, &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_py_size_list" "', argument " "1"" of type '" "std::vector< size_t > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_py_size_list" "', argument " "1"" of type '" "std::vector< size_t > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< size_t > *)new std::vector< size_t >((std::vector< size_t > const &)*arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_empty(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_empty",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_empty" "', argument " "1"" of type '" "std::vector< size_t > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((std::vector< size_t > const *)arg1)->empty();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_size(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_size",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_size" "', argument " "1"" of type '" "std::vector< size_t > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< size_t > const *)arg1)->size();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_clear",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_clear" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->clear();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_swap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_swap",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_swap" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "py_size_list_swap" "', argument " "2"" of type '" "std::vector< size_t > &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "py_size_list_swap" "', argument " "2"" of type '" "std::vector< size_t > &""'"); 
+  }
+  arg2 = reinterpret_cast< std::vector< size_t > * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->swap(*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_get_allocator(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  SwigValueWrapper< std::allocator< size_t > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_get_allocator",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_get_allocator" "', argument " "1"" of type '" "std::vector< size_t > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< size_t > const *)arg1)->get_allocator();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< size_t >::allocator_type(static_cast< const std::vector< size_t >::allocator_type& >(result))), SWIGTYPE_p_std__allocatorT_size_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_begin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_begin",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_begin" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->begin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< size_t >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_end(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_end",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_end" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->end();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< size_t >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_rbegin(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t >::reverse_iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_rbegin",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_rbegin" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rbegin();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< size_t >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_rend(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t >::reverse_iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_rend",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_rend" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->rend();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< size_t >::reverse_iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_size_list__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t >::size_type arg1 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_size_list",1,1,&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_py_size_list" "', argument " "1"" of type '" "std::vector< size_t >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< size_t >::size_type >(val1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< size_t > *)new std::vector< size_t >(arg1);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_pop_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_pop_back",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_pop_back" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->pop_back();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_resize__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_resize",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_resize" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list_resize" "', argument " "2"" of type '" "std::vector< size_t >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::size_type >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->resize(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_erase__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::iterator arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< size_t >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_erase",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_erase" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list_erase" "', argument " "2"" of type '" "std::vector< size_t >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< size_t >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< size_t >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list_erase" "', argument " "2"" of type '" "std::vector< size_t >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->erase(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< size_t >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_erase__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::iterator arg2 ;
+  std::vector< size_t >::iterator arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  swig::SwigPyIterator *iter3 = 0 ;
+  int res3 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< size_t >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_erase",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_erase" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list_erase" "', argument " "2"" of type '" "std::vector< size_t >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< size_t >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< size_t >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list_erase" "', argument " "2"" of type '" "std::vector< size_t >::iterator""'");
+    }
+  }
+  res3 = SWIG_ConvertPtr(obj2, SWIG_as_voidptrptr(&iter3), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res3) || !iter3) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list_erase" "', argument " "3"" of type '" "std::vector< size_t >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< size_t >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< size_t >::iterator > *>(iter3);
+    if (iter_t) {
+      arg3 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list_erase" "', argument " "3"" of type '" "std::vector< size_t >::iterator""'");
+    }
+  }
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->erase(arg2,arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< size_t >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_erase(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< size_t >::iterator > *>(iter) != 0));
+      if (_v) {
+        return _wrap_py_size_list_erase__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< size_t >::iterator > *>(iter) != 0));
+      if (_v) {
+        swig::SwigPyIterator *iter = 0;
+        int res = SWIG_ConvertPtr(argv[2], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+        _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< size_t >::iterator > *>(iter) != 0));
+        if (_v) {
+          return _wrap_py_size_list_erase__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_size_list_erase'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< size_t >::erase(std::vector< size_t >::iterator)\n"
+    "    std::vector< size_t >::erase(std::vector< size_t >::iterator,std::vector< size_t >::iterator)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_size_list__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t >::size_type arg1 ;
+  std::vector< size_t >::value_type *arg2 = 0 ;
+  size_t val1 ;
+  int ecode1 = 0 ;
+  std::vector< size_t >::value_type temp2 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  std::vector< size_t > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_py_size_list",2,2,&obj0,&obj1)) SWIG_fail;
+  ecode1 = SWIG_AsVal_size_t(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_py_size_list" "', argument " "1"" of type '" "std::vector< size_t >::size_type""'");
+  } 
+  arg1 = static_cast< std::vector< size_t >::size_type >(val1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_py_size_list" "', argument " "2"" of type '" "std::vector< size_t >::value_type""'");
+  } 
+  temp2 = static_cast< std::vector< size_t >::value_type >(val2);
+  arg2 = &temp2;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< size_t > *)new std::vector< size_t >(arg1,(std::vector< size_t >::value_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_py_size_list(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_py_size_list__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      return _wrap_new_py_size_list__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_py_size_list__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    {
+      int res = SWIG_AsVal_size_t(argv[0], NULL);
+      _v = SWIG_CheckState(res);
+    }
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_new_py_size_list__SWIG_3(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_py_size_list'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< size_t >::vector()\n"
+    "    std::vector< size_t >::vector(std::vector< size_t > const &)\n"
+    "    std::vector< size_t >::vector(std::vector< size_t >::size_type)\n"
+    "    std::vector< size_t >::vector(std::vector< size_t >::size_type,std::vector< size_t >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_push_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::value_type *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  std::vector< size_t >::value_type temp2 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_push_back",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_push_back" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list_push_back" "', argument " "2"" of type '" "std::vector< size_t >::value_type""'");
+  } 
+  temp2 = static_cast< std::vector< size_t >::value_type >(val2);
+  arg2 = &temp2;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->push_back((std::vector< size_t >::value_type const &)*arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_front(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_front",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_front" "', argument " "1"" of type '" "std::vector< size_t > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< size_t >::value_type *) &((std::vector< size_t > const *)arg1)->front();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_back(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t >::value_type *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_back",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_back" "', argument " "1"" of type '" "std::vector< size_t > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::vector< size_t >::value_type *) &((std::vector< size_t > const *)arg1)->back();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(*result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_assign(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::size_type arg2 ;
+  std::vector< size_t >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< size_t >::value_type temp3 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_assign",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_assign" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list_assign" "', argument " "2"" of type '" "std::vector< size_t >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::size_type >(val2);
+  ecode3 = SWIG_AsVal_size_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_size_list_assign" "', argument " "3"" of type '" "std::vector< size_t >::value_type""'");
+  } 
+  temp3 = static_cast< std::vector< size_t >::value_type >(val3);
+  arg3 = &temp3;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->assign(arg2,(std::vector< size_t >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_resize__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::size_type arg2 ;
+  std::vector< size_t >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  std::vector< size_t >::value_type temp3 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_resize",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_resize" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list_resize" "', argument " "2"" of type '" "std::vector< size_t >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::size_type >(val2);
+  ecode3 = SWIG_AsVal_size_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_size_list_resize" "', argument " "3"" of type '" "std::vector< size_t >::value_type""'");
+  } 
+  temp3 = static_cast< std::vector< size_t >::value_type >(val3);
+  arg3 = &temp3;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->resize(arg2,(std::vector< size_t >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_resize(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_py_size_list_resize__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_py_size_list_resize__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_size_list_resize'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< size_t >::resize(std::vector< size_t >::size_type)\n"
+    "    std::vector< size_t >::resize(std::vector< size_t >::size_type,std::vector< size_t >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_insert__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::iterator arg2 ;
+  std::vector< size_t >::value_type *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  std::vector< size_t >::value_type temp3 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  std::vector< size_t >::iterator result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_insert",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_insert" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list_insert" "', argument " "2"" of type '" "std::vector< size_t >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< size_t >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< size_t >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list_insert" "', argument " "2"" of type '" "std::vector< size_t >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_size_list_insert" "', argument " "3"" of type '" "std::vector< size_t >::value_type""'");
+  } 
+  temp3 = static_cast< std::vector< size_t >::value_type >(val3);
+  arg3 = &temp3;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (arg1)->insert(arg2,(std::vector< size_t >::value_type const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(swig::make_output_iterator(static_cast< const std::vector< size_t >::iterator & >(result)),
+    swig::SwigPyIterator::descriptor(),SWIG_POINTER_OWN);
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_insert__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::iterator arg2 ;
+  std::vector< size_t >::size_type arg3 ;
+  std::vector< size_t >::value_type *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  swig::SwigPyIterator *iter2 = 0 ;
+  int res2 ;
+  size_t val3 ;
+  int ecode3 = 0 ;
+  std::vector< size_t >::value_type temp4 ;
+  size_t val4 ;
+  int ecode4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_insert",4,4,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_insert" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, SWIG_as_voidptrptr(&iter2), swig::SwigPyIterator::descriptor(), 0);
+  if (!SWIG_IsOK(res2) || !iter2) {
+    SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list_insert" "', argument " "2"" of type '" "std::vector< size_t >::iterator""'");
+  } else {
+    swig::SwigPyIterator_T<std::vector< size_t >::iterator > *iter_t = dynamic_cast<swig::SwigPyIterator_T<std::vector< size_t >::iterator > *>(iter2);
+    if (iter_t) {
+      arg2 = iter_t->get_current();
+    } else {
+      SWIG_exception_fail(SWIG_ArgError(SWIG_TypeError), "in method '" "py_size_list_insert" "', argument " "2"" of type '" "std::vector< size_t >::iterator""'");
+    }
+  }
+  ecode3 = SWIG_AsVal_size_t(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "py_size_list_insert" "', argument " "3"" of type '" "std::vector< size_t >::size_type""'");
+  } 
+  arg3 = static_cast< std::vector< size_t >::size_type >(val3);
+  ecode4 = SWIG_AsVal_size_t(obj3, &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "py_size_list_insert" "', argument " "4"" of type '" "std::vector< size_t >::value_type""'");
+  } 
+  temp4 = static_cast< std::vector< size_t >::value_type >(val4);
+  arg4 = &temp4;
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->insert(arg2,arg3,(std::vector< size_t >::value_type const &)*arg4);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_insert(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[5];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 4) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 3) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< size_t >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_py_size_list_insert__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 4) {
+    int _v;
+    int res = swig::asptr(argv[0], (std::vector<size_t,std::allocator< size_t > >**)(0));
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      swig::SwigPyIterator *iter = 0;
+      int res = SWIG_ConvertPtr(argv[1], SWIG_as_voidptrptr(&iter), swig::SwigPyIterator::descriptor(), 0);
+      _v = (SWIG_IsOK(res) && iter && (dynamic_cast<swig::SwigPyIterator_T<std::vector< size_t >::iterator > *>(iter) != 0));
+      if (_v) {
+        {
+          int res = SWIG_AsVal_size_t(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          {
+            int res = SWIG_AsVal_size_t(argv[3], NULL);
+            _v = SWIG_CheckState(res);
+          }
+          if (_v) {
+            return _wrap_py_size_list_insert__SWIG_1(self, args);
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'py_size_list_insert'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    std::vector< size_t >::insert(std::vector< size_t >::iterator,std::vector< size_t >::value_type const &)\n"
+    "    std::vector< size_t >::insert(std::vector< size_t >::iterator,std::vector< size_t >::size_type,std::vector< size_t >::value_type const &)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_reserve(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  std::vector< size_t >::size_type arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_reserve",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_reserve" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "py_size_list_reserve" "', argument " "2"" of type '" "std::vector< size_t >::size_type""'");
+  } 
+  arg2 = static_cast< std::vector< size_t >::size_type >(val2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->reserve(arg2);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_py_size_list_capacity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< size_t >::size_type result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"py_size_list_capacity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "py_size_list_capacity" "', argument " "1"" of type '" "std::vector< size_t > const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::vector< size_t > const *)arg1)->capacity();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_size_t(static_cast< size_t >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_py_size_list(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::vector< size_t > *arg1 = (std::vector< size_t > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_py_size_list",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_py_size_list" "', argument " "1"" of type '" "std::vector< size_t > *""'"); 
+  }
+  arg1 = reinterpret_cast< std::vector< size_t > * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *py_size_list_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
 SWIGINTERN PyObject *_wrap_python_block_type_cb_handler(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   PyObject *arg1 = (PyObject *) 0 ;
@@ -14574,6 +16766,49 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_python_index_list_cb_handler(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  std::error_code *arg2 = 0 ;
+  index_list *arg3 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"python_index_list_cb_handler",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  arg1 = obj0;
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__error_code,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "python_index_list_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_index_list_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
+  }
+  arg2 = reinterpret_cast< std::error_code * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_index_list,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "python_index_list_cb_handler" "', argument " "3"" of type '" "index_list const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_index_list_cb_handler" "', argument " "3"" of type '" "index_list const &""'"); 
+  }
+  arg3 = reinterpret_cast< index_list * >(argp3);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    python_index_list_cb_handler(arg1,(std::error_code const &)*arg2,(index_list const &)*arg3);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_python_cb_handler(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   PyObject *arg1 = (PyObject *) 0 ;
@@ -14605,71 +16840,33 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_python_block_cb_handler(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  PyObject *arg1 = (PyObject *) 0 ;
-  std::error_code *arg2 = 0 ;
-  block_type *arg3 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  void *argp3 = 0 ;
-  int res3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  
-  if(!PyArg_UnpackTuple(args,(char *)"python_block_cb_handler",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
-  arg1 = obj0;
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__error_code,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "python_block_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_block_cb_handler" "', argument " "2"" of type '" "std::error_code const &""'"); 
-  }
-  arg2 = reinterpret_cast< std::error_code * >(argp2);
-  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_block_type,  0  | 0);
-  if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "python_block_cb_handler" "', argument " "3"" of type '" "block_type const &""'"); 
-  }
-  if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_block_cb_handler" "', argument " "3"" of type '" "block_type const &""'"); 
-  }
-  arg3 = reinterpret_cast< block_type * >(argp3);
-  {
-    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    python_block_cb_handler(arg1,(std::error_code const &)*arg2,(block_type const &)*arg3);
-    SWIG_PYTHON_THREAD_END_ALLOW;
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_python_channel_cb_handler(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   PyObject *arg1 = (PyObject *) 0 ;
-  channel_ptr *arg2 = 0 ;
-  void *argp2 = 0 ;
+  libbitcoin::channel_ptr arg2 ;
+  void *argp2 ;
   int res2 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
   if(!PyArg_UnpackTuple(args,(char *)"python_channel_cb_handler",2,2,&obj0,&obj1)) SWIG_fail;
   arg1 = obj0;
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__shared_ptrT_channel_t,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "python_channel_cb_handler" "', argument " "2"" of type '" "channel_ptr &""'"); 
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__shared_ptrT_libbitcoin__channel_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "python_channel_cb_handler" "', argument " "2"" of type '" "libbitcoin::channel_ptr""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_channel_cb_handler" "', argument " "2"" of type '" "libbitcoin::channel_ptr""'");
+    } else {
+      libbitcoin::channel_ptr * temp = reinterpret_cast< libbitcoin::channel_ptr * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
   }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "python_channel_cb_handler" "', argument " "2"" of type '" "channel_ptr &""'"); 
-  }
-  arg2 = reinterpret_cast< channel_ptr * >(argp2);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    python_channel_cb_handler(arg1,*arg2);
+    python_channel_cb_handler(arg1,arg2);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_Py_Void();
@@ -14851,6 +17048,183 @@ SWIGINTERN PyObject *node_address_swigregister(PyObject *SWIGUNUSEDPARM(self), P
   PyObject *obj;
   if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_libbitcoin__node_address, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_error_code_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::error_code *arg1 = (std::error_code *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"error_code_clear",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__error_code, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "error_code_clear" "', argument " "1"" of type '" "std::error_code *""'"); 
+  }
+  arg1 = reinterpret_cast< std::error_code * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    (arg1)->clear();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_error_code_value(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::error_code *arg1 = (std::error_code *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"error_code_value",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__error_code, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "error_code_value" "', argument " "1"" of type '" "std::error_code const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::error_code * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (int)((std::error_code const *)arg1)->value();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_error_code_default_error_condition(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::error_code *arg1 = (std::error_code *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::error_condition result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"error_code_default_error_condition",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__error_code, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "error_code_default_error_condition" "', argument " "1"" of type '" "std::error_code const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::error_code * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::error_code const *)arg1)->default_error_condition();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj((new std::error_condition(static_cast< const std::error_condition& >(result))), SWIGTYPE_p_std__error_condition, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_error_code_message(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::error_code *arg1 = (std::error_code *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"error_code_message",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__error_code, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "error_code_message" "', argument " "1"" of type '" "std::error_code const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::error_code * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = ((std::error_code const *)arg1)->message();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_error_code___nonzero__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::error_code *arg1 = (std::error_code *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"error_code___nonzero__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__error_code, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "error_code___nonzero__" "', argument " "1"" of type '" "std::error_code const *""'"); 
+  }
+  arg1 = reinterpret_cast< std::error_code * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (bool)((std::error_code const *)arg1)->operator bool();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_error_code(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::error_code *result = 0 ;
+  
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (std::error_code *)new std::error_code();
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__error_code, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_error_code(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  std::error_code *arg1 = (std::error_code *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_error_code",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__error_code, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_error_code" "', argument " "1"" of type '" "std::error_code *""'"); 
+  }
+  arg1 = reinterpret_cast< std::error_code * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    delete arg1;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *error_code_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__error_code, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -18152,7 +20526,7 @@ SWIGINTERN PyObject *_wrap_hosts_load(PyObject *SWIGUNUSEDPARM(self), PyObject *
   PyObject *resultobj = 0;
   libbitcoin::hosts *arg1 = (libbitcoin::hosts *) 0 ;
   std::string *arg2 = 0 ;
-  libbitcoin::hosts::load_handler arg3 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   int res2 = SWIG_OLDOBJ ;
@@ -18199,7 +20573,7 @@ SWIGINTERN PyObject *_wrap_hosts_save(PyObject *SWIGUNUSEDPARM(self), PyObject *
   PyObject *resultobj = 0;
   libbitcoin::hosts *arg1 = (libbitcoin::hosts *) 0 ;
   std::string *arg2 = 0 ;
-  libbitcoin::hosts::save_handler arg3 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   int res2 = SWIG_OLDOBJ ;
@@ -18246,7 +20620,7 @@ SWIGINTERN PyObject *_wrap_hosts_store(PyObject *SWIGUNUSEDPARM(self), PyObject 
   PyObject *resultobj = 0;
   libbitcoin::hosts *arg1 = (libbitcoin::hosts *) 0 ;
   libbitcoin::network_address_type *arg2 = 0 ;
-  libbitcoin::hosts::store_handler arg3 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -18289,7 +20663,7 @@ SWIGINTERN PyObject *_wrap_hosts_remove(PyObject *SWIGUNUSEDPARM(self), PyObject
   PyObject *resultobj = 0;
   libbitcoin::hosts *arg1 = (libbitcoin::hosts *) 0 ;
   libbitcoin::network_address_type *arg2 = 0 ;
-  libbitcoin::hosts::remove_handler arg3 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -18476,7 +20850,7 @@ fail:
 SWIGINTERN PyObject *_wrap_handshake_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::handshake *arg1 = (libbitcoin::handshake *) 0 ;
-  libbitcoin::handshake::start_handler arg2 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
@@ -18507,8 +20881,8 @@ fail:
 SWIGINTERN PyObject *_wrap_handshake_ready(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::handshake *arg1 = (libbitcoin::handshake *) 0 ;
-  SwigValueWrapper< std::shared_ptr< libbitcoin::channel > > arg2 ;
-  libbitcoin::handshake::handshake_handler arg3 ;
+  libbitcoin::channel_ptr arg2 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -18640,7 +21014,7 @@ SWIGINTERN PyObject *_wrap_handshake_set_port(PyObject *SWIGUNUSEDPARM(self), Py
   PyObject *resultobj = 0;
   libbitcoin::handshake *arg1 = (libbitcoin::handshake *) 0 ;
   uint16_t arg2 ;
-  libbitcoin::handshake::setter_handler arg3 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   unsigned short val2 ;
@@ -18680,7 +21054,7 @@ SWIGINTERN PyObject *_wrap_handshake_set_user_agent(PyObject *SWIGUNUSEDPARM(sel
   PyObject *resultobj = 0;
   libbitcoin::handshake *arg1 = (libbitcoin::handshake *) 0 ;
   std::string *arg2 = 0 ;
-  libbitcoin::handshake::setter_handler arg3 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   int res2 = SWIG_OLDOBJ ;
@@ -18727,7 +21101,7 @@ SWIGINTERN PyObject *_wrap_handshake_set_start_depth(PyObject *SWIGUNUSEDPARM(se
   PyObject *resultobj = 0;
   libbitcoin::handshake *arg1 = (libbitcoin::handshake *) 0 ;
   uint32_t arg2 ;
-  libbitcoin::handshake::setter_handler arg3 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   unsigned int val2 ;
@@ -19558,7 +21932,7 @@ SWIGINTERN PyObject *_wrap_channel_proxy_send_raw(PyObject *SWIGUNUSEDPARM(self)
   libbitcoin::channel_proxy *arg1 = (libbitcoin::channel_proxy *) 0 ;
   libbitcoin::header_type *arg2 = 0 ;
   libbitcoin::data_chunk *arg3 = 0 ;
-  libbitcoin::channel_proxy::send_handler arg4 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -19908,8 +22282,6 @@ SWIGINTERN PyObject *_wrap_channel_proxy_subscribe_transaction(PyObject *SWIGUNU
   SwigValueWrapper< std::function< void (std::error_code const &,libbitcoin::transaction_type const &) > > arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
@@ -19920,17 +22292,8 @@ SWIGINTERN PyObject *_wrap_channel_proxy_subscribe_transaction(PyObject *SWIGUNU
   }
   arg1 = reinterpret_cast< libbitcoin::channel_proxy * >(argp1);
   {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "channel_proxy_subscribe_transaction" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_transaction_handler""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "channel_proxy_subscribe_transaction" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_transaction_handler""'");
-    } else {
-      libbitcoin::channel_proxy::receive_transaction_handler * temp = reinterpret_cast< libbitcoin::channel_proxy::receive_transaction_handler * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+    Py_INCREF(obj1);
+    arg2 = std::bind(python_transaction_type_cb_handler, obj1, _1, _2);
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
@@ -20031,7 +22394,7 @@ fail:
 SWIGINTERN PyObject *_wrap_channel_proxy_subscribe_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::channel_proxy *arg1 = (libbitcoin::channel_proxy *) 0 ;
-  libbitcoin::channel_proxy::stop_handler arg2 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
@@ -20193,7 +22556,7 @@ SWIGINTERN PyObject *_wrap_channel_send_raw(PyObject *SWIGUNUSEDPARM(self), PyOb
   libbitcoin::channel *arg1 = (libbitcoin::channel *) 0 ;
   libbitcoin::header_type *arg2 = 0 ;
   libbitcoin::data_chunk *arg3 = 0 ;
-  libbitcoin::channel_proxy::send_handler arg4 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -20543,8 +22906,6 @@ SWIGINTERN PyObject *_wrap_channel_subscribe_transaction(PyObject *SWIGUNUSEDPAR
   SwigValueWrapper< std::function< void (std::error_code const &,libbitcoin::transaction_type const &) > > arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
-  void *argp2 ;
-  int res2 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
@@ -20555,17 +22916,8 @@ SWIGINTERN PyObject *_wrap_channel_subscribe_transaction(PyObject *SWIGUNUSEDPAR
   }
   arg1 = reinterpret_cast< libbitcoin::channel * >(argp1);
   {
-    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t,  0  | 0);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "channel_subscribe_transaction" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_transaction_handler""'"); 
-    }  
-    if (!argp2) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "channel_subscribe_transaction" "', argument " "2"" of type '" "libbitcoin::channel_proxy::receive_transaction_handler""'");
-    } else {
-      libbitcoin::channel_proxy::receive_transaction_handler * temp = reinterpret_cast< libbitcoin::channel_proxy::receive_transaction_handler * >(argp2);
-      arg2 = *temp;
-      if (SWIG_IsNewObj(res2)) delete temp;
-    }
+    Py_INCREF(obj1);
+    arg2 = std::bind(python_transaction_type_cb_handler, obj1, _1, _2);
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
@@ -20666,7 +23018,7 @@ fail:
 SWIGINTERN PyObject *_wrap_channel_subscribe_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::channel *arg1 = (libbitcoin::channel *) 0 ;
-  libbitcoin::channel_proxy::stop_handler arg2 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
@@ -20703,14 +23055,14 @@ SWIGINTERN PyObject *channel_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObje
 
 SWIGINTERN PyObject *_wrap_new_py_channel_ptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  std::shared_ptr< channel > *result = 0 ;
+  std::shared_ptr< libbitcoin::channel > *result = 0 ;
   
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result = (std::shared_ptr< channel > *)new std::shared_ptr< channel >();
+    result = (std::shared_ptr< libbitcoin::channel > *)new std::shared_ptr< libbitcoin::channel >();
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__shared_ptrT_channel_t, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__shared_ptrT_libbitcoin__channel_t, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -20719,17 +23071,17 @@ fail:
 
 SWIGINTERN PyObject *_wrap_delete_py_channel_ptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  std::shared_ptr< channel > *arg1 = (std::shared_ptr< channel > *) 0 ;
+  std::shared_ptr< libbitcoin::channel > *arg1 = (std::shared_ptr< libbitcoin::channel > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
   
   if(!PyArg_UnpackTuple(args,(char *)"delete_py_channel_ptr",1,1,&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__shared_ptrT_channel_t, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_std__shared_ptrT_libbitcoin__channel_t, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_py_channel_ptr" "', argument " "1"" of type '" "std::shared_ptr< channel > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_py_channel_ptr" "', argument " "1"" of type '" "std::shared_ptr< libbitcoin::channel > *""'"); 
   }
-  arg1 = reinterpret_cast< std::shared_ptr< channel > * >(argp1);
+  arg1 = reinterpret_cast< std::shared_ptr< libbitcoin::channel > * >(argp1);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
     delete arg1;
@@ -20745,7 +23097,7 @@ fail:
 SWIGINTERN PyObject *py_channel_ptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_std__shared_ptrT_channel_t, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_std__shared_ptrT_libbitcoin__channel_t, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -20817,7 +23169,7 @@ fail:
 SWIGINTERN PyObject *_wrap_protocol_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::protocol *arg1 = (libbitcoin::protocol *) 0 ;
-  libbitcoin::protocol::completion_handler arg2 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
@@ -20848,7 +23200,7 @@ fail:
 SWIGINTERN PyObject *_wrap_protocol_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::protocol *arg1 = (libbitcoin::protocol *) 0 ;
-  libbitcoin::protocol::completion_handler arg2 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
@@ -20879,7 +23231,7 @@ fail:
 SWIGINTERN PyObject *_wrap_protocol_bootstrap(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::protocol *arg1 = (libbitcoin::protocol *) 0 ;
-  libbitcoin::protocol::completion_handler arg2 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
@@ -21768,7 +24120,7 @@ SWIGINTERN PyObject *_wrap_block_locator_indexes(PyObject *SWIGUNUSEDPARM(self),
   int val1 ;
   int ecode1 = 0 ;
   PyObject * obj0 = 0 ;
-  SwigValueWrapper< std::vector< size_t,std::allocator< size_t > > > result;
+  libbitcoin::index_list result;
   
   if(!PyArg_UnpackTuple(args,(char *)"block_locator_indexes",1,1,&obj0)) SWIG_fail;
   ecode1 = SWIG_AsVal_int(obj0, &val1);
@@ -21781,7 +24133,7 @@ SWIGINTERN PyObject *_wrap_block_locator_indexes(PyObject *SWIGUNUSEDPARM(self),
     result = libbitcoin::block_locator_indexes(arg1);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
-  resultobj = SWIG_NewPointerObj((new libbitcoin::index_list(static_cast< const libbitcoin::index_list& >(result))), SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t, SWIG_POINTER_OWN |  0 );
+  resultobj = swig::from(static_cast< std::vector<size_t,std::allocator< size_t > > >(result));
   return resultobj;
 fail:
   return NULL;
@@ -21888,7 +24240,7 @@ SWIGINTERN PyObject *_wrap_blockchain__import(PyObject *SWIGUNUSEDPARM(self), Py
   libbitcoin::blockchain *arg1 = (libbitcoin::blockchain *) 0 ;
   libbitcoin::block_type *arg2 = 0 ;
   size_t arg3 ;
-  libbitcoin::blockchain::import_block_handler arg4 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -22340,8 +24692,6 @@ SWIGINTERN PyObject *_wrap_blockchain_fetch_transaction(PyObject *SWIGUNUSEDPARM
   int res1 = 0 ;
   void *argp2 = 0 ;
   int res2 = 0 ;
-  void *argp3 ;
-  int res3 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
@@ -22361,17 +24711,8 @@ SWIGINTERN PyObject *_wrap_blockchain_fetch_transaction(PyObject *SWIGUNUSEDPARM
   }
   arg2 = reinterpret_cast< libbitcoin::hash_digest * >(argp2);
   {
-    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t,  0  | 0);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "blockchain_fetch_transaction" "', argument " "3"" of type '" "libbitcoin::blockchain::fetch_handler_transaction""'"); 
-    }  
-    if (!argp3) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "blockchain_fetch_transaction" "', argument " "3"" of type '" "libbitcoin::blockchain::fetch_handler_transaction""'");
-    } else {
-      libbitcoin::blockchain::fetch_handler_transaction * temp = reinterpret_cast< libbitcoin::blockchain::fetch_handler_transaction * >(argp3);
-      arg3 = *temp;
-      if (SWIG_IsNewObj(res3)) delete temp;
-    }
+    Py_INCREF(obj2);
+    arg3 = std::bind(python_transaction_type_cb_handler, obj2, _1, _2);
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
@@ -22952,7 +25293,7 @@ SWIGINTERN PyObject *_wrap_leveldb_blockchain_start(PyObject *SWIGUNUSEDPARM(sel
   PyObject *resultobj = 0;
   libbitcoin::leveldb_blockchain *arg1 = (libbitcoin::leveldb_blockchain *) 0 ;
   std::string *arg2 = 0 ;
-  libbitcoin::leveldb_blockchain::start_handler arg3 ;
+  SwigValueWrapper< std::function< void (std::error_code const) > > arg3 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   int res2 = SWIG_OLDOBJ ;
@@ -23079,7 +25420,7 @@ SWIGINTERN PyObject *_wrap_leveldb_blockchain__import(PyObject *SWIGUNUSEDPARM(s
   libbitcoin::leveldb_blockchain *arg1 = (libbitcoin::leveldb_blockchain *) 0 ;
   libbitcoin::block_type *arg2 = 0 ;
   size_t arg3 ;
-  libbitcoin::blockchain::import_block_handler arg4 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
@@ -23531,8 +25872,6 @@ SWIGINTERN PyObject *_wrap_leveldb_blockchain_fetch_transaction(PyObject *SWIGUN
   int res1 = 0 ;
   void *argp2 = 0 ;
   int res2 = 0 ;
-  void *argp3 ;
-  int res3 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
@@ -23552,17 +25891,8 @@ SWIGINTERN PyObject *_wrap_leveldb_blockchain_fetch_transaction(PyObject *SWIGUN
   }
   arg2 = reinterpret_cast< libbitcoin::hash_digest * >(argp2);
   {
-    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t,  0  | 0);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "leveldb_blockchain_fetch_transaction" "', argument " "3"" of type '" "libbitcoin::blockchain::fetch_handler_transaction""'"); 
-    }  
-    if (!argp3) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "leveldb_blockchain_fetch_transaction" "', argument " "3"" of type '" "libbitcoin::blockchain::fetch_handler_transaction""'");
-    } else {
-      libbitcoin::blockchain::fetch_handler_transaction * temp = reinterpret_cast< libbitcoin::blockchain::fetch_handler_transaction * >(argp3);
-      arg3 = *temp;
-      if (SWIG_IsNewObj(res3)) delete temp;
-    }
+    Py_INCREF(obj2);
+    arg3 = std::bind(python_transaction_type_cb_handler, obj2, _1, _2);
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
@@ -24348,9 +26678,11 @@ fail:
 SWIGINTERN PyObject *_wrap_transaction_entry_info_handle_confirm_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::transaction_entry_info *arg1 = (libbitcoin::transaction_entry_info *) 0 ;
-  libbitcoin::transaction_entry_info::confirm_handler arg2 ;
+  libbitcoin::transaction_entry_info::confirm_handler *arg2 = (libbitcoin::transaction_entry_info::confirm_handler *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   
@@ -24360,13 +26692,14 @@ SWIGINTERN PyObject *_wrap_transaction_entry_info_handle_confirm_set(PyObject *S
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "transaction_entry_info_handle_confirm_set" "', argument " "1"" of type '" "libbitcoin::transaction_entry_info *""'"); 
   }
   arg1 = reinterpret_cast< libbitcoin::transaction_entry_info * >(argp1);
-  {
-    Py_INCREF(obj1);
-    arg2 = std::bind(python_cb_handler, obj1, _1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_std__functionT_void_fstd__error_code_const_RF_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "transaction_entry_info_handle_confirm_set" "', argument " "2"" of type '" "libbitcoin::transaction_entry_info::confirm_handler *""'"); 
   }
+  arg2 = reinterpret_cast< libbitcoin::transaction_entry_info::confirm_handler * >(argp2);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    if (arg1) (arg1)->handle_confirm = arg2;
+    if (arg1) (arg1)->handle_confirm = *arg2;
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_Py_Void();
@@ -24382,7 +26715,7 @@ SWIGINTERN PyObject *_wrap_transaction_entry_info_handle_confirm_get(PyObject *S
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
-  libbitcoin::transaction_entry_info::confirm_handler result;
+  libbitcoin::transaction_entry_info::confirm_handler *result = 0 ;
   
   if(!PyArg_UnpackTuple(args,(char *)"transaction_entry_info_handle_confirm_get",1,1,&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_libbitcoin__transaction_entry_info, 0 |  0 );
@@ -24392,10 +26725,10 @@ SWIGINTERN PyObject *_wrap_transaction_entry_info_handle_confirm_get(PyObject *S
   arg1 = reinterpret_cast< libbitcoin::transaction_entry_info * >(argp1);
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-    result =  ((arg1)->handle_confirm);
+    result = (libbitcoin::transaction_entry_info::confirm_handler *)& ((arg1)->handle_confirm);
     SWIG_PYTHON_THREAD_END_ALLOW;
   }
-  resultobj = SWIG_NewPointerObj((new libbitcoin::transaction_entry_info::confirm_handler(static_cast< const libbitcoin::transaction_entry_info::confirm_handler& >(result))), SWIGTYPE_p_std__functionT_void_fstd__error_code_const_RF_t, SWIG_POINTER_OWN |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_std__functionT_void_fstd__error_code_const_RF_t, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -24520,14 +26853,12 @@ SWIGINTERN PyObject *_wrap_transaction_pool_store(PyObject *SWIGUNUSEDPARM(self)
   PyObject *resultobj = 0;
   libbitcoin::transaction_pool *arg1 = (libbitcoin::transaction_pool *) 0 ;
   libbitcoin::transaction_type *arg2 = 0 ;
-  libbitcoin::transaction_pool::confirm_handler arg3 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg3 ;
   libbitcoin::transaction_pool::store_handler arg4 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 = 0 ;
   int res2 = 0 ;
-  void *argp4 ;
-  int res4 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
@@ -24552,17 +26883,8 @@ SWIGINTERN PyObject *_wrap_transaction_pool_store(PyObject *SWIGUNUSEDPARM(self)
     arg3 = std::bind(python_cb_handler, obj2, _1);
   }
   {
-    res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_size_t_std__allocatorT_size_t_t_t_const_RF_t,  0  | 0);
-    if (!SWIG_IsOK(res4)) {
-      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "transaction_pool_store" "', argument " "4"" of type '" "libbitcoin::transaction_pool::store_handler""'"); 
-    }  
-    if (!argp4) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "transaction_pool_store" "', argument " "4"" of type '" "libbitcoin::transaction_pool::store_handler""'");
-    } else {
-      libbitcoin::transaction_pool::store_handler * temp = reinterpret_cast< libbitcoin::transaction_pool::store_handler * >(argp4);
-      arg4 = *temp;
-      if (SWIG_IsNewObj(res4)) delete temp;
-    }
+    Py_INCREF(obj3);
+    arg4 = std::bind(python_index_list_cb_handler, obj3, _1, _2);
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
@@ -24585,8 +26907,6 @@ SWIGINTERN PyObject *_wrap_transaction_pool_fetch(PyObject *SWIGUNUSEDPARM(self)
   int res1 = 0 ;
   void *argp2 = 0 ;
   int res2 = 0 ;
-  void *argp3 ;
-  int res3 = 0 ;
   PyObject * obj0 = 0 ;
   PyObject * obj1 = 0 ;
   PyObject * obj2 = 0 ;
@@ -24606,17 +26926,8 @@ SWIGINTERN PyObject *_wrap_transaction_pool_fetch(PyObject *SWIGUNUSEDPARM(self)
   }
   arg2 = reinterpret_cast< libbitcoin::hash_digest * >(argp2);
   {
-    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t,  0  | 0);
-    if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "transaction_pool_fetch" "', argument " "3"" of type '" "libbitcoin::transaction_pool::fetch_handler""'"); 
-    }  
-    if (!argp3) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "transaction_pool_fetch" "', argument " "3"" of type '" "libbitcoin::transaction_pool::fetch_handler""'");
-    } else {
-      libbitcoin::transaction_pool::fetch_handler * temp = reinterpret_cast< libbitcoin::transaction_pool::fetch_handler * >(argp3);
-      arg3 = *temp;
-      if (SWIG_IsNewObj(res3)) delete temp;
-    }
+    Py_INCREF(obj2);
+    arg3 = std::bind(python_transaction_type_cb_handler, obj2, _1, _2);
   }
   {
     SWIG_PYTHON_THREAD_BEGIN_ALLOW;
@@ -24760,7 +27071,7 @@ fail:
 SWIGINTERN PyObject *_wrap_poller_query(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::poller *arg1 = (libbitcoin::poller *) 0 ;
-  SwigValueWrapper< std::shared_ptr< libbitcoin::channel > > arg2 ;
+  libbitcoin::channel_ptr arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -24802,7 +27113,7 @@ fail:
 SWIGINTERN PyObject *_wrap_poller_monitor(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::poller *arg1 = (libbitcoin::poller *) 0 ;
-  SwigValueWrapper< std::shared_ptr< libbitcoin::channel > > arg2 ;
+  libbitcoin::channel_ptr arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   void *argp2 ;
@@ -24949,7 +27260,7 @@ fail:
 SWIGINTERN PyObject *_wrap_session_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::session *arg1 = (libbitcoin::session *) 0 ;
-  libbitcoin::session::completion_handler arg2 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
@@ -24980,7 +27291,7 @@ fail:
 SWIGINTERN PyObject *_wrap_session_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   libbitcoin::session *arg1 = (libbitcoin::session *) 0 ;
-  libbitcoin::session::completion_handler arg2 ;
+  SwigValueWrapper< std::function< void (std::error_code const &) > > arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
@@ -25766,10 +28077,44 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"py_transaction_list_capacity", _wrap_py_transaction_list_capacity, METH_VARARGS, NULL},
 	 { (char *)"delete_py_transaction_list", _wrap_delete_py_transaction_list, METH_VARARGS, NULL},
 	 { (char *)"py_transaction_list_swigregister", py_transaction_list_swigregister, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_iterator", _wrap_py_size_list_iterator, METH_VARARGS, NULL},
+	 { (char *)"py_size_list___nonzero__", _wrap_py_size_list___nonzero__, METH_VARARGS, NULL},
+	 { (char *)"py_size_list___bool__", _wrap_py_size_list___bool__, METH_VARARGS, NULL},
+	 { (char *)"py_size_list___len__", _wrap_py_size_list___len__, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_pop", _wrap_py_size_list_pop, METH_VARARGS, NULL},
+	 { (char *)"py_size_list___getslice__", _wrap_py_size_list___getslice__, METH_VARARGS, NULL},
+	 { (char *)"py_size_list___setslice__", _wrap_py_size_list___setslice__, METH_VARARGS, NULL},
+	 { (char *)"py_size_list___delslice__", _wrap_py_size_list___delslice__, METH_VARARGS, NULL},
+	 { (char *)"py_size_list___delitem__", _wrap_py_size_list___delitem__, METH_VARARGS, NULL},
+	 { (char *)"py_size_list___getitem__", _wrap_py_size_list___getitem__, METH_VARARGS, NULL},
+	 { (char *)"py_size_list___setitem__", _wrap_py_size_list___setitem__, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_append", _wrap_py_size_list_append, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_empty", _wrap_py_size_list_empty, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_size", _wrap_py_size_list_size, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_clear", _wrap_py_size_list_clear, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_swap", _wrap_py_size_list_swap, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_get_allocator", _wrap_py_size_list_get_allocator, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_begin", _wrap_py_size_list_begin, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_end", _wrap_py_size_list_end, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_rbegin", _wrap_py_size_list_rbegin, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_rend", _wrap_py_size_list_rend, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_pop_back", _wrap_py_size_list_pop_back, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_erase", _wrap_py_size_list_erase, METH_VARARGS, NULL},
+	 { (char *)"new_py_size_list", _wrap_new_py_size_list, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_push_back", _wrap_py_size_list_push_back, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_front", _wrap_py_size_list_front, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_back", _wrap_py_size_list_back, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_assign", _wrap_py_size_list_assign, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_resize", _wrap_py_size_list_resize, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_insert", _wrap_py_size_list_insert, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_reserve", _wrap_py_size_list_reserve, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_capacity", _wrap_py_size_list_capacity, METH_VARARGS, NULL},
+	 { (char *)"delete_py_size_list", _wrap_delete_py_size_list, METH_VARARGS, NULL},
+	 { (char *)"py_size_list_swigregister", py_size_list_swigregister, METH_VARARGS, NULL},
 	 { (char *)"python_block_type_cb_handler", _wrap_python_block_type_cb_handler, METH_VARARGS, NULL},
 	 { (char *)"python_transaction_type_cb_handler", _wrap_python_transaction_type_cb_handler, METH_VARARGS, NULL},
+	 { (char *)"python_index_list_cb_handler", _wrap_python_index_list_cb_handler, METH_VARARGS, NULL},
 	 { (char *)"python_cb_handler", _wrap_python_cb_handler, METH_VARARGS, NULL},
-	 { (char *)"python_block_cb_handler", _wrap_python_block_cb_handler, METH_VARARGS, NULL},
 	 { (char *)"python_channel_cb_handler", _wrap_python_channel_cb_handler, METH_VARARGS, NULL},
 	 { (char *)"node_address_hostname_set", _wrap_node_address_hostname_set, METH_VARARGS, NULL},
 	 { (char *)"node_address_hostname_get", _wrap_node_address_hostname_get, METH_VARARGS, NULL},
@@ -25778,6 +28123,14 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"new_node_address", _wrap_new_node_address, METH_VARARGS, NULL},
 	 { (char *)"delete_node_address", _wrap_delete_node_address, METH_VARARGS, NULL},
 	 { (char *)"node_address_swigregister", node_address_swigregister, METH_VARARGS, NULL},
+	 { (char *)"error_code_clear", _wrap_error_code_clear, METH_VARARGS, NULL},
+	 { (char *)"error_code_value", _wrap_error_code_value, METH_VARARGS, NULL},
+	 { (char *)"error_code_default_error_condition", _wrap_error_code_default_error_condition, METH_VARARGS, NULL},
+	 { (char *)"error_code_message", _wrap_error_code_message, METH_VARARGS, NULL},
+	 { (char *)"error_code___nonzero__", _wrap_error_code___nonzero__, METH_VARARGS, NULL},
+	 { (char *)"new_error_code", _wrap_new_error_code, METH_VARARGS, NULL},
+	 { (char *)"delete_error_code", _wrap_delete_error_code, METH_VARARGS, NULL},
+	 { (char *)"error_code_swigregister", error_code_swigregister, METH_VARARGS, NULL},
 	 { (char *)"network_address_type_timestamp_set", _wrap_network_address_type_timestamp_set, METH_VARARGS, NULL},
 	 { (char *)"network_address_type_timestamp_get", _wrap_network_address_type_timestamp_get, METH_VARARGS, NULL},
 	 { (char *)"network_address_type_services_set", _wrap_network_address_type_services_set, METH_VARARGS, NULL},
@@ -26137,6 +28490,7 @@ static swig_type_info _swigt__p_fetch_handler_transaction_index = {"_p_fetch_han
 static swig_type_info _swigt__p_fetch_network_address_handler = {"_p_fetch_network_address_handler", "fetch_network_address_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_handshake_handler = {"_p_handshake_handler", "handshake_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_import_block_handler = {"_p_import_block_handler", "import_block_handler *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_index_list = {"_p_index_list", "index_list *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int = {"_p_int", "intptr_t *|int *|int_least32_t *|int_fast32_t *|int32_t *|int_fast16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_inventory_type_id = {"_p_inventory_type_id", "inventory_type_id *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_io_service = {"_p_io_service", "io_service *", 0, 0, (void*)0, 0};
@@ -26206,11 +28560,13 @@ static swig_type_info _swigt__p_std__allocatorT_libbitcoin__output_point_t = {"_
 static swig_type_info _swigt__p_std__allocatorT_libbitcoin__transaction_input_type_t = {"_p_std__allocatorT_libbitcoin__transaction_input_type_t", "std::allocator< libbitcoin::transaction_input_type > *|std::vector< libbitcoin::transaction_input_type >::allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_libbitcoin__transaction_output_type_t = {"_p_std__allocatorT_libbitcoin__transaction_output_type_t", "std::allocator< libbitcoin::transaction_output_type > *|std::vector< libbitcoin::transaction_output_type >::allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__allocatorT_libbitcoin__transaction_type_t = {"_p_std__allocatorT_libbitcoin__transaction_type_t", "std::allocator< libbitcoin::transaction_type > *|std::vector< libbitcoin::transaction_type >::allocator_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__allocatorT_size_t_t = {"_p_std__allocatorT_size_t_t", "std::vector< size_t >::allocator_type *|std::allocator< size_t > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__arrayT_unsigned_char_16_t = {"_p_std__arrayT_unsigned_char_16_t", "libbitcoin::ip_address_type *|std::array< unsigned char,16 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__arrayT_unsigned_char_20_t = {"_p_std__arrayT_unsigned_char_20_t", "libbitcoin::short_hash *|std::array< unsigned char,20 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__arrayT_unsigned_char_32_t = {"_p_std__arrayT_unsigned_char_32_t", "libbitcoin::secret_parameter *|libbitcoin::hash_digest *|std::array< unsigned char,32 > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__atomicT_size_t_t = {"_p_std__atomicT_size_t_t", "std::atomic< size_t > *|libbitcoin::atomic_counter *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__error_code = {"_p_std__error_code", "std::error_code *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__error_condition = {"_p_std__error_condition", "std::error_condition *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__functionT_void_fboolF_t = {"_p_std__functionT_void_fboolF_t", "libbitcoin::transaction_pool::exists_handler *|std::function< void (bool) > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_constF_t = {"_p_std__functionT_void_fstd__error_code_constF_t", "libbitcoin::leveldb_blockchain::start_handler *|std::function< void (std::error_code const) > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_RF_t = {"_p_std__functionT_void_fstd__error_code_const_RF_t", "libbitcoin::transaction_entry_info::confirm_handler *|std::function< void (std::error_code const &) > *|libbitcoin::hosts::save_handler *|libbitcoin::hosts::store_handler *|libbitcoin::hosts::remove_handler *|libbitcoin::handshake::start_handler *|libbitcoin::handshake::handshake_handler *|libbitcoin::handshake::setter_handler *|libbitcoin::channel_proxy::send_handler *|libbitcoin::channel_proxy::stop_handler *|libbitcoin::protocol::completion_handler *|libbitcoin::blockchain::import_block_handler *|libbitcoin::transaction_pool::confirm_handler *|libbitcoin::session::completion_handler *|libbitcoin::hosts::load_handler *", 0, 0, (void*)0, 0};
@@ -26224,7 +28580,7 @@ static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_lib
 static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_libbitcoin__header_type_const_R_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t_const_RF_t = {"_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__header_type_const_R_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t_const_RF_t", "std::function< void (std::error_code const &,libbitcoin::header_type const &,std::vector< unsigned char,std::allocator< unsigned char > > const &) > *|libbitcoin::channel_proxy::receive_raw_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_libbitcoin__network_address_type_const_RF_t = {"_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__network_address_type_const_RF_t", "libbitcoin::handshake::fetch_network_address_handler *|std::function< void (std::error_code const &,libbitcoin::network_address_type const &) > *|libbitcoin::hosts::fetch_address_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_libbitcoin__output_point_const_RF_t = {"_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__output_point_const_RF_t", "std::function< void (std::error_code const &,libbitcoin::output_point const &) > *|libbitcoin::blockchain::fetch_handler_spend *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t = {"_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t", "std::function< void (std::error_code const &,libbitcoin::transaction_type const &) > *|libbitcoin::blockchain::fetch_handler_transaction *|libbitcoin::transaction_pool::fetch_handler *|libbitcoin::channel_proxy::receive_transaction_handler *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t = {"_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__transaction_type_const_RF_t", "std::function< void (std::error_code const &,libbitcoin::transaction_type const &) > *|libbitcoin::blockchain::fetch_handler_transaction *|libbitcoin::transaction_pool::fetch_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_libbitcoin__verack_type_const_RF_t = {"_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__verack_type_const_RF_t", "libbitcoin::channel_proxy::receive_verack_handler *|std::function< void (std::error_code const &,libbitcoin::verack_type const &) > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_libbitcoin__version_type_const_RF_t = {"_p_std__functionT_void_fstd__error_code_const_R_libbitcoin__version_type_const_RF_t", "std::function< void (std::error_code const &,libbitcoin::version_type const &) > *|libbitcoin::channel_proxy::receive_version_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_size_tF_t = {"_p_std__functionT_void_fstd__error_code_const_R_size_tF_t", "libbitcoin::blockchain::fetch_handler_block_depth *|libbitcoin::blockchain::fetch_handler_last_depth *|libbitcoin::protocol::fetch_connection_count_handler *|libbitcoin::hosts::fetch_count_handler *|std::function< void (std::error_code const &,size_t) > *", 0, 0, (void*)0, 0};
@@ -26239,9 +28595,8 @@ static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_std
 static swig_type_info _swigt__p_std__functionT_void_fstd__error_code_const_R_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t_const_RF_t = {"_p_std__functionT_void_fstd__error_code_const_R_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t_const_RF_t", "libbitcoin::blockchain_fetch_handler_block_locator *|std::function< void (std::error_code const &,std::vector< std::array< unsigned char,32 >,std::allocator< std::array< unsigned char,32 > > > const &) > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__functionT_void_fstd__shared_ptrT_libbitcoin__channel_tF_t = {"_p_std__functionT_void_fstd__shared_ptrT_libbitcoin__channel_tF_t", "std::function< void (std::shared_ptr< libbitcoin::channel >) > *|libbitcoin::protocol::channel_handler *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__invalid_argument = {"_p_std__invalid_argument", "std::invalid_argument *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__shared_ptrT_channel_t = {"_p_std__shared_ptrT_channel_t", "channel_ptr *|std::shared_ptr< channel > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__shared_ptrT_libbitcoin__acceptor_t = {"_p_std__shared_ptrT_libbitcoin__acceptor_t", "std::shared_ptr< libbitcoin::acceptor > *|libbitcoin::acceptor_ptr *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__shared_ptrT_libbitcoin__channel_t = {"_p_std__shared_ptrT_libbitcoin__channel_t", "libbitcoin::channel_ptr *|std::shared_ptr< libbitcoin::channel > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__shared_ptrT_libbitcoin__channel_t = {"_p_std__shared_ptrT_libbitcoin__channel_t", "libbitcoin::channel_ptr *|channel_ptr *|std::shared_ptr< libbitcoin::channel > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__shared_ptrT_libbitcoin__leveldb_common_t = {"_p_std__shared_ptrT_libbitcoin__leveldb_common_t", "libbitcoin::leveldb_common_ptr *|std::shared_ptr< libbitcoin::leveldb_common > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__shared_ptrT_std__atomicT_size_t_t_t = {"_p_std__shared_ptrT_std__atomicT_size_t_t_t", "std::shared_ptr< std::atomic< size_t > > *|libbitcoin::atomic_counter_ptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__shared_ptrT_tcp__acceptor_t = {"_p_std__shared_ptrT_tcp__acceptor_t", "std::shared_ptr< tcp::acceptor > *|libbitcoin::acceptor::tcp_acceptor_ptr *", 0, 0, (void*)0, 0};
@@ -26253,7 +28608,7 @@ static swig_type_info _swigt__p_std__vectorT_libbitcoin__output_point_std__alloc
 static swig_type_info _swigt__p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t = {"_p_std__vectorT_libbitcoin__transaction_input_type_std__allocatorT_libbitcoin__transaction_input_type_t_t", "libbitcoin::transaction_input_list *|std::vector< libbitcoin::transaction_input_type,std::allocator< libbitcoin::transaction_input_type > > *|std::vector< libbitcoin::transaction_input_type > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_libbitcoin__transaction_output_type_std__allocatorT_libbitcoin__transaction_output_type_t_t = {"_p_std__vectorT_libbitcoin__transaction_output_type_std__allocatorT_libbitcoin__transaction_output_type_t_t", "std::vector< libbitcoin::transaction_output_type,std::allocator< libbitcoin::transaction_output_type > > *|libbitcoin::transaction_output_list *|std::vector< libbitcoin::transaction_output_type > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_libbitcoin__transaction_type_std__allocatorT_libbitcoin__transaction_type_t_t = {"_p_std__vectorT_libbitcoin__transaction_type_std__allocatorT_libbitcoin__transaction_type_t_t", "libbitcoin::transaction_list *|std::vector< libbitcoin::transaction_type,std::allocator< libbitcoin::transaction_type > > *|std::vector< libbitcoin::transaction_type > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_std__vectorT_size_t_std__allocatorT_size_t_t_t = {"_p_std__vectorT_size_t_std__allocatorT_size_t_t_t", "std::vector< size_t,std::allocator< size_t > > *|libbitcoin::index_list *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_std__vectorT_size_t_std__allocatorT_size_t_t_t = {"_p_std__vectorT_size_t_std__allocatorT_size_t_t_t", "std::vector< size_t,std::allocator< size_t > > *|libbitcoin::index_list *|std::vector< size_t > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t = {"_p_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t", "libbitcoin::block_locator_type *|std::vector< std::array< unsigned char,32 >,std::allocator< std::array< unsigned char,32 > > > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t = {"_p_std__vectorT_unsigned_char_std__allocatorT_unsigned_char_t_t", "libbitcoin::private_data *|std::vector< unsigned char,std::allocator< unsigned char > > *|libbitcoin::data_chunk *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_stop_handler = {"_p_stop_handler", "stop_handler *", 0, 0, (void*)0, 0};
@@ -26300,6 +28655,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_fetch_network_address_handler,
   &_swigt__p_handshake_handler,
   &_swigt__p_import_block_handler,
+  &_swigt__p_index_list,
   &_swigt__p_int,
   &_swigt__p_inventory_type_id,
   &_swigt__p_io_service,
@@ -26369,11 +28725,13 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__allocatorT_libbitcoin__transaction_input_type_t,
   &_swigt__p_std__allocatorT_libbitcoin__transaction_output_type_t,
   &_swigt__p_std__allocatorT_libbitcoin__transaction_type_t,
+  &_swigt__p_std__allocatorT_size_t_t,
   &_swigt__p_std__arrayT_unsigned_char_16_t,
   &_swigt__p_std__arrayT_unsigned_char_20_t,
   &_swigt__p_std__arrayT_unsigned_char_32_t,
   &_swigt__p_std__atomicT_size_t_t,
   &_swigt__p_std__error_code,
+  &_swigt__p_std__error_condition,
   &_swigt__p_std__functionT_void_fboolF_t,
   &_swigt__p_std__functionT_void_fstd__error_code_constF_t,
   &_swigt__p_std__functionT_void_fstd__error_code_const_RF_t,
@@ -26402,7 +28760,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__functionT_void_fstd__error_code_const_R_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t_const_RF_t,
   &_swigt__p_std__functionT_void_fstd__shared_ptrT_libbitcoin__channel_tF_t,
   &_swigt__p_std__invalid_argument,
-  &_swigt__p_std__shared_ptrT_channel_t,
   &_swigt__p_std__shared_ptrT_libbitcoin__acceptor_t,
   &_swigt__p_std__shared_ptrT_libbitcoin__channel_t,
   &_swigt__p_std__shared_ptrT_libbitcoin__leveldb_common_t,
@@ -26463,6 +28820,7 @@ static swig_cast_info _swigc__p_fetch_handler_transaction_index[] = {  {&_swigt_
 static swig_cast_info _swigc__p_fetch_network_address_handler[] = {  {&_swigt__p_fetch_network_address_handler, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_handshake_handler[] = {  {&_swigt__p_handshake_handler, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_import_block_handler[] = {  {&_swigt__p_import_block_handler, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_index_list[] = {  {&_swigt__p_index_list, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_inventory_type_id[] = {  {&_swigt__p_inventory_type_id, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_io_service[] = {  {&_swigt__p_io_service, 0, 0, 0},{0, 0, 0, 0}};
@@ -26532,11 +28890,13 @@ static swig_cast_info _swigc__p_std__allocatorT_libbitcoin__output_point_t[] = {
 static swig_cast_info _swigc__p_std__allocatorT_libbitcoin__transaction_input_type_t[] = {  {&_swigt__p_std__allocatorT_libbitcoin__transaction_input_type_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_libbitcoin__transaction_output_type_t[] = {  {&_swigt__p_std__allocatorT_libbitcoin__transaction_output_type_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__allocatorT_libbitcoin__transaction_type_t[] = {  {&_swigt__p_std__allocatorT_libbitcoin__transaction_type_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__allocatorT_size_t_t[] = {  {&_swigt__p_std__allocatorT_size_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__arrayT_unsigned_char_16_t[] = {  {&_swigt__p_std__arrayT_unsigned_char_16_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__arrayT_unsigned_char_20_t[] = {  {&_swigt__p_std__arrayT_unsigned_char_20_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__arrayT_unsigned_char_32_t[] = {  {&_swigt__p_std__arrayT_unsigned_char_32_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__atomicT_size_t_t[] = {  {&_swigt__p_std__atomicT_size_t_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__error_code[] = {  {&_swigt__p_std__error_code, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_std__error_condition[] = {  {&_swigt__p_std__error_condition, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__functionT_void_fboolF_t[] = {  {&_swigt__p_std__functionT_void_fboolF_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__functionT_void_fstd__error_code_constF_t[] = {  {&_swigt__p_std__functionT_void_fstd__error_code_constF_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__functionT_void_fstd__error_code_const_RF_t[] = {  {&_swigt__p_std__functionT_void_fstd__error_code_const_RF_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -26565,7 +28925,6 @@ static swig_cast_info _swigc__p_std__functionT_void_fstd__error_code_const_R_std
 static swig_cast_info _swigc__p_std__functionT_void_fstd__error_code_const_R_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t_const_RF_t[] = {  {&_swigt__p_std__functionT_void_fstd__error_code_const_R_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t_const_RF_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__functionT_void_fstd__shared_ptrT_libbitcoin__channel_tF_t[] = {  {&_swigt__p_std__functionT_void_fstd__shared_ptrT_libbitcoin__channel_tF_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__invalid_argument[] = {  {&_swigt__p_std__invalid_argument, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_std__shared_ptrT_channel_t[] = {  {&_swigt__p_std__shared_ptrT_channel_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__shared_ptrT_libbitcoin__acceptor_t[] = {  {&_swigt__p_std__shared_ptrT_libbitcoin__acceptor_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__shared_ptrT_libbitcoin__channel_t[] = {  {&_swigt__p_std__shared_ptrT_libbitcoin__channel_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__shared_ptrT_libbitcoin__leveldb_common_t[] = {  {&_swigt__p_std__shared_ptrT_libbitcoin__leveldb_common_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -26626,6 +28985,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_fetch_network_address_handler,
   _swigc__p_handshake_handler,
   _swigc__p_import_block_handler,
+  _swigc__p_index_list,
   _swigc__p_int,
   _swigc__p_inventory_type_id,
   _swigc__p_io_service,
@@ -26695,11 +29055,13 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__allocatorT_libbitcoin__transaction_input_type_t,
   _swigc__p_std__allocatorT_libbitcoin__transaction_output_type_t,
   _swigc__p_std__allocatorT_libbitcoin__transaction_type_t,
+  _swigc__p_std__allocatorT_size_t_t,
   _swigc__p_std__arrayT_unsigned_char_16_t,
   _swigc__p_std__arrayT_unsigned_char_20_t,
   _swigc__p_std__arrayT_unsigned_char_32_t,
   _swigc__p_std__atomicT_size_t_t,
   _swigc__p_std__error_code,
+  _swigc__p_std__error_condition,
   _swigc__p_std__functionT_void_fboolF_t,
   _swigc__p_std__functionT_void_fstd__error_code_constF_t,
   _swigc__p_std__functionT_void_fstd__error_code_const_RF_t,
@@ -26728,7 +29090,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_std__functionT_void_fstd__error_code_const_R_std__vectorT_std__arrayT_unsigned_char_32_t_std__allocatorT_std__arrayT_unsigned_char_32_t_t_t_const_RF_t,
   _swigc__p_std__functionT_void_fstd__shared_ptrT_libbitcoin__channel_tF_t,
   _swigc__p_std__invalid_argument,
-  _swigc__p_std__shared_ptrT_channel_t,
   _swigc__p_std__shared_ptrT_libbitcoin__acceptor_t,
   _swigc__p_std__shared_ptrT_libbitcoin__channel_t,
   _swigc__p_std__shared_ptrT_libbitcoin__leveldb_common_t,
