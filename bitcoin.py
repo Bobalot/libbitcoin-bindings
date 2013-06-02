@@ -379,6 +379,70 @@ class error_code(object):
 error_code_swigregister = _bitcoin.error_code_swigregister
 error_code_swigregister(error_code)
 
+class operation(object):
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+    code = _swig_property(_bitcoin.operation_code_get, _bitcoin.operation_code_set)
+    data = _swig_property(_bitcoin.operation_data_get, _bitcoin.operation_data_set)
+    def __init__(self): 
+        this = _bitcoin.new_operation()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _bitcoin.delete_operation
+    __del__ = lambda self : None;
+operation_swigregister = _bitcoin.operation_swigregister
+operation_swigregister(operation)
+
+class script(object):
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+    def join(self, *args): return _bitcoin.script_join(self, *args)
+    def push_operation(self, *args): return _bitcoin.script_push_operation(self, *args)
+    def run(self, *args): return _bitcoin.script_run(self, *args)
+    def type(self): return _bitcoin.script_type(self)
+    def operations(self): return _bitcoin.script_operations(self)
+    generate_signature_hash = staticmethod(_bitcoin.script_generate_signature_hash)
+    def __init__(self): 
+        this = _bitcoin.new_script()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _bitcoin.delete_script
+    __del__ = lambda self : None;
+script_swigregister = _bitcoin.script_swigregister
+script_swigregister(script)
+
+def script_generate_signature_hash(*args):
+  return _bitcoin.script_generate_signature_hash(*args)
+script_generate_signature_hash = _bitcoin.script_generate_signature_hash
+
+
+def opcode_to_string(*args):
+  return _bitcoin.opcode_to_string(*args)
+opcode_to_string = _bitcoin.opcode_to_string
+
+def string_to_opcode(*args):
+  return _bitcoin.string_to_opcode(*args)
+string_to_opcode = _bitcoin.string_to_opcode
+
+def __lshift__(*args):
+  return _bitcoin.__lshift__(*args)
+__lshift__ = _bitcoin.__lshift__
+
+def coinbase_script(*args):
+  return _bitcoin.coinbase_script(*args)
+coinbase_script = _bitcoin.coinbase_script
+
+def parse_script(*args):
+  return _bitcoin.parse_script(*args)
+parse_script = _bitcoin.parse_script
+
+def save_script(*args):
+  return _bitcoin.save_script(*args)
+save_script = _bitcoin.save_script
+
+def script_size(*args):
+  return _bitcoin.script_size(*args)
+script_size = _bitcoin.script_size
 class network_address_type(object):
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
@@ -881,10 +945,6 @@ def generate_merkle_root(*args):
   return _bitcoin.generate_merkle_root(*args)
 generate_merkle_root = _bitcoin.generate_merkle_root
 
-def pretty(*args):
-  return _bitcoin.pretty(*args)
-pretty = _bitcoin.pretty
-
 def previous_output_is_null(*args):
   return _bitcoin.previous_output_is_null(*args)
 previous_output_is_null = _bitcoin.previous_output_is_null
@@ -922,6 +982,10 @@ transaction_entry_info_swigregister(transaction_entry_info)
 def hash_transaction(*args):
   return _bitcoin.hash_transaction(*args)
 hash_transaction = _bitcoin.hash_transaction
+
+def pretty(*args):
+  return _bitcoin.pretty(*args)
+pretty = _bitcoin.pretty
 
 def __eq__(*args):
   return _bitcoin.__eq__(*args)

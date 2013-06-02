@@ -23,6 +23,10 @@ test:
 	PYTHONPATH=$(PWD) python tests/elliptic.py
 	echo "GENERAL TEST"
 	PYTHONPATH=$(PWD) python tests/test.py
+	echo "GENESIS BLOCK"
+	PYTHONPATH=$(PWD) python tests/satoshiwords.py
+	echo "FULL NODE TEST"
+	PYTHONPATH=$(PWD) python tests/fullnode.py
 
 compile:
 	$(CC) -c -v libbitcoin_wrap.cxx  `pkg-config --cflags --libs libbitcoin` `pkg-config --cflags python`
