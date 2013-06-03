@@ -101,6 +101,6 @@ class fullnode(object):
 if __name__ == '__main__':
     app = fullnode()
     app.start()
-    time.sleep(1000000)
+    raw_input()
     app.stop()
  
