@@ -113,10 +113,27 @@ CB_BLOCKCHAIN_TYPEMAP0(block_depth, size_t)*/
 /** hash_digest aka  std::array<uint8_t, 32> **/
 
 /* Convert from Python --> C */
-%typemap(in) std::array<uint8_t, 32> {
-    char* data_ptr = reinterpret_cast<char*>($1.data());
-    Py_ssize_t data_size = $1.size();
+
+
+%typemap(typecheck) const libbitcoin::hash_digest& {
+   $1 = PyString_Check($input) ? 1 : 0;
+}
+
+%typemap(in) const libbitcoin::hash_digest& {
+    char* data_ptr;
+    Py_ssize_t data_size = 32;
+    libbitcoin::hash_digest digest;
+    $1 = &digest;
     PyString_AsStringAndSize($input, &data_ptr, &data_size);
+    memcpy($1->data(), data_ptr, data_size);
+}
+
+
+%typemap(in) std::array<uint8_t, 32> {
+    char* data_ptr;
+    Py_ssize_t data_size = 32;
+    PyString_AsStringAndSize($input, &data_ptr, &data_size);
+    memcpy($1.data(), data_ptr, data_size);
 }
 
 /* Convert from C --> Python */
