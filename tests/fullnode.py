@@ -5,6 +5,9 @@ from bitcoin import leveldb_blockchain, poller, transaction_pool, create_session
 from bitcoin import hash_transaction
 import time
 
+def print_block(block)
+    time.ctime(block.timestamp), block.merkle.encode('hex')
+
 class fullnode(object):
     def __init__(self):
         self._net_pool = threadpool(1)
@@ -28,14 +31,10 @@ class fullnode(object):
         self._session = session(self._net_pool, pars)
         print "[fullnode] ok"
 
-    def reorganize(self, ec, _size, list1, list2):
-        print '[fullnode.reorganize]', ec, ec.message()
-        self._chain.subscribe_reorganize(self.reorganize)
-
     def start(self):
         self._protocol.subscribe_channel(self.monitor_tx)
         self._chain.start('database', self.on_chain_start)
-        self._chain.subscribe_reorganize(self.reorganize)
+        self._chain.subscribe_reorganize(self.on_reorganize)
         self._txpool.start()
         self._session.start(self.on_session_start)
         print "[fullnode.start] ok"
@@ -63,14 +62,18 @@ class fullnode(object):
             self.stop()
             sys.exit(1)
 
+    def on_reorganize(self, ec, height, arrivals, replaced):
+        print '[fullnode.reorganize]', height, str(ec), len(arrivals), len(replaced)
+        if len(arrivals):
+            print ' arrival', print_block(arrivals[0])
+        if len(list2):
+            print ' replaced', print_block(arrivals[1])
+        self._chain.subscribe_reorganize(self.on_reorganize)
+
     def monitor_tx(self, node):
         print "(fullnode.tx)", node
         node.subscribe_transaction(lambda ec, tx: self.recv_tx(node, tx, ec))
-        node.subscribe_block(lambda ec, blk: self.on_receive_block(node, blk, ec))
         self._protocol.subscribe_channel(self.monitor_tx)
-
-    def on_receive_block(self, node, blk, ec):
-        print "BLOCK", node, blk, ec
 
     def handle_confirm(self, ec):
         print "(fullnode.store) confirm", ec
