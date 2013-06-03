@@ -20,33 +20,6 @@ public:
 
     typedef std::function<void (const std::error_code&)> import_block_handler;
 
-#ifdef CXX_COMPAT
-    template <typename Message>
-    using fetch_handler = std::function<
-        void (const std::error_code&, const Message&)>;
-
-    typedef fetch_handler<block_type> fetch_handler_block_header;
-
-    typedef fetch_handler<inventory_list>
-        fetch_handler_block_transaction_hashes;
-
-    typedef fetch_handler<size_t> fetch_handler_block_depth;
-
-    typedef fetch_handler<size_t> fetch_handler_last_depth;
-
-    typedef fetch_handler<block_locator_type>
-        fetch_handler_block_locator;
-
-    typedef fetch_handler<transaction_type> fetch_handler_transaction;
-
-    typedef std::function<
-        void (const std::error_code&, size_t, size_t)>
-            fetch_handler_transaction_index;
-
-    typedef fetch_handler<input_point> fetch_handler_spend;
-
-    typedef fetch_handler<output_point_list> fetch_handler_outputs;
-#else
     typedef std::function<
         void (const std::error_code&, const block_type&)>
             fetch_handler_block_header;
@@ -80,7 +53,6 @@ public:
     typedef std::function<
         void (const std::error_code&, const output_point_list&)>
             fetch_handler_outputs;
-#endif
 
     typedef std::vector<std::shared_ptr<block_type> > block_list;
     typedef std::function<
@@ -197,7 +169,7 @@ public:
      * @endcode
      */
     virtual void fetch_block_depth(const hash_digest& block_hash,
-        fetch_handler_block_depth handle_fetch) = 0;
+        std::function<void (const std::error_code&, size_t)> handle_fetch) = 0;
 
     /**
      * Fetches the depth of the last block in our blockchain.
@@ -210,7 +182,7 @@ public:
      *  );
      * @endcode
      */
-    virtual void fetch_last_depth(fetch_handler_last_depth handle_fetch) = 0;
+    virtual void fetch_last_depth(std::function<void (const std::error_code&, size_t)> handle_fetch) = 0;
 
     /**
      * Fetches a transaction by hash

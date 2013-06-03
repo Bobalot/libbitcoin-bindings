@@ -28,9 +28,14 @@ class fullnode(object):
         self._session = session(self._net_pool, pars)
         print "[fullnode] ok"
 
+    def reorganize(self, ec, _size, list1, list2):
+        print '[fullnode.reorganize]', ec, ec.message()
+        self._chain.subscribe_reorganize(self.reorganize)
+
     def start(self):
         self._protocol.subscribe_channel(self.monitor_tx)
         self._chain.start('database', self.on_chain_start)
+        self._chain.subscribe_reorganize(self.reorganize)
         self._txpool.start()
         self._session.start(self.on_session_start)
         print "[fullnode.start] ok"
@@ -59,18 +64,24 @@ class fullnode(object):
 
     def monitor_tx(self, node):
         print "(fullnode.tx)", node
-        node.subscribe_transaction(lambda tx, ec=None: self.recv_tx(node, tx, ec))
+        node.subscribe_transaction(lambda ec, tx: self.recv_tx(node, tx, ec))
+        node.subscribe_block(lambda ec, blk: self.on_receive_block(node, blk, ec))
         self._protocol.subscribe_channel(self.monitor_tx)
+
+    def on_receive_block(self, node, blk, ec):
+        print "BLOCK", node, blk, ec
+
+    def handle_confirm(self, ec):
+        print "(fullnode.store) confirm", ec
 
     def recv_tx(self, node, tx, ec):
         print "(fullnode.recv_tx)", ec, tx
         if ec:
             print "error", ec
             return
-        def handle_confirm(ec=None):
-            print "store confirm", ec
-        self._txpool.store(tx, handle_confirm, lambda u, _ec: self.new_unconfirm_valid_tx(node, tx, u, _ec))
-        node.subscribe_transaction(lambda _tx, _ec: self.recv_tx(node, _tx, _ec))
+        print ' *', len(tx.inputs), len(tx.outputs)
+        self._txpool.store(tx, self.handle_confirm, lambda _ec, u: self.new_unconfirm_valid_tx(node, tx, u, _ec))
+        node.subscribe_transaction(lambda _ec, _tx: self.recv_tx(node, _tx, _ec))
 
     def new_unconfirm_valid_tx(self, node, tx, unconfirmed, ec):
         print "(fullnode.valid_tx)", ec, tx, unconfirmed

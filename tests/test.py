@@ -6,7 +6,7 @@ import os
 def blockchain_start(error):
     print "Blockchain starts", error
 
-def fetch_finished(block_header, error=None):
+def fetch_finished(error, block_header):
     print "FETCH", block_header
     print "Header fetched", block_header, error
     print " version", block_header.version
@@ -23,8 +23,8 @@ def fetch_finished(block_header, error=None):
 
 def import_finished(error):
     print "Import finished", error
-    chain.py_fetch_block_header(0, fetch_finished)
-    chain.py_fetch_block_header(1000, fetch_finished)
+    chain.fetch_block_header(0, fetch_finished)
+    chain.fetch_block_header(1000, fetch_finished)
     print "Import finished2"
 
 # start up engine
@@ -42,7 +42,7 @@ chain._import(first_block, 0, import_finished)
 
 # get some block headers
 print "fetch block header"
-chain.py_fetch_block_header(0, fetch_finished)
+chain.fetch_block_header(0, fetch_finished)
 
 print "waiting..."
 #time.sleep(60)

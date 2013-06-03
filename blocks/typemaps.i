@@ -5,6 +5,13 @@
 }
 %enddef
 
+%define CB_BLOCKCHAIN_TYPEMAP0(handler, type)
+%typemap(in) libbitcoin::blockchain::fetch_handler_ ## handler {
+    Py_INCREF($input);
+    $1 = std::bind(python_ ## type ## _cb_handler, $input, _1);
+}
+%enddef
+
 %define CB_TYPEMAP1(handler, type)
 %typemap(in) std::function<void (const std::error_code&, const handler&)> {
     Py_INCREF($input);
@@ -12,8 +19,13 @@
 }
 %enddef
 
+%typemap(typecheck) libbitcoin::blockchain::fetch_handler_block_header {
+   $1 = PyCallable_Check($input) ? 1 : 0;
+}
+
 /* txpool.store */
 CB_TYPEMAP1(libbitcoin::index_list, index_list)
+CB_TYPEMAP1(block_info, block_info)
 /* node.subscribe_transaction
    blockchain.fetch_transaction */
 CB_TYPEMAP1(libbitcoin::transaction_type, transaction_type)
@@ -33,12 +45,19 @@ CB_TYPEMAP1(get_data_type, get_data_type)
 CB_TYPEMAP1(get_blocks_type, get_blocks_type)
 /* channel.subscribe_block */
 CB_TYPEMAP1(block_type, block_type)
+CB_TYPEMAP1(libbitcoin::block_type, block_type)
 /*
  TODO channel.subscribe_raw(receive_raw_handler
 */
 /* TODO blockchain.fetch_block_depth */
 /* TODO blockchain.fetch_last_depth */
-CB_TYPEMAP1(size_t, size_t)
+/*CB_TYPEMAP0(size_t, size_t)*/
+
+%typemap(in) std::function<void (const std::error_code&, size_t,
+            const libbitcoin::blockchain::block_list&, const libbitcoin::blockchain::block_list&)> {
+    Py_INCREF($input);
+    $1 = std::bind(python_reorganize_cb_handler, $input, _1, _2, _3, _4);
+}
 
 
 %typemap(in) std::function<void (std::shared_ptr< libbitcoin::channel >)> {
@@ -56,12 +75,19 @@ CB_BLOCKCHAIN_TYPEMAP(block_header, block_type)
 CB_BLOCKCHAIN_TYPEMAP(spend, input_point)
 /* blockchain.fetch_outputs */
 CB_BLOCKCHAIN_TYPEMAP(outputs, output_point_list)
+/*CB_BLOCKCHAIN_TYPEMAP0(last_depth, size_t)
+CB_BLOCKCHAIN_TYPEMAP0(block_depth, size_t)*/
 
 /* MISSING: */
 /* TODO blockchain.fetch_transaction_index */
 /* TODO blockchain.subscribe_reorganize */
 
 /* Error codes */
+%typemap(in) std::function<void (const std::error_code&, size_t)> {
+    Py_INCREF($input);
+    $1 = std::bind(python_size_t_err_cb_handler, $input, _1, _2);
+}
+
 %typemap(in) std::function<void (const std::error_code)> {
     Py_INCREF($input);
     $1 = std::bind(python_cb_handler, $input, _1);

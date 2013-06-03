@@ -10,7 +10,7 @@ void python_ ## type ## _cb_handler(PyObject *pyfunc, const std::error_code &ec,
         PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
         PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::type(static_cast< const libbitcoin::type& >(blk))), swigtype , 0 );
 
-        PyObject *arglist = Py_BuildValue("(OO)", resultobj, errorobj);
+        PyObject *arglist = Py_BuildValue("(OO)", errorobj, resultobj);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
         if (result == NULL) {
                 PyErr_Print();
@@ -35,7 +35,7 @@ void python_ ## type ## _cb_handler(PyObject *pyfunc, const std::error_code &ec,
         PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
         PyObject *resultobj = SWIG_NewPointerObj((new libbitcoin::type(static_cast< const libbitcoin::type& >(blk))), SWIGTYPE_p_libbitcoin__ ## type , 0 );
 
-        PyObject *arglist = Py_BuildValue("(OO)", resultobj, errorobj);
+        PyObject *arglist = Py_BuildValue("(OO)", errorobj, resultobj);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
         if (result == NULL) {
                 PyErr_Print();
@@ -54,6 +54,7 @@ void python_ ## type ## _cb_handler(PyObject *pyfunc, const std::error_code&, co
 
 CB_HANDLER(block_type)
 CB_HANDLER(transaction_type)
+CB_HANDLER(block_info)
 
 CB_HANDLER_NONS(block_locator_type, SWIGTYPE_p_block_locator_type)
 CB_HANDLER_NONS(inventory_list, SWIGTYPE_p_inventory_list)
@@ -98,10 +99,40 @@ void python_cb_handler(PyObject *pyfunc, const std::error_code &ec) {
         PyGILState_Release(gstate);
 };
 
+void python_size_t_err_cb_handler(PyObject *pyfunc, const std::error_code &ec, const size_t s) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+        PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
+        PyObject *arglist = Py_BuildValue("(OI)", errorobj, s);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+
+
 void python_size_t_cb_handler(PyObject *pyfunc, const size_t &s) {
         PyGILState_STATE gstate;
         gstate = PyGILState_Ensure();
-        PyObject *arglist = Py_BuildValue("(I)", &s);
+        PyObject *arglist = Py_BuildValue("(l)", s);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+
+void python_reorganize_cb_handler(PyObject *pyfunc, const std::error_code &ec, size_t s,
+            const libbitcoin::blockchain::block_list &list1, const libbitcoin::blockchain::block_list &list2) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+        PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
+        PyObject *list1obj = SWIG_NewPointerObj(SWIG_as_voidptr(&list1), SWIGTYPE_p_block_list, 0 );
+        PyObject *list2obj = SWIG_NewPointerObj(SWIG_as_voidptr(&list2), SWIGTYPE_p_block_list, 0 );
+        PyObject *arglist = Py_BuildValue("(OIOO)", errorobj, s, list1obj, list2obj);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
         if (result == NULL) {
                 PyErr_Print();
@@ -140,6 +171,9 @@ void python_size_t_cb_handler(PyObject *pyfunc, const size_t &s);
 %nothread python_size_t_cb_handler;
 void python_channel_cb_handler(PyObject *pyfunc, libbitcoin::channel_ptr channel);
 %nothread python_channel_cb_handler;
+void python_reorganize_cb_handler(PyObject *pyfunc, const std::error_code &ec, size_t s,
+            const libbitcoin::blockchain::block_list &list1, const libbitcoin::blockchain::block_list &list2);
+%nothread python_reorganize_cb_handler;
 
 
 /* Declare python callback */

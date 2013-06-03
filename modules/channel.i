@@ -318,9 +318,11 @@ public:
         const data_chunk& payload, channel_proxy::send_handler handle_send);
 
     void subscribe_version(
-        channel_proxy::receive_version_handler handle_receive);
+        std::function<void (const std::error_code&,
+        const version_type&)> handle_receive);
     void subscribe_verack(
-        channel_proxy::receive_verack_handler handle_receive);
+        std::function<void (const std::error_code&,
+        const verack_type&)> handle_receive);
     void subscribe_address(
         std::function<void (const std::error_code&,
         const address_type&)> handle_receive);
@@ -337,7 +339,8 @@ public:
         std::function<void (const std::error_code&,
         const transaction_type&)> handle_receive);
     void subscribe_block(
-        channel_proxy::receive_block_handler handle_receive);
+        std::function<void (const std::error_code&,
+        const block_type&)> handle_receive);
     void subscribe_raw(
         channel_proxy::receive_raw_handler handle_receive);
 

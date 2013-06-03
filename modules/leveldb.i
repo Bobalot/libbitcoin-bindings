@@ -42,9 +42,9 @@ public:
         fetch_handler_block_transaction_hashes handle_fetch);
     // fetch depth of block by hash
     void fetch_block_depth(const hash_digest& block_hash,
-        fetch_handler_block_depth handle_fetch);
+        std::function<void (const std::error_code&, size_t)> handle_fetch);
     // fetch depth of latest block
-    void fetch_last_depth(fetch_handler_last_depth handle_fetch);
+    void fetch_last_depth(std::function<void (const std::error_code&, size_t)> handle_fetch);
     // fetch transaction by hash
     void fetch_transaction(const hash_digest& transaction_hash,
         fetch_handler_transaction handle_fetch);
