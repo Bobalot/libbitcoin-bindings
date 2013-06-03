@@ -5,7 +5,7 @@ from bitcoin import leveldb_blockchain, poller, transaction_pool, create_session
 from bitcoin import hash_transaction
 import time
 
-def print_block(block)
+def print_block(block):
     time.ctime(block.timestamp), block.merkle.encode('hex')
 
 class fullnode(object):
