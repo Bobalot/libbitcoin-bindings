@@ -1,35 +1,30 @@
 import bitcoin
 from future import Future
 
-class SyncBlockchain:
+class SyncBlockchain(object):
 
     def __init__(self, chain):
         self._chain = chain
-
-    def fetch_block_header(self, index):
-        future = Future()
-        self._chain.fetch_block_header(index, future)
-        return future.get()
-
-    def fetch_block_transaction_hashes(self, index):
-        future = Future()
-        self._chain.fetch_block_transaction_hashes(index, future)
-        return future.get()
-
-    def fetch_block_depth(self, hash):
-        future = Future()
-        self._chain.fetch_block_depth(hash, future)
-        return future.get()
 
     def fetch_last_depth(self):
         future = Future()
         self._chain.fetch_last_depth(future)
         return future.get()
 
-    def fetch_transaction(self, hash):
+def create_getter(cls, name):
+    def method(self, index):
         future = Future()
-        self._chain.fetch_transaction(hash, future)
+        getattr(self._chain, name)(index, future)
         return future.get()
+    setattr(cls, name, method)
+
+create_getter(SyncBlockchain, "fetch_block_header")
+create_getter(SyncBlockchain, "fetch_block_transaction_hashes")
+create_getter(SyncBlockchain, "fetch_block_depth")
+create_getter(SyncBlockchain, "fetch_transaction")
+create_getter(SyncBlockchain, "fetch_transaction_index")
+create_getter(SyncBlockchain, "fetch_spend")
+create_getter(SyncBlockchain, "fetch_outputs")
 
 def test_methods(chain):
     print chain.fetch_block_header(110)
