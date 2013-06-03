@@ -12,6 +12,9 @@
 /* through typemap: %template(py_data_chunk) std::vector<libbitcoin::byte>; */
 %template(py_network_address_list) std::vector<libbitcoin::network_address_type>;
 
+%template(sh_block_type) std::shared_ptr<block_type>;
+%template(py_block_list) std::vector<std::shared_ptr<block_type> >;
+
 /* types.hpp */
 %template(py_size_list) std::vector<size_t>;
 

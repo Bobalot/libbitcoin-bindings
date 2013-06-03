@@ -130,8 +130,8 @@ void python_reorganize_cb_handler(PyObject *pyfunc, const std::error_code &ec, s
         PyGILState_STATE gstate;
         gstate = PyGILState_Ensure();
         PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
-        PyObject *list1obj = SWIG_NewPointerObj(SWIG_as_voidptr(&list1), SWIGTYPE_p_block_list, 0 );
-        PyObject *list2obj = SWIG_NewPointerObj(SWIG_as_voidptr(&list2), SWIGTYPE_p_block_list, 0 );
+        PyObject *list1obj = SWIG_NewPointerObj(SWIG_as_voidptr(&list1), SWIGTYPE_p_std__vectorT_std__shared_ptrT_block_type_t_std__allocatorT_std__shared_ptrT_block_type_t_t_t, 0 );
+        PyObject *list2obj = SWIG_NewPointerObj(SWIG_as_voidptr(&list2), SWIGTYPE_p_std__vectorT_std__shared_ptrT_block_type_t_std__allocatorT_std__shared_ptrT_block_type_t_t_t, 0 );
         PyObject *arglist = Py_BuildValue("(OIOO)", errorobj, s, list1obj, list2obj);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
         if (result == NULL) {
