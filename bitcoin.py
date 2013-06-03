@@ -465,6 +465,10 @@ def python_transaction_type_cb_handler(*args):
   return _bitcoin.python_transaction_type_cb_handler(*args)
 python_transaction_type_cb_handler = _bitcoin.python_transaction_type_cb_handler
 
+def python_block_info_cb_handler(*args):
+  return _bitcoin.python_block_info_cb_handler(*args)
+python_block_info_cb_handler = _bitcoin.python_block_info_cb_handler
+
 def python_block_locator_type_cb_handler(*args):
   return _bitcoin.python_block_locator_type_cb_handler(*args)
 python_block_locator_type_cb_handler = _bitcoin.python_block_locator_type_cb_handler
@@ -524,6 +528,10 @@ python_size_t_cb_handler = _bitcoin.python_size_t_cb_handler
 def python_channel_cb_handler(*args):
   return _bitcoin.python_channel_cb_handler(*args)
 python_channel_cb_handler = _bitcoin.python_channel_cb_handler
+
+def python_reorganize_cb_handler(*args):
+  return _bitcoin.python_reorganize_cb_handler(*args)
+python_reorganize_cb_handler = _bitcoin.python_reorganize_cb_handler
 class node_address(object):
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
@@ -1092,7 +1100,6 @@ class blockchain(object):
     def fetch_outputs(self, *args): return _bitcoin.blockchain_fetch_outputs(self, *args)
     def subscribe_reorganize(self, *args): return _bitcoin.blockchain_subscribe_reorganize(self, *args)
     def import_block(self, *args): return _bitcoin.blockchain_import_block(self, *args)
-    def py_fetch_block_header(self, *args): return _bitcoin.blockchain_py_fetch_block_header(self, *args)
 blockchain_swigregister = _bitcoin.blockchain_swigregister
 blockchain_swigregister(blockchain)
 
