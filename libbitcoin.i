@@ -58,6 +58,7 @@ typedef std::shared_ptr<libbitcoin::channel> channel_ptr;
 
 %include "modules/protocol.i"
 %include "bitcoin/utility/elliptic_curve_key.hpp"
+%include "bitcoin/address.hpp"
 
 %include "modules/block.i"
 %include "modules/blockchain.i"
