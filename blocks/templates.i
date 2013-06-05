@@ -1,10 +1,3 @@
-namespace std {
-    template <typename Type, size_t Size>
-    struct array
-    {
-    };
-}
-
 /* primitives.hpp */
 %template(py_hash_digest) std::array<uint8_t, 32>;
 %template(py_block_locator_type) std::vector<std::array<uint8_t, 32> >;
