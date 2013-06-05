@@ -4,6 +4,7 @@
 %include <std_vector.i>
 %include <std_string.i>
 %include <std_shared_ptr.i>
+%include <std_except.i>
 %include <typemaps.i>
 
 /* Headers and declarations for our output c++ program */
@@ -21,6 +22,8 @@ using std::placeholders::_3;
 using std::placeholders::_4;
 
 %}
+
+%include "blocks/array.i"
 
 %ignore libbitcoin::hosts::hosts(threadpool &,size_t);
 
