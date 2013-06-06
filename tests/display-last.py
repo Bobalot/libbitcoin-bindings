@@ -9,8 +9,8 @@ def display_block_header(ec, blk):
     blk_hash = hash_block_header(blk)
     print "hash:", blk_hash.encode('hex')
     print "version:", blk.version
-    print "previous_block_hash:", blk.previous_block_hash.encode('hex')
-    print "merkle:", blk.merkle.encode('hex')
+    print "previous_block_hash:", blk.previous_block_hash
+    print "merkle:", blk.merkle
 
 def depth_fetched(ec, depth):
     if ec:
@@ -29,7 +29,7 @@ def blockchain_started(ec):
 pool = threadpool(1)
 ldb_chain = leveldb_blockchain(pool)
 ldb_chain.start("database", blockchain_started)
-time.sleep(5)
+raw_input()
 
 pool.stop()
 pool.join()
