@@ -5,8 +5,10 @@ from bitcoin import leveldb_blockchain, poller, transaction_pool, create_session
 from bitcoin import hash_transaction
 import time
 
+
 def print_block(block):
     time.ctime(block.timestamp), block.merkle.encode('hex')
+
 
 class fullnode(object):
     def __init__(self):
@@ -24,15 +26,15 @@ class fullnode(object):
         self._poller = poller(self._mem_pool, self._chain)
         self._txpool = transaction_pool(self._mem_pool, self._chain)
         pars = create_session_params(self._handshake,
-				     self._protocol,
-				     self._chain,
-				     self._poller,
-				     self._txpool)
+                                     self._protocol,
+                                     self._chain,
+                                     self._poller,
+                                     self._txpool)
         self._session = session(self._net_pool, pars)
         self.report("[fullnode] ok")
 
     def report(self, text, *args):
-        print text + " ".join(map(lambda s: str(s), args))
+        print str(text) + " ".join(map(lambda s: str(s), args))
 
     def start(self):
         self._protocol.subscribe_channel(self.monitor_tx)
@@ -69,7 +71,7 @@ class fullnode(object):
         self.report('[fullnode.reorganize]', height, str(ec), len(arrivals), len(replaced))
         if len(arrivals):
             self.report(' arrival', print_block(arrivals[0]))
-        if len(list2):
+        if len(replaced):
             self.report(' replaced', print_block(arrivals[1]))
         self._chain.subscribe_reorganize(self.on_reorganize)
 
@@ -99,15 +101,17 @@ class fullnode(object):
             self.report("Accepted transaction")
             self.report(unconfirmed.__class__)
             if not unconfirmed.empty():
-               self.report("Unconfirmed")
-               for idx in unconfirmed: 
-                   self.report(' ', idx)
+                self.report("Unconfirmed")
+                for idx in unconfirmed:
+                    self.report(' ', idx)
             self.report(tx_hash)
 
 
 if __name__ == '__main__':
     app = fullnode()
     app.start()
-    raw_input()
+    try:
+        raw_input()
+    except KeyboardInterrupt:
+        pass
     app.stop()
- 
