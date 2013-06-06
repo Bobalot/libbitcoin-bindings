@@ -18,6 +18,11 @@
 %}
 }
 
+%extend std::array<uint8_t, 32> {
+    void copy(const char* arrdat) {
+        std::copy(arrdat, arrdat + 32, self->data());
+    }
+}
 
 /*
  Additions to shared pointer for block type so we can access the
