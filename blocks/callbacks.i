@@ -134,7 +134,7 @@ void python_size_t_err_cb_handler(PyObject *pyfunc, const std::error_code &ec, c
         PyGILState_STATE gstate;
         gstate = PyGILState_Ensure();
         PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
-        PyObject *arglist = Py_BuildValue("(OI)", errorobj, s);
+        PyObject *arglist = Py_BuildValue("ON", errorobj, PyInt_FromSize_t(s));
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
         if (result == NULL) {
                 PyErr_Print();
