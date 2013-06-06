@@ -1,0 +1,8 @@
+libbitcoin_wrap.cxx
+bitcoin.py
+Makefile
+*.o
+*.so
+.gitignore
+core
+
