@@ -48,6 +48,37 @@ void python_ ## type ## _cb_handler(PyObject *pyfunc, const std::error_code&, co
 %nothread python_ ## type ## _cb_handler;
 %enddef
 
+%define CB_HANDLER_NONS_LIST(type, swigtype)
+%inline %{
+void python_ ## type ## _cb_handler(PyObject *pyfunc, const std::error_code &ec, const type& blk) {
+        PyGILState_STATE gstate;
+        gstate = PyGILState_Ensure();
+        PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(&ec), SWIGTYPE_p_std__error_code, 0 );
+        PyObject* resultobj = PyTuple_New(blk.size());
+        for (size_t i = 0; i < blk.size(); ++i)
+        {
+            const hash_digest& hash = blk[i].hash;
+            const char* hash_ptr = reinterpret_cast<const char*>(hash.data());
+            PyObject *item = PyTuple_New(2);
+            PyObject *pyhash = PyString_FromStringAndSize(hash_ptr, hash.size());
+            PyObject *pyidx = PyInt_FromSize_t(blk[i].index);
+            PyTuple_SetItem(item, 0, pyhash);
+            PyTuple_SetItem(item, 1, pyidx);
+            PyTuple_SetItem(resultobj, i, item);
+        }
+        PyObject *arglist = Py_BuildValue("(OO)", errorobj, resultobj);
+        PyObject *result = PyEval_CallObject(pyfunc, arglist);
+        if (result == NULL) {
+                PyErr_Print();
+        }
+        Py_DECREF(arglist);
+        PyGILState_Release(gstate);
+};
+%}
+void python_ ## type ## _cb_handler(PyObject *pyfunc, const std::error_code&, const type& blk);
+%nothread python_ ## type ## _cb_handler;
+%enddef
+
 /*
   Handler instancing
  */
@@ -58,7 +89,7 @@ CB_HANDLER(block_info)
 
 CB_HANDLER_NONS(block_locator_type, SWIGTYPE_p_block_locator_type)
 CB_HANDLER_NONS(inventory_list, SWIGTYPE_p_inventory_list)
-CB_HANDLER_NONS(output_point_list, SWIGTYPE_p_output_point_list)
+CB_HANDLER_NONS_LIST(output_point_list, SWIGTYPE_p_output_point)
 CB_HANDLER_NONS(address_type, SWIGTYPE_p_address_type)
 CB_HANDLER_NONS(get_address_type, SWIGTYPE_p_get_address_type)
 CB_HANDLER_NONS(input_point, SWIGTYPE_p_input_point)
