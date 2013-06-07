@@ -208,7 +208,6 @@ void python_reorganize_cb_handler(PyObject *pyfunc, const std::error_code &ec, s
         PyGILState_Release(gstate);
 };
 
-
 /*
  Python callback for channel
 */
@@ -219,7 +218,7 @@ void python_channel_cb_handler(PyObject *pyfunc, libbitcoin::channel_ptr channel
         /* Initialize swig pointers */
         PyObject *resultobj = 0;
         libbitcoin::channel_ptr* result_copy = new channel_ptr(channel);
-        resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result_copy), SWIGTYPE_p_libbitcoin__channel, SWIG_POINTER_OWN);
+        resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result_copy), SWIGTYPE_p_std__shared_ptrT_libbitcoin__channel_t , SWIG_POINTER_OWN);
 
         /* Call function */
         PyObject *arglist = Py_BuildValue("(O)", resultobj);

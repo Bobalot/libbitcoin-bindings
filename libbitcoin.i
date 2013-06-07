@@ -56,6 +56,9 @@ namespace libbitcoin {
 %include "modules/network.i"
 %include "modules/channel.i"
 
+%include <std_shared_ptr.i>
+%shared_ptr(channel)
+
 typedef std::shared_ptr<libbitcoin::channel> channel_ptr;
 %template(py_channel_ptr) std::shared_ptr<libbitcoin::channel>;
 
