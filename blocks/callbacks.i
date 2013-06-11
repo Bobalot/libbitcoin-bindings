@@ -211,17 +211,19 @@ void python_reorganize_cb_handler(PyObject *pyfunc, const std::error_code &ec, s
 /*
  Python callback for channel
 */
-void python_channel_cb_handler(PyObject *pyfunc, libbitcoin::channel_ptr channel) {
+void python_channel_cb_handler(PyObject *pyfunc, const std::error_code& ec, libbitcoin::channel_ptr channel) {
         PyGILState_STATE gstate;
         gstate = PyGILState_Ensure();
 
         /* Initialize swig pointers */
+        std::error_code* ec_copy = new std::error_code(ec);
+        PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(ec_copy), SWIGTYPE_p_std__error_code, SWIG_POINTER_OWN);
         PyObject *resultobj = 0;
         libbitcoin::channel_ptr* result_copy = new channel_ptr(channel);
         resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result_copy), SWIGTYPE_p_std__shared_ptrT_libbitcoin__channel_t , SWIG_POINTER_OWN);
 
         /* Call function */
-        PyObject *arglist = Py_BuildValue("(O)", resultobj);
+        PyObject *arglist = Py_BuildValue("(OO)", errorobj, resultobj);
         PyObject *result = PyEval_CallObject(pyfunc, arglist);
         if (result == NULL) {
                 PyErr_Print();
@@ -236,7 +238,7 @@ void python_cb_handler(PyObject *pyfunc, const std::error_code&);
 %nothread python_cb_handler;
 void python_size_t_cb_handler(PyObject *pyfunc, const size_t &s);
 %nothread python_size_t_cb_handler;
-void python_channel_cb_handler(PyObject *pyfunc, libbitcoin::channel_ptr channel);
+void python_channel_cb_handler(PyObject *pyfunc, const std::error_code& ec, libbitcoin::channel_ptr channel);
 %nothread python_channel_cb_handler;
 void python_reorganize_cb_handler(PyObject *pyfunc, const std::error_code &ec, size_t s,
             const libbitcoin::blockchain::block_list &list1, const libbitcoin::blockchain::block_list &list2);

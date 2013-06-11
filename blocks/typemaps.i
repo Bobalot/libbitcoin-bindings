@@ -60,9 +60,9 @@ CB_TYPEMAP1(libbitcoin::block_type, block_type)
 }
 
 
-%typemap(in) std::function<void (std::shared_ptr< libbitcoin::channel >)> {
+%typemap(in) std::function<void (std::shared_ptr< const std::error_code&, libbitcoin::channel >)> {
     Py_INCREF($input);
-    $1 = std::bind(python_channel_cb_handler, $input, _1);
+    $1 = std::bind(python_channel_cb_handler, $input, _1, _2);
 }
 
 /* Blockchain */

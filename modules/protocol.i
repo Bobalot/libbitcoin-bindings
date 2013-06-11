@@ -22,7 +22,7 @@ public:
 
     typedef std::function<void (const std::error_code&, size_t)>
         fetch_connection_count_handler;
-    typedef std::function<void (channel_ptr)> channel_handler;
+    typedef std::function<void (const std::error_code&, channel_ptr)> channel_handler;
 
     protocol(threadpool& pool, hosts& hsts,
         handshake& shake, network& net);
