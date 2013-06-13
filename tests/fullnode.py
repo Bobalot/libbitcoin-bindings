@@ -7,7 +7,7 @@ import time
 
 
 def print_block(block):
-    time.ctime(block.timestamp), block.merkle.encode('hex')
+    print time.ctime(block.timestamp), str(block.merkle)
 
 
 class fullnode(object):
@@ -75,7 +75,10 @@ class fullnode(object):
             self.report(' replaced', print_block(arrivals[1]))
         self._chain.subscribe_reorganize(self.on_reorganize)
 
-    def monitor_tx(self, node):
+    def monitor_tx(self, ec, node):
+        if ec:
+            self.report("error", ec)
+            return
         self.report("(fullnode.tx)", node)
         node.subscribe_transaction(lambda ec, tx: self.recv_tx(node, tx, ec))
         self._protocol.subscribe_channel(self.monitor_tx)
