@@ -120,12 +120,15 @@ CB_BLOCKCHAIN_TYPEMAP0(block_depth, size_t)*/
 }
 
 %typemap(in) const libbitcoin::hash_digest& {
-    static libbitcoin::hash_digest digest;
+    hash_digest* digest = new hash_digest;
     char* data_ptr;
     Py_ssize_t data_size = 32;
-    $1 = &digest;
+    $1 = digest;
     PyString_AsStringAndSize($input, &data_ptr, &data_size);
     memcpy($1->data(), data_ptr, data_size);
+}
+%typemap(freearg) const libbitcoin::hash_digest& {
+    delete $1;
 }
 
 
