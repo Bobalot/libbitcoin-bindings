@@ -46,6 +46,18 @@ CB_TYPEMAP1(get_blocks_type, get_blocks_type)
 /* channel.subscribe_block */
 CB_TYPEMAP1(block_type, block_type)
 CB_TYPEMAP1(libbitcoin::block_type, block_type)
+
+/* composed operations for blockchain */
+%typemap(in) libbitcoin::blockchain_fetch_handler_history {
+    Py_INCREF($input);
+    $1 = std::bind(python_history_cb_handler, $input, _1, _2, _3);
+}
+
+%typemap(in) libbitcoin::blockchain_fetch_handler_output_values {
+    Py_INCREF($input);
+    $1 = std::bind(python_output_value_list_cb_handler, $input, _1, _2);
+}
+
 /*
  TODO channel.subscribe_raw(receive_raw_handler
 */
@@ -130,20 +142,27 @@ CB_BLOCKCHAIN_TYPEMAP0(block_depth, size_t)*/
 %typemap(freearg) const libbitcoin::hash_digest& {
     delete $1;
 }
+%typemap(out) libbitcoin::hash_digest {
+    const char* data_ptr = reinterpret_cast<const char*>($1.data());
+    $result = PyString_FromStringAndSize(data_ptr, $1.size());
+}
 
-
+/*
 %typemap(in) std::array<uint8_t, 32> {
     char* data_ptr;
     Py_ssize_t data_size = 32;
     PyString_AsStringAndSize($input, &data_ptr, &data_size);
     memcpy($1.data(), data_ptr, data_size);
 }
+*/
 
 /* Convert from C --> Python */
+/*
 %typemap(out) std::array<uint8_t, 32> {
     const char* data_ptr = reinterpret_cast<const char*>($1.data());
     $result = PyString_FromStringAndSize(data_ptr, $1.size());
 }
+*/
 
 /* Convert from Python --> C */
 /*%typemap(in) std::vector<byte> {

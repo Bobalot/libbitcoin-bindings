@@ -1,8 +1,23 @@
+/* blockchain.hpp */
+typedef libbitcoin::output_point input_point;
+#if defined(SWIGWORDSIZE64)
+    %template(py_output_value_list) std::vector<long unsigned int>;
+    /* disabled */
+    /* typedef std::vector<long unsigned int> output_value_list; */
+#else
+    %template(py_output_value_list) std::vector<long long unsigned int>;
+    /* disabled */
+    /* typedef std::vector<long long unsigned int> output_value_list; */
+#endif
 /* primitives.hpp */
 %template(py_hash_digest) std::array<uint8_t, 32>;
+typedef std::array<uint8_t, 32> hash_digest;
 %template(py_block_locator_type) std::vector<std::array<uint8_t, 32> >;
+typedef std::vector<std::array<uint8_t, 32> > block_locator_type;
 %template(py_inventory_list) std::vector<libbitcoin::inventory_vector_type>;
+typedef std::vector<libbitcoin::inventory_vector_type> inventory_list;
 %template(py_input_point_list) std::vector<libbitcoin::output_point>;
+typedef std::vector<libbitcoin::output_point> output_point_list;
 /* aliased with input_point: %template(py_output_point_list) std::vector<output_point>; */
 %template(py_transaction_input_list) std::vector<libbitcoin::transaction_input_type>;
 %template(py_transaction_output_list) std::vector<libbitcoin::transaction_output_type>;

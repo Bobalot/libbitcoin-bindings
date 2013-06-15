@@ -23,6 +23,8 @@ using std::placeholders::_4;
 
 %}
 
+%rename(hash_inst) libbitcoin::output_point::hash;
+
 %include "blocks/array.i"
 
 %ignore libbitcoin::hosts::hosts(threadpool &,size_t);

@@ -22,6 +22,21 @@
     void copy(const char* arrdat) {
         std::copy(arrdat, arrdat + 32, self->data());
     }
+    std::string raw() {
+        return std::string(self->begin(), self->end());
+    }
+}
+
+
+%extend libbitcoin::output_point {
+%pythoncode {
+    @property
+    def hash(self):
+        return self.hash_inst.raw()
+    @hash.setter
+    def hash(self, str_hash):
+        self.hash_inst.copy(str_hash)
+}
 }
 
 /*
