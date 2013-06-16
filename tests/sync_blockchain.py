@@ -28,15 +28,17 @@ create_getter(SyncBlockchain, "fetch_outputs")
 
 def test_methods(chain):
     print chain.fetch_block_header(110)
-    # Doesn't work.
-    #print chain.fetch_block_header("00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b".decode("hex"))
+    print chain.fetch_block_header("00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b".decode("hex"))
     # Doesn't work.
     #print chain.fetch_block_transaction_hashes(110)
-    # Doesn't work.
-    #print chain.fetch_block_depth("00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b".decode("hex"))
+    print chain.fetch_block_depth("00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b".decode("hex"))
     print chain.fetch_last_depth()
-    # Doesn't work.
-    #print chain.fetch_transaction("abde5e83fc1973fd042c56c8cb41b6c739f3e50678d1fa2f99f0a409e4aa80c7".decode("hex"))
+    print chain.fetch_transaction("abde5e83fc1973fd042c56c8cb41b6c739f3e50678d1fa2f99f0a409e4aa80c7".decode("hex"))
+    print chain.fetch_transaction_index("abde5e83fc1973fd042c56c8cb41b6c739f3e50678d1fa2f99f0a409e4aa80c7".decode("hex"))
+    addr = bitcoin.payment_address("1Afgoy1AoSMW5U7pgiMEDM98dpuLbTFNy1")
+    ec, outs = chain.fetch_outputs(addr)
+    print (ec, outs)
+    print chain.fetch_spend(outs[0])
 
 def main():
     pool = bitcoin.threadpool(1)

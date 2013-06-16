@@ -91,6 +91,29 @@ CB_HANDLER_NONS(get_blocks_type, SWIGTYPE_p_libbitcoin__get_blocks_type)
 */
 
 %{
+void python_txidx_cb_handler(PyObject *pyfunc, const std::error_code &ec,
+    size_t block_depth, size_t offset) {
+
+    PyGILState_STATE gstate;
+    gstate = PyGILState_Ensure();
+    std::error_code* ec_copy = new std::error_code(ec);
+    PyObject *errorobj = SWIG_NewPointerObj(SWIG_as_voidptr(ec_copy), SWIGTYPE_p_std__error_code, SWIG_POINTER_OWN);
+    PyObject *arglist = Py_BuildValue("(ONN)", errorobj,
+        PyInt_FromSize_t(block_depth), PyInt_FromSize_t(offset));
+    PyObject *result = PyEval_CallObject(pyfunc, arglist);
+    Py_DECREF(pyfunc);
+    if (result == NULL) {
+            PyErr_Print();
+    }
+    Py_DECREF(arglist);
+    PyGILState_Release(gstate);
+}
+%}
+void python_txidx_cb_handler(PyObject *pyfunc, const std::error_code &ec,
+    size_t block_depth, size_t offset);
+%nothread python_txidx_cb_handler;
+
+%{
 void python_history_cb_handler(PyObject *pyfunc, const std::error_code &ec,
     const output_point_list& outpoints, const input_point_list& inpoints) {
 

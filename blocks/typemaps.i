@@ -95,8 +95,11 @@ CB_BLOCKCHAIN_TYPEMAP(outputs, output_point_list)
 /*CB_BLOCKCHAIN_TYPEMAP0(last_depth, size_t)
 CB_BLOCKCHAIN_TYPEMAP0(block_depth, size_t)*/
 
-/* MISSING: */
-/* TODO blockchain.fetch_transaction_index */
+%typemap(in) libbitcoin::blockchain::fetch_handler_transaction_index {
+    Py_INCREF($input);
+    $1 = std::bind(python_txidx_cb_handler, $input, _1, _2, _3);
+}
+
 /* TODO blockchain.subscribe_reorganize */
 
 /* Error codes */
