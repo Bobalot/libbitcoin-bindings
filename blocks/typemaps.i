@@ -30,19 +30,19 @@ CB_TYPEMAP1(block_info, block_info)
    blockchain.fetch_transaction */
 CB_TYPEMAP1(libbitcoin::transaction_type, transaction_type)
 /* channel.subscribe_address */
-CB_TYPEMAP1(address_type, address_type)
+CB_TYPEMAP1(libbitcoin::address_type, address_type)
 /* channel.subscribe_get_address */
-CB_TYPEMAP1(get_address_type, get_address_type)
+CB_TYPEMAP1(libbitcoin::get_address_type, get_address_type)
 /* channel.subscribe_version(receive_version_handler */
 /* channel.subscribe_veack(receive_version_handler */
-CB_TYPEMAP1(version_type, version_type)
-CB_TYPEMAP1(verack_type, verack_type)
+CB_TYPEMAP1(libbitcoin::version_type, version_type)
+CB_TYPEMAP1(libbitcoin::verack_type, verack_type)
 /* channel.subscribe_inventory */
-CB_TYPEMAP1(inventory_type, inventory_type)
+CB_TYPEMAP1(libbitcoin::inventory_type, inventory_type)
 /* channel.subscribe_get_data */
-CB_TYPEMAP1(get_data_type, get_data_type)
+CB_TYPEMAP1(libbitcoin::get_data_type, get_data_type)
 /* channel.subscribe_get_blocks */
-CB_TYPEMAP1(get_blocks_type, get_blocks_type)
+CB_TYPEMAP1(libbitcoin::get_blocks_type, get_blocks_type)
 /* channel.subscribe_block */
 CB_TYPEMAP1(block_type, block_type)
 CB_TYPEMAP1(libbitcoin::block_type, block_type)
@@ -72,10 +72,15 @@ CB_TYPEMAP1(libbitcoin::block_type, block_type)
 }
 
 
-%typemap(in) std::function<void (const std::error_code&, std::shared_ptr< libbitcoin::channel >)> {
+%define CB_TYPEMAP_SHAREDPTR(type)
+%typemap(in) std::function<void (const std::error_code&, std::shared_ptr< libbitcoin::type >)> {
     Py_INCREF($input);
-    $1 = std::bind(python_channel_cb_handler, $input, _1, _2);
+    $1 = std::bind(python_ ## type ## _cb_handler, $input, _1, _2);
 }
+%enddef
+
+CB_TYPEMAP_SHAREDPTR(channel)
+CB_TYPEMAP_SHAREDPTR(acceptor)
 
 /* Blockchain */
 /* blockchain.fetch_block_transaction_hashes */

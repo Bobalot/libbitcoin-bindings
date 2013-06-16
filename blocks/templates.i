@@ -30,6 +30,9 @@ typedef std::vector<libbitcoin::output_point> output_point_list;
 %template(sh_block_type) std::shared_ptr<block_type>;
 %template(py_block_list) std::vector<std::shared_ptr<block_type> >;
 
+%template(sh_channel) std::shared_ptr<channel>;
+%template(sh_acceptor) std::shared_ptr<acceptor>;
+
 /* types.hpp */
 %template(py_size_list) std::vector<size_t>;
 
