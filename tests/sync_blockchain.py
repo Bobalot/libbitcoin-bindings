@@ -12,9 +12,18 @@ class SyncBlockchain(object):
         return future.get()
 
 def create_getter(cls, name):
-    def method(self, index):
+    def method(self, *args):
         future = Future()
-        getattr(self._chain, name)(index, future)
+        args = args + (future,)
+        getattr(self._chain, name)(*args)
+        return future.get()
+    setattr(cls, name, method)
+
+def create_composed_getter(cls, name):
+    def method(self, *args):
+        future = Future()
+        args = (self._chain,) + args + (future,)
+        getattr(bitcoin, name)(*args)
         return future.get()
     setattr(cls, name, method)
 
@@ -25,11 +34,15 @@ create_getter(SyncBlockchain, "fetch_transaction")
 create_getter(SyncBlockchain, "fetch_transaction_index")
 create_getter(SyncBlockchain, "fetch_spend")
 create_getter(SyncBlockchain, "fetch_outputs")
+create_composed_getter(SyncBlockchain, "fetch_block")
+create_composed_getter(SyncBlockchain, "fetch_locator")
+create_composed_getter(SyncBlockchain, "fetch_history")
+create_composed_getter(SyncBlockchain, "fetch_output_values")
 
 def test_methods(chain):
     print chain.fetch_block_header(110)
     print chain.fetch_block_header("00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b".decode("hex"))
-    print chain.fetch_block_transaction_hashes("abde5e83fc1973fd042c56c8cb41b6c739f3e50678d1fa2f99f0a409e4aa80c7".decode("hex"))
+    print chain.fetch_block_transaction_hashes("00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b".decode("hex"))
     print chain.fetch_block_transaction_hashes(110)
     print chain.fetch_block_depth("00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b".decode("hex"))
     print chain.fetch_last_depth()
@@ -39,6 +52,11 @@ def test_methods(chain):
     ec, outs = chain.fetch_outputs(addr)
     print (ec, outs)
     print chain.fetch_spend(outs[0])
+    ec, outs, ins = chain.fetch_history(addr)
+    print (ec, outs, ins)
+    ec, values = chain.fetch_output_values(outs)
+    print (ec, values)
+    print sum(values)
 
 def main():
     pool = bitcoin.threadpool(1)
