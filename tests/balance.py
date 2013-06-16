@@ -1,6 +1,7 @@
 import bitcoin
 import sys
 import time
+from decimal import Decimal as D
 
 def blockchain_started(ec, chain, address):
     if ec:
@@ -23,7 +24,7 @@ def fetched(ec, outpoints, inpoints, chain):
 def fetched_values(ec, values):
     if ec:
         print >> sys.stderr, str(ec)
-    print sum(values)
+    print D(sum(values)) / 10**8
 
 def main(address):
     pool = bitcoin.threadpool(2)
