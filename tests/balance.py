@@ -19,6 +19,12 @@ def fetched(ec, outpoints, inpoints, chain):
         # If the hash is all zeroes, then this output is unspent.
         if inpoint.hash == "\0" * 32:
             unspent.append(outpoint)
+    # If too many outputs then we would paginate this address on the website.
+    # Clip number of unspent to 100 maximum.
+    # Would give an inaccurate final balance, but you'll see the amounts
+    # for the first 100 deposits.
+    #if len(unspent) > 100:
+    #    unspent = unspent[:100]
     bitcoin.fetch_output_values(chain, unspent, fetched_values)
 
 def fetched_values(ec, values):
