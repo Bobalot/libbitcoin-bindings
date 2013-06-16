@@ -22,6 +22,9 @@
 %typemap(typecheck) libbitcoin::blockchain::fetch_handler_block_header {
    $1 = PyCallable_Check($input) ? 1 : 0;
 }
+%typemap(typecheck) libbitcoin::blockchain::fetch_handler_block_transaction_hashes {
+   $1 = PyCallable_Check($input) ? 1 : 0;
+}
 
 /* txpool.store */
 CB_TYPEMAP1(libbitcoin::index_list, index_list)

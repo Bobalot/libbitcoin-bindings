@@ -29,8 +29,8 @@ create_getter(SyncBlockchain, "fetch_outputs")
 def test_methods(chain):
     print chain.fetch_block_header(110)
     print chain.fetch_block_header("00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b".decode("hex"))
-    # Doesn't work.
-    #print chain.fetch_block_transaction_hashes(110)
+    print chain.fetch_block_transaction_hashes("abde5e83fc1973fd042c56c8cb41b6c739f3e50678d1fa2f99f0a409e4aa80c7".decode("hex"))
+    print chain.fetch_block_transaction_hashes(110)
     print chain.fetch_block_depth("00000000a30e366158a1813a6fda9f913497000a68f1c008b9f935b866cee55b".decode("hex"))
     print chain.fetch_last_depth()
     print chain.fetch_transaction("abde5e83fc1973fd042c56c8cb41b6c739f3e50678d1fa2f99f0a409e4aa80c7".decode("hex"))

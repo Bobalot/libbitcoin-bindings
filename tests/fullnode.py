@@ -72,7 +72,7 @@ class fullnode(object):
         if len(arrivals):
             self.report(' arrival', print_block(arrivals[0]))
         if len(replaced):
-            self.report(' replaced', print_block(arrivals[1]))
+            self.report(' replaced', print_block(replaced[0]))
         self._chain.subscribe_reorganize(self.on_reorganize)
 
     def monitor_tx(self, ec, node):
