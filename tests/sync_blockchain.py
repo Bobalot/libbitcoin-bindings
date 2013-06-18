@@ -6,11 +6,6 @@ class SyncBlockchain(object):
     def __init__(self, chain):
         self._chain = chain
 
-    def fetch_last_depth(self):
-        future = Future()
-        self._chain.fetch_last_depth(future)
-        return future.get()
-
 def create_getter(cls, name):
     def method(self, *args):
         future = Future()
@@ -30,6 +25,7 @@ def create_composed_getter(cls, name):
 create_getter(SyncBlockchain, "fetch_block_header")
 create_getter(SyncBlockchain, "fetch_block_transaction_hashes")
 create_getter(SyncBlockchain, "fetch_block_depth")
+create_getter(SyncBlockchain, "fetch_last_depth")
 create_getter(SyncBlockchain, "fetch_transaction")
 create_getter(SyncBlockchain, "fetch_transaction_index")
 create_getter(SyncBlockchain, "fetch_spend")
