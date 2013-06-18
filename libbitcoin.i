@@ -98,3 +98,6 @@ const session_params *create_session_params( handshake& handshake_, protocol& pr
 
 %include "blocks/post.i"
 
+%include "pymodules/future.i"
+%include "pymodules/sync_blockchain.i"
+

@@ -1,3 +1,5 @@
+%pythoncode %{
+
 from Queue import Queue
 
 class Future:
@@ -10,4 +12,6 @@ class Future:
 
     def get(self):
         return self.syncq.get()
+
+%}
 
