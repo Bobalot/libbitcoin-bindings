@@ -36,6 +36,10 @@
     @hash.setter
     def hash(self, str_hash):
         self.hash_inst.copy(str_hash)
+    def __repr__(self):
+        return "<%s:%s>" % (self.hash.encode("hex"), self.index)
+    def is_null(self):
+        return self.hash == "\0" * 32
 }
 }
 
