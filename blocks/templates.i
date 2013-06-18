@@ -10,6 +10,8 @@ typedef libbitcoin::output_point input_point;
     /* typedef std::vector<long long unsigned int> output_value_list; */
 #endif
 /* primitives.hpp */
+%template(py_short_hash) std::array<uint8_t, 20>;
+typedef std::array<uint8_t, 20> short_hash;
 %template(py_hash_digest) std::array<uint8_t, 32>;
 typedef std::array<uint8_t, 32> hash_digest;
 %template(py_block_locator_type) std::vector<std::array<uint8_t, 32> >;

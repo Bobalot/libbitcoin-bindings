@@ -137,26 +137,36 @@ CB_BLOCKCHAIN_TYPEMAP0(block_depth, size_t)*/
 
 /* Convert from Python --> C */
 
+%define HASH_TYPEMAP(hash_type, hash_size)
 
-%typemap(typecheck) const libbitcoin::hash_digest& {
+%typemap(typecheck) const libbitcoin::hash_type& {
    $1 = PyString_Check($input) ? 1 : 0;
 }
 
-%typemap(in) const libbitcoin::hash_digest& {
-    hash_digest* digest = new hash_digest;
+%typemap(in) const libbitcoin::hash_type& {
+    hash_type* digest = new hash_type;
     char* data_ptr;
-    Py_ssize_t data_size = 32;
+    Py_ssize_t data_size = hash_size;
     $1 = digest;
     PyString_AsStringAndSize($input, &data_ptr, &data_size);
     memcpy($1->data(), data_ptr, data_size);
 }
-%typemap(freearg) const libbitcoin::hash_digest& {
+%typemap(freearg) const libbitcoin::hash_type& {
     delete $1;
 }
-%typemap(out) libbitcoin::hash_digest {
+%typemap(out) const libbitcoin::hash_type& {
+    const char* data_ptr = reinterpret_cast<const char*>($1->data());
+    $result = PyString_FromStringAndSize(data_ptr, $1->size());
+}
+%typemap(out) libbitcoin::hash_type {
     const char* data_ptr = reinterpret_cast<const char*>($1.data());
     $result = PyString_FromStringAndSize(data_ptr, $1.size());
 }
+
+%enddef
+
+HASH_TYPEMAP(short_hash, 20)
+HASH_TYPEMAP(hash_digest, 32)
 
 /*
 %typemap(in) std::array<uint8_t, 32> {
