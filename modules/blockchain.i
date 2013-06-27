@@ -21,11 +21,11 @@ public:
     typedef std::function<void (const std::error_code&)> import_block_handler;
 
     typedef std::function<
-        void (const std::error_code&, const block_type&)>
+        void (const std::error_code&, const block_header_type&)>
             fetch_handler_block_header;
 
     typedef std::function<
-        void (const std::error_code&, const inventory_list&)>
+        void (const std::error_code&, const hash_digest_list&)>
             fetch_handler_block_transaction_hashes;
 
     typedef std::function<void (const std::error_code&, size_t)>

@@ -1,7 +1,7 @@
-CC = g++-4.8 -fPIC -DPIC
+CC = g++ -fPIC -DPIC
 SWIG = swig2.0
 
-all: cleandatabase swig compile test
+all: swig compile
 
 clean:
 	rm *.o

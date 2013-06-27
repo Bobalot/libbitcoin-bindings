@@ -42,7 +42,7 @@ using std::placeholders::_4;
 %include "blocks/pre.i"
 %include "blocks/callbacks.i"
 
-%include "bitcoin/types.hpp"
+%include "modules/types.i"
 namespace libbitcoin {
     typedef std::vector<size_t> index_list;
 }

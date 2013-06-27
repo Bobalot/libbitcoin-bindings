@@ -60,6 +60,10 @@ CB_TYPEMAP1(libbitcoin::block_type, block_type)
     Py_INCREF($input);
     $1 = std::bind(python_output_value_list_cb_handler, $input, _1, _2);
 }
+%typemap(in) std::function<void (const std::error_code&, const libbitcoin::block_header_type&)> {
+    Py_INCREF($input);
+    $1 = std::bind(python_block_header_cb_handler, $input, _1, _2);
+}
 
 /*
  TODO channel.subscribe_raw(receive_raw_handler
@@ -87,10 +91,10 @@ CB_TYPEMAP_SHAREDPTR(acceptor)
 
 /* Blockchain */
 /* blockchain.fetch_block_transaction_hashes */
-CB_BLOCKCHAIN_TYPEMAP(block_transaction_hashes, inventory_list)
+CB_BLOCKCHAIN_TYPEMAP(block_transaction_hashes, hash_digest_list)
 CB_BLOCKCHAIN_TYPEMAP(block_locator, block_locator)
 /* blockchain.fetch_block_header */
-CB_BLOCKCHAIN_TYPEMAP(block_header, block_type)
+CB_BLOCKCHAIN_TYPEMAP(block_header, block_header_type)
 /* blockchain.fetch_spend */
 CB_BLOCKCHAIN_TYPEMAP(spend, input_point)
 /* blockchain.fetch_outputs */

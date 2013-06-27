@@ -12,10 +12,8 @@
 #include <bitcoin/network/shared_const_buffer.hpp>
 #include <bitcoin/primitives.hpp>
 #include <bitcoin/format.hpp>
-#include <bitcoin/satoshi_serialize.hpp>
 #include <bitcoin/utility/assert.hpp>
 #include <bitcoin/utility/logger.hpp>
-#include <bitcoin/utility/serializer.hpp>
 #include <bitcoin/utility/subscriber.hpp>
 
 namespace libbitcoin {

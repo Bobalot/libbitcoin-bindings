@@ -125,46 +125,11 @@
         #    return getattr(self._get_block_type_unsafe(),  name)
 
         @property
-        def version(self):
-            return self._get_block_type_unsafe().version
-        @version.setter
-        def version(self, ver):
-            self._get_block_type_unsafe().version = ver
-
-        @property
-        def previous_block_hash(self):
-            return self._get_block_type_unsafe().previous_block_hash
-        @previous_block_hash.setter
-        def previous_block_hash(self, blkhash):
-            self._get_block_type_unsafe().previous_block_hash = blkhash
-
-        @property
-        def merkle(self):
-            return self._get_block_type_unsafe().merkle
-        @merkle.setter
-        def merkle(self, m):
-            self._get_block_type_unsafe().merkle = m
-
-        @property
-        def timestamp(self):
-            return self._get_block_type_unsafe().timestamp
-        @timestamp.setter
-        def timestamp(self, timest):
-            self._get_block_type_unsafe().timestamp = timest
-
-        @property
-        def bits(self):
-            return self._get_block_type_unsafe().bits
-        @bits.setter
-        def bits(self, b):
-            self._get_block_type_unsafe().bits = b
-
-        @property
-        def nonce(self):
-            return self._get_block_type_unsafe().nonce
-        @nonce.setter
-        def nonce(self, n):
-            self._get_block_type_unsafe().nonce = n
+        def header(self):
+            return self._get_block_type_unsafe().header
+        @header.setter
+        def header(self, head):
+            self._get_block_type_unsafe().header = head
 
         @property
         def transactions(self):

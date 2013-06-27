@@ -60,11 +60,12 @@ void python_ ## type ## _cb_handler(PyObject *pyfunc, const std::error_code&, co
  */
 
 CB_HANDLER(block_type)
+CB_HANDLER(block_header_type)
 CB_HANDLER(transaction_type)
 CB_HANDLER(block_info)
 
 CB_HANDLER_NONS(block_locator_type, SWIGTYPE_p_std__vectorT_std__arrayT_uint8_t_32_t_std__allocatorT_std__arrayT_uint8_t_32_t_t_t)
-CB_HANDLER_NONS(inventory_list, SWIGTYPE_p_std__vectorT_libbitcoin__inventory_vector_type_std__allocatorT_libbitcoin__inventory_vector_type_t_t)
+CB_HANDLER_NONS(hash_digest_list, SWIGTYPE_p_std__vectorT_std__arrayT_uint8_t_32_t_std__allocatorT_std__arrayT_uint8_t_32_t_t_t)
 CB_HANDLER_NONS(output_point_list, SWIGTYPE_p_std__vectorT_libbitcoin__output_point_std__allocatorT_libbitcoin__output_point_t_t)
 CB_HANDLER_NONS(input_point, SWIGTYPE_p_libbitcoin__output_point)
 CB_HANDLER_NONS(index_list, SWIGTYPE_p_std__vectorT_size_t_std__allocatorT_size_t_t_t)
